@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Incredible Pizza Chihuahua · Panel</title>
+<meta name="description" content="Panel de métricos de Meta Ads y calendario de publicaciones de Incredible Pizza Chihuahua, elaborado por Mixen.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="assets/logo-incredible-pizza.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ip-red: #E03C31; --ip-yellow: #FDDA24; --ip-blue: #426DA9; --ip-ink: #17171B;
+  --bg: #F6F5F2; --panel: #FFFFFF; --fg: #1B1B1F; --muted: #66666E; --line: #E3E1DC;
+  --grid: #EEECE7; --axis: #C9C6BF; --bar: #CFCBC3; --ok: #1F8A4C; --bad: #C2372D;
+  --pop: #FFFFFF; --shadow: 0 6px 24px rgba(0,0,0,.12);
+  --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --serif: "Fraunces", Georgia, serif;
+  --r: 10px; --fs-cap: 12.5px; --fs-body: 15px; --fs-h: 17px; --fs-title: 30px;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111114; --panel: #1A1A1F; --fg: #EDEDEF; --muted: #A0A0A8; --line: #2C2C33;
+    --grid: #24242A; --axis: #3A3A42; --bar: #3E3E47; --ok: #5BC98A; --bad: #FF7A6E;
+    --pop: #232329; --shadow: 0 6px 24px rgba(0,0,0,.5); color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111114; --panel: #1A1A1F; --fg: #EDEDEF; --muted: #A0A0A8; --line: #2C2C33;
+  --grid: #24242A; --axis: #3A3A42; --bar: #3E3E47; --ok: #5BC98A; --bad: #FF7A6E;
+  --pop: #232329; --shadow: 0 6px 24px rgba(0,0,0,.5); color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-size: var(--fs-body); line-height: 1.45; -webkit-font-smoothing: antialiased; }
+.ip { max-width: 1200px; margin-inline: auto; padding: 20px clamp(16px, 3vw, 32px) 40px; }
+.ip-brand { background: var(--ip-ink); color: #fff; border-radius: var(--r); padding: 22px 26px; margin-bottom: 16px; position: relative; overflow: hidden; }
+.ip-brand::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 4px; background: linear-gradient(90deg, var(--ip-blue) 0 34%, var(--ip-red) 34% 67%, var(--ip-yellow) 67% 100%); }
+.ip-brand-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
+.ip-logos { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.ip-logo-ip { height: 52px; width: auto; max-width: 70vw; display: block; }
+.ip-x { color: var(--ip-blue); font-size: var(--fs-h); }
+.ip-lg-mx { font-weight: 700; font-size: 22px; letter-spacing: -.02em; color: #fff; }
+.ip-lg-mx i { color: var(--ip-yellow); font-style: normal; }
+.ip-brand-tag { font-size: var(--fs-cap); color: rgba(255,255,255,.65); text-transform: uppercase; letter-spacing: .06em; }
+.ip-take { margin: 12px 0 4px; color: rgba(255,255,255,.9); max-width: 72ch; min-height: 1.4em; }
+.ip-tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); margin-bottom: 16px; overflow-x: auto; }
+.ip-tab { font: inherit; background: none; border: 0; border-bottom: 3px solid transparent; padding: 10px 14px; color: var(--muted); cursor: pointer; margin-bottom: -1px; white-space: nowrap; }
+.ip-tab[aria-selected="true"] { color: var(--fg); border-bottom-color: var(--ip-red); font-weight: 500; }
+.ip-sec { font-size: var(--fs-h); font-weight: 600; margin: 16px 0; }
+.ip-sub { color: var(--muted); font-size: var(--fs-cap); font-weight: 400; }
+.ip-lbl { font-size: var(--fs-cap); color: var(--muted); }
+.ip-mesbar { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.ip-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.ip-chip { font: inherit; font-size: var(--fs-cap); background: var(--panel); border: 1px solid var(--line); color: var(--fg); border-radius: 999px; padding: 5px 12px; cursor: pointer; }
+.ip-chip[aria-pressed="true"] { background: var(--ip-red); border-color: var(--ip-red); color: #fff; }
+.ip-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 10.5rem), 1fr)); gap: 12px; margin-bottom: 16px; }
+.ip-tile, .ip-card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 18px; }
+.ip-card { margin-bottom: 16px; }
+.ip-tile { display: flex; flex-direction: column; gap: 4px; border-top: 3px solid var(--ip-red); }
+.ip-tile:nth-child(3n+2) { border-top-color: var(--ip-yellow); }
+.ip-tile:nth-child(3n) { border-top-color: var(--ip-blue); }
+.ip-num { font-family: var(--serif); font-weight: 400; font-size: var(--fs-title); font-variant-numeric: tabular-nums; line-height: 1.15; }
+.ip-note { font-size: var(--fs-cap); color: var(--muted); }
+.ip-delta.good { color: var(--ok); } .ip-delta.bad { color: var(--bad); }
+.ip-badge { font-size: 10px; text-transform: uppercase; letter-spacing: .05em; border: 1px dashed var(--muted); border-radius: 4px; padding: 0 4px; margin-left: 4px; }
+.ip-ct { margin: 0; font-size: var(--fs-h); font-weight: 600; }
+.ip-cn { margin: 4px 0 14px; font-size: var(--fs-cap); color: var(--muted); }
+.ip-metricas { margin-bottom: 10px; }
+.ip-chart { position: relative; min-height: 280px; }
+.ip-tip { position: absolute; pointer-events: none; background: var(--pop); border: 1px solid var(--line); border-radius: var(--r); box-shadow: var(--shadow); padding: 6px 10px; font-size: var(--fs-cap); white-space: nowrap; display: none; z-index: 2; }
+.ip-tip .k { color: var(--muted); }
+.ip-legend-inline { display: flex; flex-wrap: wrap; gap: 14px; font-size: var(--fs-cap); color: var(--muted); margin-top: 6px; }
+.ip-legend-inline span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: .75rem; height: .75rem; border-radius: 3px; display: inline-block; }
+.sw-sel { background: var(--ip-red); } .sw-mut { background: var(--bar); }
+.sw-eq { background: repeating-linear-gradient(45deg, var(--bar) 0 2px, transparent 2px 4px); border: 1px solid var(--bar); }
+.ip-acum { font-size: var(--fs-cap); color: var(--muted); margin: 14px 0 0; }
+.ip-acum b { color: var(--fg); font-variant-numeric: tabular-nums; }
+.ip-nota-walkin p { font-size: var(--fs-cap); color: var(--muted); margin: 6px 0 0; max-width: 90ch; line-height: 1.55; }
+.ip-nota-walkin b { color: var(--fg); }
+.ip-tw { overflow-x: auto; }
+.ip-table { width: 100%; border-collapse: collapse; font-size: var(--fs-cap); font-variant-numeric: tabular-nums; }
+.ip-table th, .ip-table td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.ip-table th { color: var(--muted); font-weight: 500; }
+.ip-table .n { text-align: right; }
+.ip-table tbody tr { cursor: pointer; }
+.ip-table tr.cur td { background: var(--grid); }
+.ip-table tr.cur td:first-child { box-shadow: inset 3px 0 0 var(--ip-red); }
+.ip-table .eq { font-style: italic; color: var(--muted); }
+.ip-pend { border-style: dashed; }
+.ip-pend .ip-cn { margin-bottom: 0; }
+.ip-foot { font-size: var(--fs-cap); color: var(--muted); border-top: 1px solid var(--line); margin-top: 24px; padding-top: 14px; }
+.ip-calhead { display: flex; align-items: center; gap: 10px; }
+.ip-calhead .ip-sec { min-width: 10rem; text-align: center; text-transform: capitalize; }
+.ip-nav { font: inherit; font-size: 18px; width: 2rem; height: 2rem; border-radius: 999px; border: 1px solid var(--line); background: var(--panel); color: var(--fg); cursor: pointer; line-height: 1; }
+.ip-cal { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; }
+.ip-dow { font-size: var(--fs-cap); color: var(--muted); padding: 4px; text-align: center; }
+.ip-day { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; min-height: 5.5rem; padding: 4px; display: flex; flex-direction: column; gap: 3px; overflow: hidden; }
+.ip-day.out { background: transparent; border-color: transparent; }
+.ip-day.today { border-color: var(--ip-red); }
+.ip-day .d { font-size: var(--fs-cap); font-weight: 500; color: var(--muted); }
+.ip-day.today .d { color: var(--ip-red); }
+.ip-entry { font: inherit; text-align: left; font-size: 11px; line-height: 1.3; padding: 2px 4px; border-radius: 4px; border: 0; border-left: 3px solid var(--ip-red); background: var(--bg); color: var(--fg); cursor: pointer; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ip-entry .rd { color: var(--muted); }
+.ip-piezas { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr)); gap: 12px; }
+.ip-pieza { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; display: flex; flex-direction: column; }
+.ip-pieza.flash { outline: 2px solid var(--ip-red); }
+.ip-pieza img { width: 100%; display: block; background: var(--bg); }
+.ip-pieza .body { padding: 14px; display: flex; flex-direction: column; gap: 6px; }
+.ip-pieza .meta { font-size: var(--fs-cap); color: var(--muted); }
+.ip-pieza h4 { margin: 0; font-size: var(--fs-body); font-weight: 600; }
+.ip-copy { white-space: pre-wrap; font-size: var(--fs-cap); line-height: 1.55; background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px; margin: 0; }
+.ip-btn { align-self: flex-start; font: inherit; font-size: var(--fs-cap); background: none; border: 1px solid var(--line); border-radius: 8px; padding: 5px 10px; color: var(--fg); cursor: pointer; }
+.ip-vacio { grid-column: 1 / -1; font-size: var(--fs-cap); color: var(--muted); border: 1px dashed var(--line); border-radius: var(--r); padding: 18px; text-align: center; }
+.ip-fail { display: flex; align-items: center; justify-content: center; gap: 6px; min-height: inherit; color: var(--muted); font-size: var(--fs-cap); }
+.ip-fail::before { content: ""; width: .375rem; height: .375rem; border-radius: 50%; background: var(--bad); }
+.sk { color: transparent !important; background: var(--grid); border-radius: 6px; }
+@media (max-width: 560px) {
+  :root { --fs-title: 26px; }
+  .ip-brand { padding: 18px; }
+  .ip-logo-ip { height: 40px; }
+  .ip-day { min-height: 4rem; }
+  .ip-entry { font-size: 10px; }
+}
+</style>
+</head>
+<body>
+<div class="ip">
+  <header class="ip-brand" id="marca">
+    <div class="ip-brand-row">
+      <div class="ip-logos">
+        <img class="ip-logo-ip" alt="Incredible Pizza Company" src="assets/logo-incredible-pizza.png">
+        <span class="ip-x">×</span>
+        <span class="ip-lg-mx">mixen<i>.</i></span>
+      </div>
+      <span class="ip-brand-tag">Chihuahua · Reporte e impacto estratégico 2026</span>
+    </div>
+    <p class="ip-take" id="takeaway"></p>
+  </header>
+
+  <nav class="ip-tabs" role="tablist">
+    <button class="ip-tab" role="tab" data-tab="metricos" id="tab-metricos">Métricos clave</button>
+    <button class="ip-tab" role="tab" data-tab="calendario" id="tab-calendario">Calendario de publicaciones</button>
+  </nav>
+
+  <section class="ip-page" id="metricos">
+    <div class="ip-mesbar"><span class="ip-lbl">Mes</span><div class="ip-chips" id="chips-mes"></div></div>
+
+    <h2 class="ip-sec"><span id="mes-titulo">—</span> <span class="ip-sub" id="mes-sub"></span></h2>
+    <div class="ip-tiles" id="tiles">
+      <div class="ip-tile"><span class="ip-lbl">Mensajes a WhatsApp</span>
+        <b class="ip-num sk" data-f="mensajes">—</b>
+        <span class="ip-note"><span class="ip-delta" data-f="d_mensajes" data-good="up">—</span> vs. mes anterior</span></div>
+      <div class="ip-tile"><span class="ip-lbl">CPL (costo por mensaje)</span>
+        <b class="ip-num sk" data-f="cpl">—</b>
+        <span class="ip-note"><span class="ip-delta" data-f="d_cpl" data-good="down">—</span> vs. mes anterior</span></div>
+      <div class="ip-tile"><span class="ip-lbl">Gasto</span>
+        <b class="ip-num sk" data-f="inversion">—</b>
+        <span class="ip-note"><span class="ip-delta" data-f="d_inversion" data-good="none">—</span> vs. mes anterior</span></div>
+      <div class="ip-tile"><span class="ip-lbl">Impresiones</span>
+        <b class="ip-num sk" data-f="impresiones">—</b>
+        <span class="ip-note"><span class="ip-delta" data-f="d_impresiones" data-good="up">—</span> · CPM <span data-f="cpm">—</span></span></div>
+      <div class="ip-tile"><span class="ip-lbl">Alcance global</span>
+        <b class="ip-num sk" data-f="alcance">—</b>
+        <span class="ip-note"><span class="ip-delta" data-f="d_alcance" data-good="up">—</span> · frecuencia <span data-f="frecuencia">—</span></span></div>
+      <div class="ip-tile"><span class="ip-lbl">Alcance walk-in <span class="ip-badge" id="badge-walkin" hidden>equivalente</span></span>
+        <b class="ip-num sk" data-f="alcance_walkin">—</b>
+        <span class="ip-note"><span class="ip-delta" data-f="d_alcance_walkin" data-good="up">—</span> vs. mes anterior</span></div>
+      <div class="ip-tile"><span class="ip-lbl">Aumento de audiencia</span>
+        <b class="ip-num sk" data-f="seguidores">—</b>
+        <span class="ip-note">FB <span data-f="seguidores_fb">—</span> · IG <span data-f="seguidores_ig">—</span> nuevos seguidores</span></div>
+    </div>
+
+    <div class="ip-card" id="card-evolucion">
+      <h3 class="ip-ct">Evolución desde el 15 de febrero</h3>
+      <p class="ip-cn" id="evo-nota">—</p>
+      <div class="ip-chips ip-metricas" id="chips-metrica" role="tablist" aria-label="Métrica"></div>
+      <div class="ip-chart" id="ch-evolucion"></div>
+      <div class="ip-legend-inline">
+        <span><i class="sw sw-sel"></i>Mes seleccionado</span>
+        <span><i class="sw sw-mut"></i>Otros meses</span>
+        <span id="ley-eq" hidden><i class="sw sw-eq"></i>Equivalente (antes de la campaña walk-in)</span>
+      </div>
+      <p class="ip-acum">Acumulado desde el 15 de febrero: <b id="tot-mensajes">—</b> mensajes a WhatsApp, <b id="tot-seguidores">—</b> nuevos seguidores y <b id="tot-inversion">—</b> de gasto.</p>
+    </div>
+
+    <div class="ip-card ip-nota-walkin">
+      <h3 class="ip-ct">Cómo se mide el alcance walk-in</h3>
+      <p>Desde julio se toma el alcance de la campaña <b>“IP | Impressions and Reach”</b>, creada específicamente para atraer visitas a sucursal; por eso lleva ese nombre. De febrero a junio esa campaña no existía, así que como equivalente se suma el alcance de las campañas de visibilidad de esos meses (las que no buscaban mensajes ni leads): <b>“IP Chih | Engagement | On Ads”</b> de febrero a mayo y <b>“IP | Engagement | Profile Visits and Follower Increase”</b> en junio. Esos meses aparecen marcados como <i>equivalente</i>.</p>
+    </div>
+
+    <div class="ip-card">
+      <h3 class="ip-ct">Historial mensual</h3>
+      <p class="ip-cn">Meta Ads (Facebook e Instagram). Febrero cuenta desde el día 15; el mes en curso, hasta la última actualización. Toca un mes para verlo arriba.</p>
+      <div class="ip-tw">
+        <table class="ip-table">
+          <thead><tr>
+            <th>Mes</th><th class="n">Gasto</th><th class="n">Impresiones</th><th class="n">Alcance</th><th class="n">Frecuencia</th>
+            <th class="n">CPM</th><th class="n">Walk-in</th><th class="n">Mensajes</th><th class="n">CPL</th><th class="n">Seguidores</th>
+          </tr></thead>
+          <tbody id="tb-meta"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="ip-card ip-pend">
+      <h3 class="ip-ct">Google Ads · Lost impression share</h3>
+      <p class="ip-cn">El porcentaje de impresiones perdidas (por presupuesto o por ranking) es una métrica de Google Ads. Se agregará aquí en cuanto se conecte la cuenta de Google Ads.</p>
+    </div>
+  </section>
+
+  <section class="ip-page" id="calendario" hidden>
+    <div class="ip-calhead">
+      <button class="ip-nav" id="cal-prev" aria-label="Mes anterior">‹</button>
+      <h2 class="ip-sec" id="cal-titulo">—</h2>
+      <button class="ip-nav" id="cal-next" aria-label="Mes siguiente">›</button>
+    </div>
+    <div class="ip-cal" id="cal"></div>
+    <h2 class="ip-sec" id="piezas-titulo">Piezas del mes</h2>
+    <div class="ip-piezas" id="piezas"></div>
+  </section>
+
+  <footer class="ip-foot">Panel elaborado por <b>Mixen</b> para <b>Incredible Pizza Chihuahua</b>. Fuente: Meta Ads. <span id="actualizado"></span></footer>
+</div>
+
+<script>
+(function () {
+  const state = { mes: null, metrica: 'mensajes', cal: null, meses: [], piezas: [] };
+  const nf = new Intl.NumberFormat('es-MX');
+  const compact = new Intl.NumberFormat('es-MX', { notation: 'compact', maximumFractionDigits: 1 });
+  const money = new Intl.NumberFormat('es-MX', { style: 'currency', currency: 'MXN', minimumFractionDigits: 2 });
+  const money0 = new Intl.NumberFormat('es-MX', { style: 'currency', currency: 'MXN', maximumFractionDigits: 0 });
+  const MESL = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+  const MESC = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'];
+  const DOW = ['Lun', 'Mar', 'Mié', 'Jue', 'Vie', 'Sáb', 'Dom'];
+  const mi = (m) => Number(m.slice(5, 7)) - 1;
+  const hoy = new Date();
+  const pad = (n) => String(n).padStart(2, '0');
+  const hoyStr = hoy.getFullYear() + '-' + pad(hoy.getMonth() + 1) + '-' + pad(hoy.getDate());
+  const enCurso = (m) => m.slice(0, 7) === hoyStr.slice(0, 7);
+  const cap = (s) => s.replace(/^./, (c) => c.toUpperCase());
+  const mesLargo = (m) => cap(MESL[mi(m)]) + ' ' + m.slice(0, 4);
+  const mesTabla = (m) => MESC[mi(m)] + ' ' + m.slice(0, 4) + (m.slice(8, 10) !== '01' ? ' (desde el ' + Number(m.slice(8, 10)) + ')' : '') + (enCurso(m) ? ' · en curso' : '');
+  const d0 = (f) => (v) => v == null ? '—' : f(v);
+  const FMT = {
+    inversion: d0((v) => money.format(v)), impresiones: d0((v) => nf.format(v)), alcance: d0((v) => nf.format(v)),
+    frecuencia: d0((v) => Number(v).toFixed(2)), cpm: d0((v) => money.format(v)), alcance_walkin: d0((v) => nf.format(v)),
+    mensajes: d0((v) => nf.format(v)), cpl: d0((v) => money.format(v)), seguidores: d0((v) => nf.format(v)),
+    seguidores_fb: d0((v) => nf.format(v)), seguidores_ig: d0((v) => nf.format(v))
+  };
+  const METRICAS = [
+    { k: 'mensajes', t: 'Mensajes WA', nota: 'Conversaciones de WhatsApp iniciadas desde anuncios.', eje: (v) => compact.format(v) },
+    { k: 'cpl', t: 'CPL', nota: 'Gasto en campañas de WhatsApp ÷ mensajes. Más bajo es mejor.', eje: (v) => money0.format(v) },
+    { k: 'inversion', t: 'Gasto', nota: 'Gasto total de la cuenta en el mes.', eje: (v) => money0.format(v) },
+    { k: 'impresiones', t: 'Impresiones', nota: 'Veces que los anuncios aparecieron en pantalla.', eje: (v) => compact.format(v) },
+    { k: 'alcance', t: 'Alcance', nota: 'Cuentas únicas alcanzadas en el mes, sin duplicar entre campañas.', eje: (v) => compact.format(v) },
+    { k: 'frecuencia', t: 'Frecuencia', nota: 'Veces promedio que cada cuenta vio los anuncios en el mes.', eje: (v) => Number(v).toFixed(1) },
+    { k: 'cpm', t: 'CPM', nota: 'Costo por cada mil impresiones.', eje: (v) => money0.format(v) },
+    { k: 'alcance_walkin', t: 'Walk-in', nota: 'Alcance de la campaña walk-in; de febrero a junio, equivalente con campañas de visibilidad.', eje: (v) => compact.format(v) },
+    { k: 'seguidores', t: 'Aumento de audiencia', nota: 'Nuevos seguidores de Facebook e Instagram atribuidos a los anuncios.', eje: (v) => compact.format(v) }
+  ];
+  const $ = (id) => document.getElementById(id);
+  const fail = (el, txt) => { el.innerHTML = ''; const d = document.createElement('div'); d.className = 'ip-fail'; d.textContent = txt || 'No se pudieron cargar los datos'; el.appendChild(d); };
+
+  // ---- Tabs + hash ----
+  const tabs = [...document.querySelectorAll('.ip-tab')];
+  function showTab(name, push) {
+    tabs.forEach((t) => t.setAttribute('aria-selected', String(t.dataset.tab === name)));
+    $('metricos').hidden = name !== 'metricos';
+    $('calendario').hidden = name !== 'calendario';
+    if (push) history.replaceState(null, '', '#' + name);
+    renderAll();
+  }
+  tabs.forEach((t) => t.addEventListener('click', () => showTab(t.dataset.tab, true)));
+
+  // ---- Métricos ----
+  const chipsMetrica = $('chips-metrica');
+  METRICAS.forEach((m) => {
+    const b = document.createElement('button'); b.className = 'ip-chip'; b.textContent = m.t; b.dataset.k = m.k;
+    b.addEventListener('click', () => { state.metrica = m.k; renderMetricos(); });
+    chipsMetrica.appendChild(b);
+  });
+  $('tb-meta').addEventListener('click', (e) => { const tr = e.target.closest('tr[data-key]'); if (tr) { state.mes = tr.dataset.key; renderMetricos(); window.scrollTo({ top: 0, behavior: 'smooth' }); } });
+
+  const SVGNS = 'http://www.w3.org/2000/svg';
+  const sv = (tag, attrs, parent) => { const e = document.createElementNS(SVGNS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; };
+  const niceMax = (v) => { if (!(v > 0)) return 1; const p = Math.pow(10, Math.floor(Math.log10(v))); const n = v / p; return (n <= 1 ? 1 : n <= 2 ? 2 : n <= 2.5 ? 2.5 : n <= 5 ? 5 : 10) * p; };
+
+  function drawChart(el, rows, sel, m) {
+    el.innerHTML = '';
+    const W = el.clientWidth || 320, H = 280, mg = { t: 22, r: 6, b: 28, l: 6 };
+    const data = rows.filter((r) => r[m.k] != null);
+    const svg = sv('svg', { width: '100%', viewBox: `0 0 ${W} ${H}`, role: 'img', 'aria-label': m.t + ' por mes' }, el);
+    const pat = sv('pattern', { id: 'ip-hatch', width: 6, height: 6, patternUnits: 'userSpaceOnUse', patternTransform: 'rotate(45)' }, sv('defs', {}, svg));
+    sv('rect', { width: 6, height: 6, fill: 'var(--panel)' }, pat);
+    sv('rect', { width: 3, height: 6, fill: 'var(--bar)' }, pat);
+    const top = niceMax(Math.max(...data.map((r) => r[m.k]), 0) * 1.12);
+    const y = (v) => (H - mg.b) - (v / top) * (H - mg.b - mg.t);
+    const n = data.length || 1, band = (W - mg.l - mg.r) / n, bw = Math.min(40, band * 0.72);
+    const xc = (i) => mg.l + band * i + band / 2;
+    for (let i = 1; i <= 4; i++) sv('line', { x1: mg.l, x2: W - mg.r, y1: y(top * i / 4), y2: y(top * i / 4), stroke: 'var(--grid)' }, svg);
+    sv('line', { x1: mg.l, x2: W - mg.r, y1: y(0), y2: y(0), stroke: 'var(--axis)' }, svg);
+    const eq = (r) => m.k === 'alcance_walkin' && r.walkin_tipo === 'equivalente';
+    const tip = document.createElement('div'); tip.className = 'ip-tip'; el.appendChild(tip);
+    data.forEach((r, i) => {
+      const isSel = r.mes === sel;
+      const g = sv('g', { style: 'cursor:pointer' }, svg);
+      const h = Math.max(0, y(0) - y(r[m.k]));
+      sv('rect', { x: xc(i) - bw / 2, width: bw, y: y(r[m.k]), height: h, rx: Math.min(4, bw / 2), fill: isSel ? 'var(--ip-red)' : (eq(r) ? 'url(#ip-hatch)' : 'var(--bar)'), stroke: eq(r) && !isSel ? 'var(--bar)' : 'none' }, g);
+      if (band >= 44) { const t = sv('text', { x: xc(i), y: y(r[m.k]) - 6, 'text-anchor': 'middle', 'font-size': 10, fill: isSel ? 'var(--fg)' : 'var(--muted)' }, g); t.textContent = m.eje(r[m.k]); }
+      const lab = sv('text', { x: xc(i), y: H - 9, 'text-anchor': 'middle', 'font-size': 11, fill: isSel ? 'var(--fg)' : 'var(--muted)', 'font-weight': isSel ? 600 : 400 }, g); lab.textContent = MESC[mi(r.mes)];
+      const hit = sv('rect', { x: mg.l + band * i, width: band, y: mg.t, height: H - mg.t - mg.b, fill: 'transparent' }, g);
+      hit.addEventListener('click', () => { state.mes = r.mes; renderMetricos(); });
+      hit.addEventListener('mousemove', (ev) => {
+        const box = el.getBoundingClientRect(); const px = ev.clientX - box.left, py = ev.clientY - box.top;
+        tip.replaceChildren();
+        const a = document.createElement('div'); a.className = 'k'; a.textContent = mesTabla(r.mes); tip.appendChild(a);
+        const b = document.createElement('div'); b.textContent = m.t + ': ' + FMT[m.k](r[m.k]); tip.appendChild(b);
+        if (m.k === 'alcance_walkin' && r.walkin_campanas) { const c = document.createElement('div'); c.className = 'k'; c.textContent = (eq(r) ? 'Equivalente: ' : '') + r.walkin_campanas; tip.appendChild(c); }
+        tip.style.display = 'block';
+        const tw = tip.offsetWidth;
+        tip.style.left = Math.max(0, Math.min(px + 12, el.clientWidth - tw)) + 'px'; tip.style.top = Math.max(0, py - 56) + 'px';
+      });
+      hit.addEventListener('mouseleave', () => { tip.style.display = 'none'; });
+    });
+  }
+
+  function renderMetricos() {
+    const rows = state.meses;
+    if (!rows.length) return;
+    const sel = rows.some((r) => r.mes === state.mes) ? state.mes : rows[rows.length - 1].mes;
+    state.mes = sel;
+    const row = rows.find((r) => r.mes === sel);
+    const m = METRICAS.find((x) => x.k === state.metrica) || METRICAS[0];
+
+    $('chips-mes').replaceChildren(...rows.map((x) => {
+      const b = document.createElement('button'); b.className = 'ip-chip'; b.textContent = MESC[mi(x.mes)] + (enCurso(x.mes) ? ' · en curso' : '');
+      b.setAttribute('aria-pressed', String(x.mes === sel)); b.addEventListener('click', () => { state.mes = x.mes; renderMetricos(); }); return b;
+    }));
+    [...chipsMetrica.children].forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.k === m.k)));
+    $('mes-titulo').textContent = mesLargo(sel);
+    $('mes-sub').textContent = enCurso(sel) ? 'en curso, a la última actualización' : (sel.slice(8, 10) !== '01' ? 'desde el ' + Number(sel.slice(8, 10)) : 'mes completo');
+    $('badge-walkin').hidden = row.walkin_tipo !== 'equivalente';
+    document.querySelectorAll('#tiles [data-f]').forEach((el) => {
+      el.classList.remove('sk');
+      const f = el.dataset.f, v = row[f];
+      if (f.startsWith('d_')) {
+        el.textContent = v == null ? 'sin comparativo' : (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v * 100).toFixed(1) + '%';
+        const up = el.dataset.good === 'up', down = el.dataset.good === 'down';
+        el.classList.toggle('good', v != null && ((up && v > 0) || (down && v < 0)));
+        el.classList.toggle('bad', v != null && ((up && v < 0) || (down && v > 0)));
+      } else el.textContent = FMT[f] ? FMT[f](v) : String(v);
+    });
+    $('evo-nota').textContent = m.nota + ' Toca una barra para ver ese mes arriba.';
+    $('ley-eq').hidden = m.k !== 'alcance_walkin';
+    if (!$('metricos').hidden) drawChart($('ch-evolucion'), rows, sel, m);
+
+    const tb = $('tb-meta'); tb.innerHTML = '';
+    rows.slice().reverse().forEach((x) => {
+      const tr = document.createElement('tr'); tr.dataset.key = x.mes; if (x.mes === sel) tr.className = 'cur';
+      ['mes', 'inversion', 'impresiones', 'alcance', 'frecuencia', 'cpm', 'alcance_walkin', 'mensajes', 'cpl', 'seguidores'].forEach((f) => {
+        const td = document.createElement('td'); if (f !== 'mes') td.className = 'n';
+        td.textContent = f === 'mes' ? mesTabla(x.mes) : FMT[f](x[f]);
+        if (f === 'alcance_walkin' && x.walkin_tipo === 'equivalente') { td.classList.add('eq'); td.title = 'Equivalente: ' + x.walkin_campanas; }
+        tr.appendChild(td);
+      });
+      tb.appendChild(tr);
+    });
+  }
+
+  function renderResumen() {
+    const rows = state.meses; if (!rows.length) return;
+    const cur = rows[rows.length - 1], prev = rows[rows.length - 2];
+    const d = cur.d_cpl;
+    $('takeaway').textContent = 'En ' + MESL[mi(cur.mes)] + ' van ' + nf.format(cur.mensajes) + ' mensajes a WhatsApp a ' + FMT.cpl(cur.cpl) + ' cada uno' +
+      (d == null || !prev ? '.' : ', ' + Math.abs(d * 100).toFixed(1) + '% ' + (d < 0 ? 'más barato' : 'más caro') + ' que en ' + MESL[mi(prev.mes)] + '.') +
+      ' Alcance de ' + nf.format(cur.alcance) + ' cuentas con ' + nf.format(cur.impresiones) + ' impresiones.';
+    const sum = (k) => rows.reduce((a, r) => a + (r[k] || 0), 0);
+    $('tot-mensajes').textContent = nf.format(sum('mensajes'));
+    $('tot-seguidores').textContent = nf.format(sum('seguidores'));
+    $('tot-inversion').textContent = money.format(sum('inversion'));
+  }
+
+  // ---- Calendario ----
+  const calMes = () => state.cal || hoyStr.slice(0, 7);
+  const mover = (n) => { const [y, m] = calMes().split('-').map(Number); const d = new Date(y, m - 1 + n, 1); state.cal = d.getFullYear() + '-' + pad(d.getMonth() + 1); renderCalendario(); };
+  $('cal-prev').addEventListener('click', () => mover(-1));
+  $('cal-next').addEventListener('click', () => mover(1));
+  function irAPieza(i) { const el = $('pieza-' + i); if (!el) return; el.scrollIntoView({ behavior: 'smooth', block: 'center' }); el.classList.add('flash'); setTimeout(() => el.classList.remove('flash'), 1400); }
+
+  function renderCalendario() {
+    const cal = $('cal'), lista = $('piezas');
+    const ym = calMes(); const [y, mo] = ym.split('-').map(Number);
+    $('cal-titulo').textContent = MESL[mo - 1] + ' ' + y;
+    $('piezas-titulo').textContent = 'Piezas de ' + MESL[mo - 1];
+    const piezas = state.piezas.map((p, i) => Object.assign({ _i: i }, p))
+      .filter((p) => p && typeof p.fecha === 'string' && p.fecha.slice(0, 7) === ym)
+      .sort((a, b) => a.fecha.localeCompare(b.fecha) || String(a.hora || '').localeCompare(String(b.hora || '')));
+    const porDia = new Map(); piezas.forEach((p) => { if (!porDia.has(p.fecha)) porDia.set(p.fecha, []); porDia.get(p.fecha).push(p); });
+    cal.innerHTML = '';
+    DOW.forEach((d) => { const e = document.createElement('div'); e.className = 'ip-dow'; e.textContent = d; cal.appendChild(e); });
+    const offset = (new Date(y, mo - 1, 1).getDay() + 6) % 7, dias = new Date(y, mo, 0).getDate();
+    for (let i = 0; i < offset; i++) { const e = document.createElement('div'); e.className = 'ip-day out'; cal.appendChild(e); }
+    for (let d = 1; d <= dias; d++) {
+      const f = ym + '-' + pad(d);
+      const cell = document.createElement('div'); cell.className = 'ip-day' + (f === hoyStr ? ' today' : '');
+      const n = document.createElement('span'); n.className = 'd'; n.textContent = d; cell.appendChild(n);
+      (porDia.get(f) || []).forEach((p) => {
+        const b = document.createElement('button'); b.className = 'ip-entry';
+        const rd = document.createElement('span'); rd.className = 'rd'; rd.textContent = p.red ? p.red + ' · ' : '';
+        b.appendChild(rd); b.appendChild(document.createTextNode(p.titulo || 'Pieza'));
+        b.title = (p.red ? p.red + ' · ' : '') + (p.titulo || 'Pieza');
+        b.addEventListener('click', () => irAPieza(p._i));
+        cell.appendChild(b);
+      });
+      cal.appendChild(cell);
+    }
+    lista.innerHTML = '';
+    if (!piezas.length) { const v = document.createElement('div'); v.className = 'ip-vacio'; v.textContent = 'Aún no hay piezas aprobadas para ' + MESL[mo - 1] + '.'; lista.appendChild(v); return; }
+    piezas.forEach((p) => {
+      const card = document.createElement('article'); card.className = 'ip-pieza'; card.id = 'pieza-' + p._i;
+      if (p.imagen) { const img = document.createElement('img'); img.src = p.imagen; img.alt = p.titulo || 'Pieza'; img.loading = 'lazy'; card.appendChild(img); }
+      const body = document.createElement('div'); body.className = 'body';
+      const meta = document.createElement('div'); meta.className = 'meta';
+      const fecha = new Date(p.fecha + 'T12:00:00').toLocaleDateString('es-MX', { weekday: 'long', day: 'numeric', month: 'long' });
+      meta.textContent = [fecha, p.hora, p.red, p.formato].filter(Boolean).join(' · ');
+      const h = document.createElement('h4'); h.textContent = p.titulo || 'Pieza';
+      body.appendChild(meta); body.appendChild(h);
+      if (p.copy) {
+        const cp = document.createElement('p'); cp.className = 'ip-copy'; cp.textContent = p.copy; body.appendChild(cp);
+        const btn = document.createElement('button'); btn.className = 'ip-btn'; btn.textContent = 'Copiar copy';
+        btn.addEventListener('click', () => { if (navigator.clipboard) navigator.clipboard.writeText(p.copy).then(() => { btn.textContent = 'Copiado'; setTimeout(() => { btn.textContent = 'Copiar copy'; }, 1500); }, () => {}); });
+        body.appendChild(btn);
+      }
+      card.appendChild(body); lista.appendChild(card);
+    });
+  }
+
+  function renderAll() { renderMetricos(); renderCalendario(); }
+  let rz; window.addEventListener('resize', () => { clearTimeout(rz); rz = setTimeout(renderMetricos, 120); });
+
+  showTab(location.hash.slice(1) === 'calendario' ? 'calendario' : 'metricos', false);
+  const nocache = '?v=' + Date.now();
+  Promise.allSettled([
+    fetch('data/metricas.json' + nocache).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+    fetch('data/piezas.json' + nocache).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  ]).then(([met, pz]) => {
+    if (met.status === 'fulfilled' && Array.isArray(met.value.meses)) {
+      state.meses = met.value.meses;
+      $('actualizado').textContent = 'Actualizado: ' + met.value.actualizado + ' (hora de Chihuahua).';
+      renderResumen();
+    } else {
+      fail($('ch-evolucion'));
+      document.querySelectorAll('#tiles [data-f]').forEach((el) => { el.classList.remove('sk'); el.textContent = '—'; });
+    }
+    state.piezas = pz.status === 'fulfilled' && Array.isArray(pz.value) ? pz.value : [];
+    renderAll();
+  });
+})();
+</script>
+</body>
+</html>

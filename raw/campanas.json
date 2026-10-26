@@ -1,0 +1,436 @@
+[
+{
+"date_start": "2026-02-15",
+"name": "IP Chih | Engagement | On Ads",
+"objective": "OUTCOME_ENGAGEMENT",
+"amount_spent": {
+"value": "1999.71"
+},
+"reach": "31672",
+"results": {
+"indicator": "actions:post_engagement",
+"values": [
+{
+"value": "1198"
+}
+]
+}
+},
+{
+"date_start": "2026-02-15",
+"name": "IP | Engagement WS | On Ads",
+"objective": "OUTCOME_ENGAGEMENT",
+"amount_spent": {
+"value": "8000"
+},
+"reach": "92361",
+"results": {
+"indicator": "actions:onsite_conversion.messaging_conversation_started_7d",
+"values": [
+{
+"value": "441"
+}
+]
+}
+},
+{
+"date_start": "2026-03-01",
+"name": "IP Chih | Engagement | On Ads",
+"objective": "OUTCOME_ENGAGEMENT",
+"amount_spent": {
+"value": "4000.28"
+},
+"reach": "41581",
+"results": {
+"indicator": "actions:post_engagement",
+"values": [
+{
+"value": "8482"
+}
+]
+}
+},
+{
+"date_start": "2026-03-01",
+"name": "IP | Engagement WS | On Ads",
+"objective": "OUTCOME_ENGAGEMENT",
+"amount_spent": {
+"value": "10998.46"
+},
+"reach": "102849",
+"results": {
+"indicator": "actions:onsite_conversion.messaging_conversation_started_7d",
+"values": [
+{
+"value": "794"
+}
+]
+}
+},
+{
+"date_start": "2026-03-01",
+"name": "Sales | WS",
+"objective": "OUTCOME_SALES",
+"amount_spent": {
+"value": "4998.88"
+},
+"reach": "57498",
+"results": {
+"indicator": "actions:onsite_conversion.messaging_conversation_started_7d",
+"values": [
+{
+"value": "216"
+}
+]
+}
+},
+{
+"date_start": "2026-04-01",
+"name": "IP Chih | Engagement | On Ads",
+"objective": "OUTCOME_ENGAGEMENT",
+"amount_spent": {
+"value": "3999.34"
+},
+"reach": "34041",
+"results": {
+"indicator": "actions:post_engagement",
+"values": [
+{
+"value": "13317"
+}
+]
+}
+},
+{
+"date_start": "2026-04-01",
+"name": "IP | Engagement WS | On Ads",
+"objective": "OUTCOME_ENGAGEMENT",
+"amount_spent": {
+"value": "10998.76"
+},
+"reach": "150913",
+"results": {
+"indicator": "actions:onsite_conversion.messaging_conversation_started_7d",
+"values": [
+{
+"value": "1307"
+}
+]
+}
+},
+{
+"date_start": "2026-04-01",
+"name": "Sales | WS",
+"objective": "OUTCOME_SALES",
+"amount_spent": {
+"value": "4999.93"
+},
+"reach": "63426",
+"results": {
+"indicator": "actions:onsite_conversion.messaging_conversation_started_7d",
+"values": [
+{
+"value": "428"
+}
+]
+}
+},
+{
+"date_start": "2026-05-01",
+"name": "IP Chih | Engagement | On Ads",
+"objective": "OUTCOME_ENGAGEMENT",
+"amount_spent": {
+"value": "4999.96"
+},
+"reach": "37379",
+"results": {
+"indicator": "actions:post_engagement",
+"values": [
+{
+"value": "4472"
+}
+]
+}
+},
+{
+"date_start": "2026-05-01",
+"name": "IP | Engagement WS | On Ads",
+"objective": "OUTCOME_ENGAGEMENT",
+"amount_spent": {
+"value": "4464.19"
+},
+"reach": "76636",
+"results": {
+"indicator": "actions:onsite_conversion.messaging_conversation_started_7d",
+"values": [
+{
+"value": "366"
+}
+]
+}
+},
+{
+"date_start": "2026-05-01",
+"name": "Sales | WS",
+"objective": "OUTCOME_SALES",
+"amount_spent": {
+"value": "6884.92"
+},
+"reach": "78215",
+"results": {
+"indicator": "actions:onsite_conversion.messaging_conversation_started_7d",
+"values": [
+{
+"value": "403"
+}
+]
+}
+},
+{
+"date_start": "2026-05-01",
+"name": "IP Chih | WhatsApp Campaigns",
+"objective": "OUTCOME_LEADS",
+"amount_spent": {
+"value": "905.38"
+},
+"reach": "24103",
+"results": {
+"indicator": "actions:onsite_conversion.messaging_conversation_started_7d",
+"values": [
+{
+"value": "68"
+}
+]
+}
+},
+{
+"date_start": "2026-06-01",
+"name": "IP Chih | WhatsApp Campaigns",
+"objective": "OUTCOME_LEADS",
+"amount_spent": {
+"value": "11036.27"
+},
+"reach": "154480",
+"results": {
+"indicator": "actions:onsite_conversion.messaging_conversation_started_7d",
+"values": [
+{
+"value": "913"
+}
+]
+}
+},
+{
+"date_start": "2026-06-01",
+"name": "IP | Engagement | Profile Visits and Follower Increase",
+"objective": "OUTCOME_ENGAGEMENT",
+"amount_spent": {
+"value": "4998.04"
+},
+"reach": "149499",
+"results": {
+"indicator": "mixed"
+}
+},
+{
+"date_start": "2026-06-01",
+"name": "IP Chih | Messenger Campaigns",
+"objective": "OUTCOME_LEADS",
+"amount_spent": {
+"value": "2995.84"
+},
+"reach": "32322",
+"results": {
+"indicator": "actions:onsite_conversion.lead_grouped"
+}
+},
+{
+"date_start": "2026-07-01",
+"name": "IP | Engagement | Profile Visits and Follower Increase",
+"objective": "OUTCOME_ENGAGEMENT",
+"amount_spent": {
+"value": "5001.96"
+},
+"reach": "183853",
+"results": {
+"indicator": "mixed"
+}
+},
+{
+"date_start": "2026-07-01",
+"name": "IP Chih | Messenger Campaigns V2",
+"objective": "OUTCOME_LEADS",
+"amount_spent": {
+"value": "4599.85"
+},
+"reach": "23364",
+"results": {
+"indicator": "actions:onsite_conversion.lead_grouped",
+"values": [
+{
+"value": "4"
+}
+]
+}
+},
+{
+"date_start": "2026-07-01",
+"name": "IP | Impressions and Reach",
+"objective": "OUTCOME_AWARENESS",
+"amount_spent": {
+"value": "4999.99"
+},
+"reach": "539551",
+"results": {
+"indicator": "reach",
+"values": [
+{
+"value": "539551"
+}
+]
+}
+},
+{
+"date_start": "2026-07-01",
+"name": "IP | WS Leads",
+"objective": "OUTCOME_LEADS",
+"amount_spent": {
+"value": "4583.43"
+},
+"reach": "64033",
+"results": {
+"indicator": "actions:onsite_conversion.messaging_conversation_started_7d",
+"values": [
+{
+"value": "343"
+}
+]
+}
+},
+{
+"date_start": "2026-08-01",
+"name": "IP | Engagement | Profile Visits and Follower Increase",
+"objective": "OUTCOME_ENGAGEMENT",
+"amount_spent": {
+"value": "2999.61"
+},
+"reach": "96673",
+"results": {
+"indicator": "mixed"
+}
+},
+{
+"date_start": "2026-08-01",
+"name": "IP | Impressions and Reach",
+"objective": "OUTCOME_AWARENESS",
+"amount_spent": {
+"value": "6997.62"
+},
+"reach": "722854",
+"results": {
+"indicator": "reach",
+"values": [
+{
+"value": "722854"
+}
+]
+}
+},
+{
+"date_start": "2026-08-01",
+"name": "IP | WS Leads",
+"objective": "OUTCOME_LEADS",
+"amount_spent": {
+"value": "13856.31"
+},
+"reach": "106518",
+"results": {
+"indicator": "actions:onsite_conversion.messaging_conversation_started_7d",
+"values": [
+{
+"value": "921"
+}
+]
+}
+},
+{
+"date_start": "2026-09-01",
+"name": "IP | Engagement | Profile Visits and Follower Increase",
+"objective": "OUTCOME_ENGAGEMENT",
+"amount_spent": {
+"value": "319.13"
+},
+"reach": "17607",
+"results": {
+"indicator": "mixed"
+}
+},
+{
+"date_start": "2026-09-01",
+"name": "IP | Impressions and Reach",
+"objective": "OUTCOME_AWARENESS",
+"amount_spent": {
+"value": "10067.77"
+},
+"reach": "842784",
+"results": {
+"indicator": "reach",
+"values": [
+{
+"value": "842784"
+}
+]
+}
+},
+{
+"date_start": "2026-09-01",
+"name": "IP | WS Leads",
+"objective": "OUTCOME_LEADS",
+"amount_spent": {
+"value": "17335.77"
+},
+"reach": "101468",
+"results": {
+"indicator": "actions:onsite_conversion.messaging_conversation_started_7d",
+"values": [
+{
+"value": "963"
+}
+]
+}
+},
+{
+"date_start": "2026-10-01",
+"name": "IP | Impressions and Reach",
+"objective": "OUTCOME_AWARENESS",
+"amount_spent": {
+"value": "7221.57"
+},
+"reach": "649797",
+"results": {
+"indicator": "reach",
+"values": [
+{
+"value": "649797"
+}
+]
+}
+},
+{
+"date_start": "2026-10-01",
+"name": "IP | WS Leads",
+"objective": "OUTCOME_LEADS",
+"amount_spent": {
+"value": "10814.92"
+},
+"reach": "83884",
+"results": {
+"indicator": "actions:onsite_conversion.messaging_conversation_started_7d",
+"values": [
+{
+"value": "786"
+}
+]
+}
+}
+]
