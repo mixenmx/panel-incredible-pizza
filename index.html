@@ -92,6 +92,12 @@ body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-s
 .ip-table tr.cur td:first-child { box-shadow: inset 3px 0 0 var(--ip-red); }
 .ip-table .eq { font-style: italic; color: var(--muted); }
 .ip-pend { border-style: dashed; }
+.ip-cortes td .dl { display: block; font-size: 11px; color: var(--muted); }
+.ip-cortes td .dl.good { color: var(--ok); } .ip-cortes td .dl.bad { color: var(--bad); }
+.ip-cortes tbody tr { cursor: default; }
+.ip-cortes tr.full td { font-weight: 600; border-top: 2px solid var(--line); }
+.ip-cortes .tag { display: inline-block; font-size: 10px; text-transform: uppercase; letter-spacing: .05em; color: var(--ip-red); border: 1px solid var(--ip-red); border-radius: 4px; padding: 0 4px; margin-left: 6px; font-weight: 500; }
+.ip-cortes .vacio td { color: var(--muted); }
 .ip-pend .ip-cn { margin-bottom: 0; }
 .ip-foot { font-size: var(--fs-cap); color: var(--muted); border-top: 1px solid var(--line); margin-top: 24px; padding-top: 14px; }
 .ip-calhead { display: flex; align-items: center; gap: 10px; }
@@ -173,6 +179,20 @@ body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-s
       <div class="ip-tile"><span class="ip-lbl">Aumento de audiencia</span>
         <b class="ip-num sk" data-f="seguidores">—</b>
         <span class="ip-note">FB <span data-f="seguidores_fb">—</span> · IG <span data-f="seguidores_ig">—</span> nuevos seguidores</span></div>
+    </div>
+
+    <div class="ip-card" id="card-cortes">
+      <h3 class="ip-ct">Acumulado del mes por corte · <span id="cortes-mes">—</span></h3>
+      <p class="ip-cn">Cómo va el mes en cada corte: del 1 al 7, al 14, al 21, al 28 y mes completo. Debajo de mensajes y CPL, el cambio contra el mismo corte del mes anterior.</p>
+      <div class="ip-tw">
+        <table class="ip-table ip-cortes">
+          <thead><tr>
+            <th>Corte</th><th class="n">Gasto</th><th class="n">Impresiones</th><th class="n">Alcance</th><th class="n">Frecuencia</th>
+            <th class="n">CPM</th><th class="n">Walk-in</th><th class="n">Mensajes</th><th class="n">CPL</th><th class="n">Seguidores</th>
+          </tr></thead>
+          <tbody id="tb-cortes"></tbody>
+        </table>
+      </div>
     </div>
 
     <div class="ip-card" id="card-evolucion">
@@ -329,6 +349,48 @@ body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-s
     });
   }
 
+  function renderCortes(rows, sel) {
+    const i = rows.findIndex((r) => r.mes === sel), row = rows[i], prev = rows[i - 1];
+    $('cortes-mes').textContent = mesLargo(sel);
+    const tb = $('tb-cortes'); tb.innerHTML = '';
+    const COLS = ['inversion', 'impresiones', 'alcance', 'frecuencia', 'cpm', 'alcance_walkin', 'mensajes', 'cpl', 'seguidores'];
+    const lineas = [];
+    const dias = row.mes.slice(8, 10) === '15' ? [21, 28] : [7, 14, 21, 28];
+    dias.forEach((d) => {
+      const c = (row.cortes || []).find((x) => x.etiqueta === 'Del 1 al ' + d);
+      const label = row.mes.slice(8, 10) === '15' ? 'Del 15 al ' + d : 'Del 1 al ' + d;
+      if (d === 28 && row.mes.slice(8, 10) === '15') return;
+      lineas.push({ label, d, c, futuro: !c });
+    });
+    lineas.push({ label: 'Mes completo', d: 99, c: row, full: true, enCurso: enCurso(row.mes) });
+    lineas.forEach((ln) => {
+      const tr = document.createElement('tr');
+      if (ln.full) tr.className = 'full';
+      if (ln.futuro) tr.className = 'vacio';
+      const td0 = document.createElement('td'); td0.textContent = ln.label;
+      if ((ln.c && ln.c.en_curso && !ln.full) || ln.enCurso) { const t = document.createElement('span'); t.className = 'tag'; t.textContent = 'en curso'; td0.appendChild(t); }
+      tr.appendChild(td0);
+      const pc = prev && (ln.full ? prev : (prev.cortes || []).find((x) => x.etiqueta === 'Del 1 al ' + ln.d));
+      COLS.forEach((f) => {
+        const td = document.createElement('td'); td.className = 'n';
+        if (!ln.c) { td.textContent = '—'; tr.appendChild(td); return; }
+        td.textContent = FMT[f](ln.c[f]);
+        if (f === 'alcance_walkin' && ln.c.walkin_tipo === 'equivalente') { td.classList.add('eq'); td.title = 'Equivalente (antes de la campaña walk-in)'; }
+        if ((f === 'mensajes' || f === 'cpl') && pc && pc[f] != null && ln.c[f] != null && pc[f] !== 0) {
+          const v = (ln.c[f] - pc[f]) / pc[f];
+          const s = document.createElement('span'); s.className = 'dl';
+          s.textContent = (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v * 100).toFixed(1) + '%';
+          const good = f === 'mensajes' ? v > 0 : v < 0, bad = f === 'mensajes' ? v < 0 : v > 0;
+          if (good) s.classList.add('good'); if (bad) s.classList.add('bad');
+          s.title = 'vs. ' + (ln.full ? 'mes completo' : ln.label.toLowerCase()) + ' de ' + MESL[mi(prev.mes)];
+          td.appendChild(s);
+        }
+        tr.appendChild(td);
+      });
+      tb.appendChild(tr);
+    });
+  }
+
   function renderMetricos() {
     const rows = state.meses;
     if (!rows.length) return;
@@ -358,6 +420,8 @@ body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-s
     $('evo-nota').textContent = m.nota + ' Toca una barra para ver ese mes arriba.';
     $('ley-eq').hidden = m.k !== 'alcance_walkin';
     if (!$('metricos').hidden) drawChart($('ch-evolucion'), rows, sel, m);
+
+    renderCortes(rows, sel);
 
     const tb = $('tb-meta'); tb.innerHTML = '';
     rows.slice().reverse().forEach((x) => {
