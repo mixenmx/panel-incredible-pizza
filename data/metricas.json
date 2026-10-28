@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-27 06:59",
+ "actualizado": "2026-10-28 07:07",
  "meses": [
   {
    "mes": "2026-02-15",
@@ -187,26 +187,26 @@
   },
   {
    "mes": "2026-10-01",
-   "inversion": 18500.66,
-   "impresiones": 2189790,
-   "alcance": 719686,
-   "frecuencia": 3.04,
-   "cpm": 8.45,
-   "alcance_walkin": 660285,
+   "inversion": 19242.9,
+   "impresiones": 2303140,
+   "alcance": 739716,
+   "frecuencia": 3.11,
+   "cpm": 8.36,
+   "alcance_walkin": 677579,
    "walkin_tipo": "campaña walk-in",
    "walkin_campanas": "IP | Impressions and Reach",
-   "mensajes": 799,
-   "inversion_ws": 11020.84,
-   "cpl": 13.79,
-   "seguidores_fb": 30,
+   "mensajes": 823,
+   "inversion_ws": 11289.76,
+   "cpl": 13.72,
+   "seguidores_fb": 32,
    "seguidores_ig": 11,
-   "seguidores": 41,
-   "d_inversion": -0.333,
-   "d_impresiones": -0.336,
-   "d_alcance": -0.215,
-   "d_mensajes": -0.17,
-   "d_cpl": -0.234,
-   "d_alcance_walkin": -0.217
+   "seguidores": 43,
+   "d_inversion": -0.306,
+   "d_impresiones": -0.301,
+   "d_alcance": -0.193,
+   "d_mensajes": -0.145,
+   "d_cpl": -0.238,
+   "d_alcance_walkin": -0.196
   }
  ]
 }
