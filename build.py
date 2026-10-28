@@ -153,6 +153,9 @@ def main():
     historial = json.loads(ruta_cortes.read_text(encoding="utf-8")) if ruta_cortes.exists() else {}
     historial.update(cortes_nuevos(hoy))
     ruta_cortes.write_text(json.dumps(historial, ensure_ascii=False, indent=1), encoding="utf-8")
+    # Misma información como lista de filas, para el panel de Claude (dataset "cortes")
+    filas_cortes = [dict({k: v for k, v in x.items() if k != "fuente"}, corte=k, mes=k[:7]) for k, x in sorted(historial.items())]
+    (BASE / "data" / "cortes_filas.json").write_text(json.dumps(filas_cortes, ensure_ascii=False), encoding="utf-8")
 
     # Si un corte cubre el mismo periodo que el mes y es más reciente, el mes toma esos valores
     for r in filas:
