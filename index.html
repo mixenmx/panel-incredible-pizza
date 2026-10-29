@@ -117,6 +117,8 @@ body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-s
 .ip-day.today .d { color: var(--ip-red); }
 .ip-entry { font: inherit; text-align: left; font-size: 11px; line-height: 1.3; padding: 3px 5px; border-radius: 4px; border: 0; border-left: 3px solid var(--ip-red); background: var(--bg); color: var(--fg); cursor: pointer; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow-wrap: break-word; hyphens: auto; }
 .ip-entry .rd { color: var(--muted); }
+.ip-day .nopub { font-size: 10.5px; color: var(--muted); font-style: italic; margin-top: 2px; }
+.ip-day.dom-off { background: transparent; }
 .ip-entry.plan { border-left: 0; border: 1px dashed var(--muted); background: transparent; color: var(--muted); font-style: italic; }
 .ip-cal-ley { display: flex; flex-wrap: wrap; gap: 14px; font-size: var(--fs-cap); color: var(--muted); margin: 0 0 10px; }
 .ip-cal-ley span { display: inline-flex; align-items: center; gap: 6px; }
@@ -518,6 +520,7 @@ body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-s
         b.addEventListener('click', () => irAPlan(p.id));
         cell.appendChild(b);
       });
+      if (new Date(y, mo - 1, d).getDay() === 0 && f >= '2026-11-01' && !(porDia.get(f) || []).length) { cell.classList.add('dom-off'); const np = document.createElement('span'); np.className = 'nopub'; np.textContent = 'Sin publicación'; cell.appendChild(np); }
       cal.appendChild(cell);
     }
     lista.innerHTML = '';
