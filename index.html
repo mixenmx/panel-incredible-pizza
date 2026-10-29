@@ -37,6 +37,11 @@
 html, body { margin: 0; }
 body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-size: var(--fs-body); line-height: 1.45; -webkit-font-smoothing: antialiased; }
 .ip { max-width: 1200px; margin-inline: auto; padding: 20px clamp(16px, 3vw, 32px) 40px; }
+.ip-pleca { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; background: var(--panel); border: 1px solid var(--line); border-left: 4px solid var(--ip-blue); border-radius: var(--r); padding: 8px 14px; margin-bottom: 12px; font-size: var(--fs-cap); color: var(--muted); }
+.ip-pleca b { color: var(--fg); font-weight: 600; }
+.ip-pleca .dot { width: .5rem; height: .5rem; border-radius: 50%; background: var(--ok); flex: none; }
+.ip-pleca.viejo { border-left-color: var(--bad); } .ip-pleca.viejo .dot { background: var(--bad); }
+.ip-pleca .sep { opacity: .5; }
 .ip-brand { background: var(--ip-ink); color: #fff; border-radius: var(--r); padding: 22px 26px; margin-bottom: 16px; position: relative; overflow: hidden; }
 .ip-brand::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 4px; background: linear-gradient(90deg, var(--ip-blue) 0 34%, var(--ip-red) 34% 67%, var(--ip-yellow) 67% 100%); }
 .ip-brand-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
@@ -110,8 +115,24 @@ body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-s
 .ip-day.today { border-color: var(--ip-red); }
 .ip-day .d { font-size: var(--fs-cap); font-weight: 500; color: var(--muted); }
 .ip-day.today .d { color: var(--ip-red); }
-.ip-entry { font: inherit; text-align: left; font-size: 11px; line-height: 1.3; padding: 2px 4px; border-radius: 4px; border: 0; border-left: 3px solid var(--ip-red); background: var(--bg); color: var(--fg); cursor: pointer; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ip-entry { font: inherit; text-align: left; font-size: 11px; line-height: 1.3; padding: 3px 5px; border-radius: 4px; border: 0; border-left: 3px solid var(--ip-red); background: var(--bg); color: var(--fg); cursor: pointer; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow-wrap: break-word; hyphens: auto; }
 .ip-entry .rd { color: var(--muted); }
+.ip-entry.plan { border-left: 0; border: 1px dashed var(--muted); background: transparent; color: var(--muted); font-style: italic; }
+.ip-cal-ley { display: flex; flex-wrap: wrap; gap: 14px; font-size: var(--fs-cap); color: var(--muted); margin: 0 0 10px; }
+.ip-cal-ley span { display: inline-flex; align-items: center; gap: 6px; }
+.ip-cal-ley i { width: 1.1rem; height: .7rem; border-radius: 3px; display: inline-block; }
+.ip-cal-ley .k-ok { background: var(--bg); border-left: 3px solid var(--ip-red); }
+.ip-cal-ley .k-plan { border: 1px dashed var(--muted); }
+.ip-plan { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr)); gap: 12px; }
+.ip-propuesta { border: 1px dashed var(--muted); border-radius: var(--r); padding: 14px; display: flex; flex-direction: column; gap: 6px; background: var(--panel); }
+.ip-propuesta.flash { outline: 2px solid var(--ip-blue); }
+.ip-propuesta .meta { font-size: var(--fs-cap); color: var(--muted); }
+.ip-propuesta h4 { margin: 0; font-size: var(--fs-body); font-weight: 600; }
+.ip-propuesta p { margin: 0; font-size: var(--fs-cap); line-height: 1.5; }
+.ip-propuesta .ancla { font-size: var(--fs-cap); color: var(--ip-blue); font-weight: 500; }
+.ip-propuesta .pc { font-size: 11.5px; color: #8A6A00; background: rgba(253,218,36,.18); border-radius: 6px; padding: 4px 8px; }
+:root[data-theme="dark"] .ip-propuesta .pc { color: var(--ip-yellow); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .ip-propuesta .pc { color: var(--ip-yellow); } }
 .ip-piezas { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr)); gap: 12px; }
 .ip-pieza { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; display: flex; flex-direction: column; }
 .ip-pieza.flash { outline: 2px solid var(--ip-red); }
@@ -126,6 +147,7 @@ body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-s
 .ip-fail::before { content: ""; width: .375rem; height: .375rem; border-radius: 50%; background: var(--bad); }
 .sk { color: transparent !important; background: var(--grid); border-radius: 6px; }
 @media (max-width: 560px) {
+  .ip-entry { -webkit-line-clamp: 4; font-size: 9.5px; padding: 2px 3px; }
   :root { --fs-title: 26px; }
   .ip-brand { padding: 18px; }
   .ip-logo-ip { height: 40px; }
@@ -136,6 +158,7 @@ body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-s
 </head>
 <body>
 <div class="ip">
+  <div class="ip-pleca" id="pleca" role="status"><span class="dot"></span><span>Última actualización: <b id="pleca-fecha">cargando…</b></span><span class="sep">·</span><span>Métricos de Meta Ads; se actualizan todos los días a las 6:55 am (hora de Chihuahua)</span></div>
   <header class="ip-brand" id="marca">
     <div class="ip-brand-row">
       <div class="ip-logos">
@@ -239,9 +262,13 @@ body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-s
       <h2 class="ip-sec" id="cal-titulo">—</h2>
       <button class="ip-nav" id="cal-next" aria-label="Mes siguiente">›</button>
     </div>
+    <div class="ip-cal-ley"><span><i class="k-ok"></i>Pieza aprobada</span><span><i class="k-plan"></i>Propuesta de contenido (por aprobar)</span></div>
     <div class="ip-cal" id="cal"></div>
     <h2 class="ip-sec" id="piezas-titulo">Piezas del mes</h2>
     <div class="ip-piezas" id="piezas"></div>
+    <h2 class="ip-sec" id="plan-titulo" hidden>Propuestas de contenido</h2>
+    <p class="ip-cn" id="plan-nota" hidden>Ideas para los días que aún no tienen pieza aprobada. Cada propuesta se convierte en pieza cuando se aprueba; lo marcado como “por confirmar” depende de una definición del cliente.</p>
+    <div class="ip-plan" id="plan"></div>
   </section>
 
   <footer class="ip-foot">Panel elaborado por <b>Mixen</b> para <b>Incredible Pizza Chihuahua</b>. Fuente: Meta Ads. <span id="actualizado"></span></footer>
@@ -249,7 +276,7 @@ body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-s
 
 <script>
 (function () {
-  const state = { mes: null, metrica: 'mensajes', cal: null, meses: [], piezas: [] };
+  const state = { mes: null, metrica: 'mensajes', cal: null, meses: [], piezas: [], plan: [] };
   const nf = new Intl.NumberFormat('es-MX');
   const compact = new Intl.NumberFormat('es-MX', { notation: 'compact', maximumFractionDigits: 1 });
   const money = new Intl.NumberFormat('es-MX', { style: 'currency', currency: 'MXN', minimumFractionDigits: 2 });
@@ -465,6 +492,10 @@ body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-s
       .filter((p) => p && typeof p.fecha === 'string' && p.fecha.slice(0, 7) === ym)
       .sort((a, b) => a.fecha.localeCompare(b.fecha) || String(a.hora || '').localeCompare(String(b.hora || '')));
     const porDia = new Map(); piezas.forEach((p) => { if (!porDia.has(p.fecha)) porDia.set(p.fecha, []); porDia.get(p.fecha).push(p); });
+    const tienePieza = (f) => (porDia.get(f) || []).some((p) => !/^anotaci/i.test(p.formato || ''));
+    const planMes = state.plan.filter((p) => p && typeof p.fecha === 'string' && p.fecha.slice(0, 7) === ym && !tienePieza(p.fecha)).sort((a, b) => a.fecha.localeCompare(b.fecha));
+    const planDia = new Map(); planMes.forEach((p) => { if (!planDia.has(p.fecha)) planDia.set(p.fecha, []); planDia.get(p.fecha).push(p); });
+    renderPlan(planMes);
     cal.innerHTML = '';
     DOW.forEach((d) => { const e = document.createElement('div'); e.className = 'ip-dow'; e.textContent = d; cal.appendChild(e); });
     const offset = (new Date(y, mo - 1, 1).getDay() + 6) % 7, dias = new Date(y, mo, 0).getDate();
@@ -475,10 +506,16 @@ body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-s
       const n = document.createElement('span'); n.className = 'd'; n.textContent = d; cell.appendChild(n);
       (porDia.get(f) || []).forEach((p) => {
         const b = document.createElement('button'); b.className = 'ip-entry';
-        const rd = document.createElement('span'); rd.className = 'rd'; rd.textContent = p.red ? p.red + ' · ' : '';
-        b.appendChild(rd); b.appendChild(document.createTextNode(p.titulo || 'Pieza'));
+        b.textContent = p.titulo || 'Pieza';
         b.title = (p.red ? p.red + ' · ' : '') + (p.titulo || 'Pieza');
         b.addEventListener('click', () => irAPieza(p._i));
+        cell.appendChild(b);
+      });
+      if (!tienePieza(f)) (planDia.get(f) || []).forEach((p) => {
+        const b = document.createElement('button'); b.className = 'ip-entry plan';
+        b.textContent = p.titulo || '';
+        b.title = 'Propuesta: ' + (p.titulo || '') + (p.ancla ? ' (' + p.ancla + ')' : '');
+        b.addEventListener('click', () => irAPlan(p.id));
         cell.appendChild(b);
       });
       cal.appendChild(cell);
@@ -504,6 +541,24 @@ body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-s
     });
   }
 
+  function irAPlan(id) { const el = document.getElementById(id); if (!el) return; el.scrollIntoView({ behavior: 'smooth', block: 'center' }); el.classList.add('flash'); setTimeout(() => el.classList.remove('flash'), 1400); }
+  function renderPlan(lista) {
+    const cont = $('plan'); cont.innerHTML = '';
+    $('plan-titulo').hidden = $('plan-nota').hidden = !lista.length;
+    lista.forEach((p) => {
+      const card = document.createElement('article'); card.className = 'ip-propuesta'; card.id = p.id;
+      const meta = document.createElement('div'); meta.className = 'meta';
+      const fecha = new Date(p.fecha + 'T12:00:00').toLocaleDateString('es-MX', { weekday: 'long', day: 'numeric', month: 'long' });
+      meta.textContent = [fecha, p.segmento, p.formato].filter(Boolean).join(' · ');
+      const an = document.createElement('div'); an.className = 'ancla'; an.textContent = p.ancla || '';
+      const h = document.createElement('h4'); h.textContent = p.titulo || '';
+      const d = document.createElement('p'); d.textContent = p.descripcion || '';
+      card.append(meta, an, h, d);
+      if (p.por_confirmar) { const pc = document.createElement('div'); pc.className = 'pc'; pc.textContent = 'Por confirmar: ' + p.por_confirmar; card.appendChild(pc); }
+      cont.appendChild(card);
+    });
+  }
+
   function renderAll() { renderMetricos(); renderCalendario(); }
   let rz; window.addEventListener('resize', () => { clearTimeout(rz); rz = setTimeout(renderMetricos, 120); });
 
@@ -511,13 +566,25 @@ body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-s
   const nocache = '?v=' + Date.now();
   Promise.allSettled([
     fetch('data/metricas.json' + nocache).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }),
-    fetch('data/piezas.json' + nocache).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
-  ]).then(([met, pz]) => {
+    fetch('data/piezas.json' + nocache).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+    fetch('data/plan.json' + nocache).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  ]).then(([met, pz, pl]) => {
+    state.plan = pl.status === 'fulfilled' && Array.isArray(pl.value) ? pl.value : [];
     if (met.status === 'fulfilled' && Array.isArray(met.value.meses)) {
       state.meses = met.value.meses;
       $('actualizado').textContent = 'Actualizado: ' + met.value.actualizado + ' (hora de Chihuahua).';
+      const [fd, fh] = String(met.value.actualizado).split(' ');
+      const dt = new Date(fd + 'T12:00:00');
+      if (!isNaN(dt)) {
+        const [hh, mm] = (fh || '00:00').split(':').map(Number);
+        const h12 = ((hh + 11) % 12) + 1, ampm = hh < 12 ? 'am' : 'pm';
+        $('pleca-fecha').textContent = dt.toLocaleDateString('es-MX', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' }) + ', ' + h12 + ':' + pad(mm) + ' ' + ampm + ' (hora de Chihuahua)';
+        const horas = (Date.now() - new Date(fd + 'T' + (fh || '00:00') + ':00-06:00').getTime()) / 36e5;
+        if (horas > 36) { $('pleca').classList.add('viejo'); $('pleca-fecha').textContent += ' · revisar: lleva más de un día sin actualizarse'; }
+      } else $('pleca-fecha').textContent = met.value.actualizado;
       renderResumen();
     } else {
+      $('pleca-fecha').textContent = 'no se pudo leer'; $('pleca').classList.add('viejo');
       fail($('ch-evolucion'));
       document.querySelectorAll('#tiles [data-f]').forEach((el) => { el.classList.remove('sk'); el.textContent = '—'; });
     }
