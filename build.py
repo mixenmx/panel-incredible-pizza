@@ -324,6 +324,8 @@ def main():
             for tipo in ("palabras_clave", "busquedas", "dispositivo", "ciudad", "edad", "genero"):
                 for j, a in enumerate(m.get(tipo, [])):
                     det.append(dict(a, mes=m["mes"], tipo=tipo, orden=j))
+        for j, x in enumerate(ga.get("palabras_config") or []):
+            det.append({"tipo": "config", "mes": "", "orden": j, "nombre": x["texto"], "estado": x["estado"], "quality_score": x["quality_score"]})
         (BASE / "data" / "google_ads_detalle_panel.json").write_text(json.dumps(det, ensure_ascii=False), encoding="utf-8")
     ult = filas[-1]
     print(f"OK {len(filas)} meses; último {ult['mes']}: {ult['mensajes']} mensajes, CPL {ult['cpl']}, "
