@@ -244,6 +244,14 @@ def main():
     salida = {"actualizado": datetime.now(MERIDA).strftime("%Y-%m-%d %H:%M"), "meses": filas,
               "google_ads": google_ads(hoy)}
     (BASE / "data" / "metricas.json").write_text(json.dumps(salida, ensure_ascii=False, indent=1), encoding="utf-8")
+    ga = salida["google_ads"]
+    if ga:
+        # Misma información como filas planas, para el panel de Claude (dataset "google_ads")
+        planas = []
+        for m in ga["meses"]:
+            for i, c in enumerate(m["cortes"] + [dict(m, etiqueta="Mes completo", en_curso=m["mes"][:7] == hoy[:7])]):
+                planas.append({k: v for k, v in dict(c, mes=m["mes"], orden=i, datos_hasta=ga["datos_hasta"]).items() if k != "cortes"})
+        (BASE / "data" / "google_ads_panel.json").write_text(json.dumps(planas, ensure_ascii=False), encoding="utf-8")
     ult = filas[-1]
     print(f"OK {len(filas)} meses; último {ult['mes']}: {ult['mensajes']} mensajes, CPL {ult['cpl']}, "
           f"gasto {ult['inversion']}; cortes del mes: {[c['corte'][-2:] for c in ult['cortes']]}")
