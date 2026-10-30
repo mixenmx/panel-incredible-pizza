@@ -152,6 +152,61 @@ def ga_agrega(dias):
     }
 
 
+EDAD = {"AGE_RANGE_18_24": "18-24", "AGE_RANGE_25_34": "25-34", "AGE_RANGE_35_44": "35-44", "AGE_RANGE_45_54": "45-54",
+        "AGE_RANGE_55_64": "55-64", "AGE_RANGE_65_UP": "65+", "AGE_RANGE_UNDETERMINED": "Sin dato"}
+GENERO = {"FEMALE": "Mujeres", "MALE": "Hombres", "UNDETERMINED": "Sin dato"}
+DISPO = {"MOBILE": "Celular", "DESKTOP": "Computadora", "TABLET": "Tablet", "CONNECTED_TV": "TV", "OTHER": "Otro"}
+
+
+def detalle_ga(meses):
+    """raw/google_ads_detalle.json (Windsor, segmentado por mes): impression share oficial del mes,
+    palabras clave, búsquedas, dispositivo, ciudad, edad y género."""
+    ruta = BASE / "raw" / "google_ads_detalle.json"
+    if not ruta.exists():
+        return
+    d = json.loads(ruta.read_text(encoding="utf-8"))
+    qs = {x["keyword_text"].lower(): x for x in d.get("config_palabras", [])}
+
+    def grupo(filas, campo, nombres=None, top=None):
+        acc = {}
+        for x in filas:
+            k = x.get(campo) or "—"
+            k = nombres.get(k, k) if nombres else k
+            a = acc.setdefault(k, {"nombre": k, "inversion": 0.0, "impresiones": 0, "clics": 0})
+            a["inversion"] += float(x.get("spend") or 0)
+            a["impresiones"] += int(float(x.get("impressions") or 0))
+            a["clics"] += int(float(x.get("clicks") or 0))
+        tot = sum(a["clics"] for a in acc.values()) or 1
+        lista = sorted(acc.values(), key=lambda a: (-a["clics"], -a["impresiones"]))
+        for a in lista:
+            a["inversion"] = round(a["inversion"], 2)
+            a["ctr"] = round(a["clics"] / a["impresiones"], 4) if a["impresiones"] else None
+            a["cpc"] = round(a["inversion"] / a["clics"], 2) if a["clics"] else None
+            a["pct_clics"] = round(a["clics"] / tot, 4)
+        return lista[:top] if top else lista
+
+    for m in meses:
+        mm = m["mes"][5:7]
+        of = next((x for x in d.get("mensual", []) if x["month"] == mm), None)
+        if of:
+            m.update({"is": of["search_impression_share"], "lost_budget": of["search_budget_lost_impression_share"],
+                      "lost_rank": of["search_rank_lost_impression_share"], "top_is": of["search_top_impression_share"],
+                      "abs_top_is": of["search_absolute_top_impression_share"], "click_share": of["search_click_share"],
+                      "is_oficial": True})
+        sel = lambda k: [x for x in d.get(k, []) if x.get("month") == mm]
+        pcs = grupo(sel("palabras_clave"), "keyword_info_text")
+        for a in pcs:
+            c = qs.get(a["nombre"].lower(), {})
+            a["quality_score"] = c.get("quality_score") or None
+            a["concordancia"] = {"BROAD": "Amplia", "PHRASE": "Frase", "EXACT": "Exacta"}.get(c.get("ad_group_criterion_keyword_match_type"), "")
+        m["palabras_clave"] = pcs
+        m["busquedas"] = grupo(sel("busquedas"), "search_term", top=10)
+        m["dispositivo"] = grupo(sel("dispositivo"), "device", DISPO)
+        m["ciudad"] = grupo(sel("ciudad"), "city")
+        m["edad"] = sorted(grupo(sel("edad"), "age_range_type", EDAD), key=lambda a: (a["nombre"] == "Sin dato", a["nombre"]))
+        m["genero"] = grupo(sel("genero"), "gender_type", GENERO)
+
+
 def google_ads(hoy):
     """raw/google_ads_diario.csv (Windsor.ai, cuenta 546-956-0591) -> resumen mensual con cortes."""
     import csv
@@ -182,8 +237,19 @@ def google_ads(hoy):
                 break
         r["cortes"] = cortes
         meses.append(r)
+    detalle_ga(meses)
     return {"cuenta": "546-956-0591", "fuente": "Google Ads vía Windsor.ai",
-            "datos_hasta": max(d["date"] for d in dias) if dias else None, "meses": meses}
+            "datos_hasta": max(d["date"] for d in dias) if dias else None, "meses": meses,
+            "palabras_config": palabras_config()}
+
+
+def palabras_config():
+    ruta = BASE / "raw" / "google_ads_detalle.json"
+    if not ruta.exists():
+        return None
+    cfg = json.loads(ruta.read_text(encoding="utf-8")).get("config_palabras", [])
+    return [{"texto": x["keyword_text"], "estado": {"ENABLED": "Activa", "PAUSED": "Pausada"}.get(x["keyword_status"], x["keyword_status"]),
+             "quality_score": x.get("quality_score") or None} for x in cfg]
 
 
 def main():
@@ -250,8 +316,15 @@ def main():
         planas = []
         for m in ga["meses"]:
             for i, c in enumerate(m["cortes"] + [dict(m, etiqueta="Mes completo", en_curso=m["mes"][:7] == hoy[:7])]):
-                planas.append({k: v for k, v in dict(c, mes=m["mes"], orden=i, datos_hasta=ga["datos_hasta"]).items() if k != "cortes"})
+                planas.append({k: v for k, v in dict(c, mes=m["mes"], orden=i, datos_hasta=ga["datos_hasta"]).items() if not isinstance(v, list)})
         (BASE / "data" / "google_ads_panel.json").write_text(json.dumps(planas, ensure_ascii=False), encoding="utf-8")
+        # Detalle (palabras clave, búsquedas, público) en filas planas para el panel de Claude
+        det = []
+        for m in ga["meses"]:
+            for tipo in ("palabras_clave", "busquedas", "dispositivo", "ciudad", "edad", "genero"):
+                for j, a in enumerate(m.get(tipo, [])):
+                    det.append(dict(a, mes=m["mes"], tipo=tipo, orden=j))
+        (BASE / "data" / "google_ads_detalle_panel.json").write_text(json.dumps(det, ensure_ascii=False), encoding="utf-8")
     ult = filas[-1]
     print(f"OK {len(filas)} meses; último {ult['mes']}: {ult['mensajes']} mensajes, CPL {ult['cpl']}, "
           f"gasto {ult['inversion']}; cortes del mes: {[c['corte'][-2:] for c in ult['cortes']]}")

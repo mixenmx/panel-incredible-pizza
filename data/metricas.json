@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30 07:26",
+ "actualizado": "2026-10-30 07:34",
  "meses": [
   {
    "inversion": 9999.71,
@@ -945,9 +945,9 @@
     "ctr": 0.1831,
     "cpc": 1.7,
     "conversiones": 0.0,
-    "is": 0.1703,
-    "lost_budget": 0.3728,
-    "lost_rank": 0.4569,
+    "is": 0.1778,
+    "lost_budget": 0.3874,
+    "lost_rank": 0.4349,
     "hasta": "2026-04-30",
     "mes": "2026-04-01",
     "cortes": [
@@ -979,6 +979,344 @@
       "etiqueta": "Del 1 al 28",
       "en_curso": false
      }
+    ],
+    "top_is": 0.1428,
+    "abs_top_is": 0.1406,
+    "click_share": 0.2621,
+    "is_oficial": true,
+    "palabras_clave": [
+     {
+      "nombre": "incredible pizza",
+      "inversion": 1148.82,
+      "impresiones": 3539,
+      "clics": 698,
+      "ctr": 0.1972,
+      "cpc": 1.65,
+      "pct_clics": 0.7426,
+      "quality_score": 9.0,
+      "concordancia": "Amplia"
+     },
+     {
+      "nombre": "incredible pizza chihuahua",
+      "inversion": 386.71,
+      "impresiones": 1349,
+      "clics": 227,
+      "ctr": 0.1683,
+      "cpc": 1.7,
+      "pct_clics": 0.2415,
+      "quality_score": 10.0,
+      "concordancia": "Amplia"
+     },
+     {
+      "nombre": "buffet pizza",
+      "inversion": 7.14,
+      "impresiones": 58,
+      "clics": 6,
+      "ctr": 0.1034,
+      "cpc": 1.19,
+      "pct_clics": 0.0064,
+      "quality_score": 5.0,
+      "concordancia": "Amplia"
+     },
+     {
+      "nombre": "restaurante para niños",
+      "inversion": 10.9,
+      "impresiones": 79,
+      "clics": 5,
+      "ctr": 0.0633,
+      "cpc": 2.18,
+      "pct_clics": 0.0053,
+      "quality_score": null,
+      "concordancia": "Amplia"
+     },
+     {
+      "nombre": "que hacer en chihuahua",
+      "inversion": 46.54,
+      "impresiones": 85,
+      "clics": 4,
+      "ctr": 0.0471,
+      "cpc": 11.63,
+      "pct_clics": 0.0043,
+      "quality_score": 1.0,
+      "concordancia": "Amplia"
+     },
+     {
+      "nombre": "buffet de pizza cerca de mí",
+      "inversion": 0.0,
+      "impresiones": 12,
+      "clics": 0,
+      "ctr": 0.0,
+      "cpc": null,
+      "pct_clics": 0.0,
+      "quality_score": null,
+      "concordancia": "Amplia"
+     },
+     {
+      "nombre": "que hacer en chihuahua con niños",
+      "inversion": 0.0,
+      "impresiones": 10,
+      "clics": 0,
+      "ctr": 0.0,
+      "cpc": null,
+      "pct_clics": 0.0,
+      "quality_score": 1.0,
+      "concordancia": "Amplia"
+     },
+     {
+      "nombre": "diversion en chihuahua",
+      "inversion": 0.0,
+      "impresiones": 3,
+      "clics": 0,
+      "ctr": 0.0,
+      "cpc": null,
+      "pct_clics": 0.0,
+      "quality_score": null,
+      "concordancia": "Amplia"
+     }
+    ],
+    "busquedas": [
+     {
+      "nombre": "incredible pizza",
+      "inversion": 829.44,
+      "impresiones": 2581,
+      "clics": 487,
+      "ctr": 0.1887,
+      "cpc": 1.7,
+      "pct_clics": 0.6653
+     },
+     {
+      "nombre": "incredible pizza chihuahua",
+      "inversion": 212.71,
+      "impresiones": 699,
+      "clics": 125,
+      "ctr": 0.1788,
+      "cpc": 1.7,
+      "pct_clics": 0.1708
+     },
+     {
+      "nombre": "precios de incredible pizza",
+      "inversion": 15.31,
+      "impresiones": 24,
+      "clics": 15,
+      "ctr": 0.625,
+      "cpc": 1.02,
+      "pct_clics": 0.0205
+     },
+     {
+      "nombre": "incredible pizza precios",
+      "inversion": 17.79,
+      "impresiones": 56,
+      "clics": 14,
+      "ctr": 0.25,
+      "cpc": 1.27,
+      "pct_clics": 0.0191
+     },
+     {
+      "nombre": "incredible pizza paquetes",
+      "inversion": 9.03,
+      "impresiones": 28,
+      "clics": 11,
+      "ctr": 0.3929,
+      "cpc": 0.82,
+      "pct_clics": 0.015
+     },
+     {
+      "nombre": "incredible pizza chihuahua precios 2026",
+      "inversion": 13.37,
+      "impresiones": 22,
+      "clics": 11,
+      "ctr": 0.5,
+      "cpc": 1.22,
+      "pct_clics": 0.015
+     },
+     {
+      "nombre": "menú de incredible pizza chihuahua",
+      "inversion": 13.31,
+      "impresiones": 46,
+      "clics": 9,
+      "ctr": 0.1957,
+      "cpc": 1.48,
+      "pct_clics": 0.0123
+     },
+     {
+      "nombre": "precios incredible pizza",
+      "inversion": 8.6,
+      "impresiones": 19,
+      "clics": 8,
+      "ctr": 0.4211,
+      "cpc": 1.07,
+      "pct_clics": 0.0109
+     },
+     {
+      "nombre": "paquetes de incredible pizza",
+      "inversion": 4.77,
+      "impresiones": 16,
+      "clics": 8,
+      "ctr": 0.5,
+      "cpc": 0.6,
+      "pct_clics": 0.0109
+     },
+     {
+      "nombre": "paquete familiar incredible pizza",
+      "inversion": 0.46,
+      "impresiones": 15,
+      "clics": 6,
+      "ctr": 0.4,
+      "cpc": 0.08,
+      "pct_clics": 0.0082
+     }
+    ],
+    "dispositivo": [
+     {
+      "nombre": "Celular",
+      "inversion": 1417.8,
+      "impresiones": 4755,
+      "clics": 860,
+      "ctr": 0.1809,
+      "cpc": 1.65,
+      "pct_clics": 0.9149
+     },
+     {
+      "nombre": "Computadora",
+      "inversion": 176.66,
+      "impresiones": 371,
+      "clics": 79,
+      "ctr": 0.2129,
+      "cpc": 2.24,
+      "pct_clics": 0.084
+     },
+     {
+      "nombre": "Tablet",
+      "inversion": 5.65,
+      "impresiones": 9,
+      "clics": 1,
+      "ctr": 0.1111,
+      "cpc": 5.65,
+      "pct_clics": 0.0011
+     }
+    ],
+    "ciudad": [
+     {
+      "nombre": "Chihuahua",
+      "inversion": 1589.68,
+      "impresiones": 5048,
+      "clics": 924,
+      "ctr": 0.183,
+      "cpc": 1.72,
+      "pct_clics": 0.9968
+     },
+     {
+      "nombre": "Delicias",
+      "inversion": 0.25,
+      "impresiones": 24,
+      "clics": 3,
+      "ctr": 0.125,
+      "cpc": 0.08,
+      "pct_clics": 0.0032
+     },
+     {
+      "nombre": "Ciudad Cuauhtemoc",
+      "inversion": 0.0,
+      "impresiones": 11,
+      "clics": 0,
+      "ctr": 0.0,
+      "cpc": null,
+      "pct_clics": 0.0
+     }
+    ],
+    "edad": [
+     {
+      "nombre": "18-24",
+      "inversion": 184.16,
+      "impresiones": 642,
+      "clics": 112,
+      "ctr": 0.1745,
+      "cpc": 1.64,
+      "pct_clics": 0.1191
+     },
+     {
+      "nombre": "25-34",
+      "inversion": 441.94,
+      "impresiones": 1558,
+      "clics": 281,
+      "ctr": 0.1804,
+      "cpc": 1.57,
+      "pct_clics": 0.2989
+     },
+     {
+      "nombre": "35-44",
+      "inversion": 422.53,
+      "impresiones": 1157,
+      "clics": 229,
+      "ctr": 0.1979,
+      "cpc": 1.85,
+      "pct_clics": 0.2436
+     },
+     {
+      "nombre": "45-54",
+      "inversion": 152.36,
+      "impresiones": 419,
+      "clics": 81,
+      "ctr": 0.1933,
+      "cpc": 1.88,
+      "pct_clics": 0.0862
+     },
+     {
+      "nombre": "55-64",
+      "inversion": 88.53,
+      "impresiones": 162,
+      "clics": 31,
+      "ctr": 0.1914,
+      "cpc": 2.86,
+      "pct_clics": 0.033
+     },
+     {
+      "nombre": "65+",
+      "inversion": 10.36,
+      "impresiones": 44,
+      "clics": 5,
+      "ctr": 0.1136,
+      "cpc": 2.07,
+      "pct_clics": 0.0053
+     },
+     {
+      "nombre": "Sin dato",
+      "inversion": 300.23,
+      "impresiones": 1153,
+      "clics": 201,
+      "ctr": 0.1743,
+      "cpc": 1.49,
+      "pct_clics": 0.2138
+     }
+    ],
+    "genero": [
+     {
+      "nombre": "Mujeres",
+      "inversion": 763.94,
+      "impresiones": 2608,
+      "clics": 430,
+      "ctr": 0.1649,
+      "cpc": 1.78,
+      "pct_clics": 0.4574
+     },
+     {
+      "nombre": "Hombres",
+      "inversion": 546.14,
+      "impresiones": 1416,
+      "clics": 312,
+      "ctr": 0.2203,
+      "cpc": 1.75,
+      "pct_clics": 0.3319
+     },
+     {
+      "nombre": "Sin dato",
+      "inversion": 290.04,
+      "impresiones": 1111,
+      "clics": 198,
+      "ctr": 0.1782,
+      "cpc": 1.46,
+      "pct_clics": 0.2106
+     }
     ]
    },
    {
@@ -988,9 +1326,9 @@
     "ctr": 0.2024,
     "cpc": 1.21,
     "conversiones": 0.0,
-    "is": 0.1632,
-    "lost_budget": 0.0553,
-    "lost_rank": 0.7823,
+    "is": 0.1558,
+    "lost_budget": 0.0549,
+    "lost_rank": 0.7893,
     "hasta": "2026-05-31",
     "mes": "2026-05-01",
     "cortes": [
@@ -1050,6 +1388,311 @@
       "etiqueta": "Del 1 al 28",
       "en_curso": false
      }
+    ],
+    "top_is": 0.1212,
+    "abs_top_is": 0.1188,
+    "click_share": 0.3181,
+    "is_oficial": true,
+    "palabras_clave": [
+     {
+      "nombre": "incredible pizza",
+      "inversion": 905.91,
+      "impresiones": 3516,
+      "clics": 787,
+      "ctr": 0.2238,
+      "cpc": 1.15,
+      "pct_clics": 0.7103,
+      "quality_score": 9.0,
+      "concordancia": "Amplia"
+     },
+     {
+      "nombre": "incredible pizza chihuahua",
+      "inversion": 362.35,
+      "impresiones": 1454,
+      "clics": 285,
+      "ctr": 0.196,
+      "cpc": 1.27,
+      "pct_clics": 0.2572,
+      "quality_score": 10.0,
+      "concordancia": "Amplia"
+     },
+     {
+      "nombre": "buffet pizza",
+      "inversion": 31.31,
+      "impresiones": 114,
+      "clics": 20,
+      "ctr": 0.1754,
+      "cpc": 1.57,
+      "pct_clics": 0.0181,
+      "quality_score": 5.0,
+      "concordancia": "Amplia"
+     },
+     {
+      "nombre": "restaurante para niños",
+      "inversion": 41.43,
+      "impresiones": 390,
+      "clics": 16,
+      "ctr": 0.041,
+      "cpc": 2.59,
+      "pct_clics": 0.0144,
+      "quality_score": null,
+      "concordancia": "Amplia"
+     },
+     {
+      "nombre": "que hacer en chihuahua",
+      "inversion": 0.0,
+      "impresiones": 1,
+      "clics": 0,
+      "ctr": 0.0,
+      "cpc": null,
+      "pct_clics": 0.0,
+      "quality_score": 1.0,
+      "concordancia": "Amplia"
+     }
+    ],
+    "busquedas": [
+     {
+      "nombre": "incredible pizza",
+      "inversion": 680.14,
+      "impresiones": 2504,
+      "clics": 571,
+      "ctr": 0.228,
+      "cpc": 1.19,
+      "pct_clics": 0.6601
+     },
+     {
+      "nombre": "incredible pizza chihuahua",
+      "inversion": 211.81,
+      "impresiones": 807,
+      "clics": 156,
+      "ctr": 0.1933,
+      "cpc": 1.36,
+      "pct_clics": 0.1803
+     },
+     {
+      "nombre": "incredible pizza precios",
+      "inversion": 31.38,
+      "impresiones": 97,
+      "clics": 23,
+      "ctr": 0.2371,
+      "cpc": 1.36,
+      "pct_clics": 0.0266
+     },
+     {
+      "nombre": "precios incredible pizza",
+      "inversion": 16.75,
+      "impresiones": 54,
+      "clics": 21,
+      "ctr": 0.3889,
+      "cpc": 0.8,
+      "pct_clics": 0.0243
+     },
+     {
+      "nombre": "incredible pizza chihuahua precios 2026",
+      "inversion": 10.56,
+      "impresiones": 48,
+      "clics": 14,
+      "ctr": 0.2917,
+      "cpc": 0.75,
+      "pct_clics": 0.0162
+     },
+     {
+      "nombre": "paquetes incredible pizza",
+      "inversion": 2.92,
+      "impresiones": 31,
+      "clics": 12,
+      "ctr": 0.3871,
+      "cpc": 0.24,
+      "pct_clics": 0.0139
+     },
+     {
+      "nombre": "precios de incredible pizza",
+      "inversion": 12.98,
+      "impresiones": 29,
+      "clics": 12,
+      "ctr": 0.4138,
+      "cpc": 1.08,
+      "pct_clics": 0.0139
+     },
+     {
+      "nombre": "incredible pizza paquetes",
+      "inversion": 1.62,
+      "impresiones": 28,
+      "clics": 11,
+      "ctr": 0.3929,
+      "cpc": 0.15,
+      "pct_clics": 0.0127
+     },
+     {
+      "nombre": "menú de incredible pizza chihuahua",
+      "inversion": 6.43,
+      "impresiones": 29,
+      "clics": 6,
+      "ctr": 0.2069,
+      "cpc": 1.07,
+      "pct_clics": 0.0069
+     },
+     {
+      "nombre": "precio incredible pizza chihuahua",
+      "inversion": 15.03,
+      "impresiones": 6,
+      "clics": 5,
+      "ctr": 0.8333,
+      "cpc": 3.01,
+      "pct_clics": 0.0058
+     }
+    ],
+    "dispositivo": [
+     {
+      "nombre": "Celular",
+      "inversion": 1275.31,
+      "impresiones": 5311,
+      "clics": 1071,
+      "ctr": 0.2017,
+      "cpc": 1.19,
+      "pct_clics": 0.9666
+     },
+     {
+      "nombre": "Computadora",
+      "inversion": 60.08,
+      "impresiones": 149,
+      "clics": 34,
+      "ctr": 0.2282,
+      "cpc": 1.77,
+      "pct_clics": 0.0307
+     },
+     {
+      "nombre": "Tablet",
+      "inversion": 5.6,
+      "impresiones": 15,
+      "clics": 3,
+      "ctr": 0.2,
+      "cpc": 1.87,
+      "pct_clics": 0.0027
+     }
+    ],
+    "ciudad": [
+     {
+      "nombre": "Chihuahua",
+      "inversion": 1303.32,
+      "impresiones": 5298,
+      "clics": 1079,
+      "ctr": 0.2037,
+      "cpc": 1.21,
+      "pct_clics": 0.9881
+     },
+     {
+      "nombre": "Delicias",
+      "inversion": 12.4,
+      "impresiones": 59,
+      "clics": 12,
+      "ctr": 0.2034,
+      "cpc": 1.03,
+      "pct_clics": 0.011
+     },
+     {
+      "nombre": "Ciudad Cuauhtemoc",
+      "inversion": 0.07,
+      "impresiones": 39,
+      "clics": 1,
+      "ctr": 0.0256,
+      "cpc": 0.07,
+      "pct_clics": 0.0009
+     }
+    ],
+    "edad": [
+     {
+      "nombre": "18-24",
+      "inversion": 136.89,
+      "impresiones": 623,
+      "clics": 122,
+      "ctr": 0.1958,
+      "cpc": 1.12,
+      "pct_clics": 0.1101
+     },
+     {
+      "nombre": "25-34",
+      "inversion": 401.31,
+      "impresiones": 1795,
+      "clics": 345,
+      "ctr": 0.1922,
+      "cpc": 1.16,
+      "pct_clics": 0.3114
+     },
+     {
+      "nombre": "35-44",
+      "inversion": 371.02,
+      "impresiones": 1298,
+      "clics": 318,
+      "ctr": 0.245,
+      "cpc": 1.17,
+      "pct_clics": 0.287
+     },
+     {
+      "nombre": "45-54",
+      "inversion": 142.15,
+      "impresiones": 521,
+      "clics": 109,
+      "ctr": 0.2092,
+      "cpc": 1.3,
+      "pct_clics": 0.0984
+     },
+     {
+      "nombre": "55-64",
+      "inversion": 30.56,
+      "impresiones": 158,
+      "clics": 23,
+      "ctr": 0.1456,
+      "cpc": 1.33,
+      "pct_clics": 0.0208
+     },
+     {
+      "nombre": "65+",
+      "inversion": 4.41,
+      "impresiones": 59,
+      "clics": 3,
+      "ctr": 0.0508,
+      "cpc": 1.47,
+      "pct_clics": 0.0027
+     },
+     {
+      "nombre": "Sin dato",
+      "inversion": 254.66,
+      "impresiones": 1021,
+      "clics": 188,
+      "ctr": 0.1841,
+      "cpc": 1.35,
+      "pct_clics": 0.1697
+     }
+    ],
+    "genero": [
+     {
+      "nombre": "Mujeres",
+      "inversion": 713.39,
+      "impresiones": 2806,
+      "clics": 591,
+      "ctr": 0.2106,
+      "cpc": 1.21,
+      "pct_clics": 0.5334
+     },
+     {
+      "nombre": "Hombres",
+      "inversion": 385.27,
+      "impresiones": 1682,
+      "clics": 337,
+      "ctr": 0.2004,
+      "cpc": 1.14,
+      "pct_clics": 0.3042
+     },
+     {
+      "nombre": "Sin dato",
+      "inversion": 242.34,
+      "impresiones": 987,
+      "clics": 180,
+      "ctr": 0.1824,
+      "cpc": 1.35,
+      "pct_clics": 0.1625
+     }
     ]
    },
    {
@@ -1059,9 +1702,9 @@
     "ctr": 0.2345,
     "cpc": 1.54,
     "conversiones": 0.0,
-    "is": 0.4325,
-    "lost_budget": 0.18,
-    "lost_rank": 0.3875,
+    "is": 0.4311,
+    "lost_budget": 0.1855,
+    "lost_rank": 0.3834,
     "hasta": "2026-06-30",
     "mes": "2026-06-01",
     "cortes": [
@@ -1121,6 +1764,300 @@
       "etiqueta": "Del 1 al 28",
       "en_curso": false
      }
+    ],
+    "top_is": 0.3603,
+    "abs_top_is": 0.3583,
+    "click_share": 0.3547,
+    "is_oficial": true,
+    "palabras_clave": [
+     {
+      "nombre": "incredible pizza",
+      "inversion": 1238.5,
+      "impresiones": 3484,
+      "clics": 841,
+      "ctr": 0.2414,
+      "cpc": 1.47,
+      "pct_clics": 0.5804,
+      "quality_score": 9.0,
+      "concordancia": "Amplia"
+     },
+     {
+      "nombre": "incredible pizza chihuahua",
+      "inversion": 978.33,
+      "impresiones": 2589,
+      "clics": 598,
+      "ctr": 0.231,
+      "cpc": 1.64,
+      "pct_clics": 0.4127,
+      "quality_score": 10.0,
+      "concordancia": "Amplia"
+     },
+     {
+      "nombre": "restaurante para niños",
+      "inversion": 6.6,
+      "impresiones": 46,
+      "clics": 6,
+      "ctr": 0.1304,
+      "cpc": 1.1,
+      "pct_clics": 0.0041,
+      "quality_score": null,
+      "concordancia": "Amplia"
+     },
+     {
+      "nombre": "buffet pizza",
+      "inversion": 8.38,
+      "impresiones": 61,
+      "clics": 4,
+      "ctr": 0.0656,
+      "cpc": 2.1,
+      "pct_clics": 0.0028,
+      "quality_score": 5.0,
+      "concordancia": "Amplia"
+     }
+    ],
+    "busquedas": [
+     {
+      "nombre": "incredible pizza",
+      "inversion": 809.33,
+      "impresiones": 2169,
+      "clics": 520,
+      "ctr": 0.2397,
+      "cpc": 1.56,
+      "pct_clics": 0.4598
+     },
+     {
+      "nombre": "incredible pizza chihuahua",
+      "inversion": 772.47,
+      "impresiones": 1782,
+      "clics": 425,
+      "ctr": 0.2385,
+      "cpc": 1.82,
+      "pct_clics": 0.3758
+     },
+     {
+      "nombre": "incredible pizza precios",
+      "inversion": 91.76,
+      "impresiones": 128,
+      "clics": 50,
+      "ctr": 0.3906,
+      "cpc": 1.84,
+      "pct_clics": 0.0442
+     },
+     {
+      "nombre": "incredible pizza paquetes",
+      "inversion": 7.48,
+      "impresiones": 55,
+      "clics": 25,
+      "ctr": 0.4545,
+      "cpc": 0.3,
+      "pct_clics": 0.0221
+     },
+     {
+      "nombre": "precios incredible pizza",
+      "inversion": 16.19,
+      "impresiones": 31,
+      "clics": 13,
+      "ctr": 0.4194,
+      "cpc": 1.25,
+      "pct_clics": 0.0115
+     },
+     {
+      "nombre": "paquetes incredible pizza",
+      "inversion": 1.55,
+      "impresiones": 24,
+      "clics": 13,
+      "ctr": 0.5417,
+      "cpc": 0.12,
+      "pct_clics": 0.0115
+     },
+     {
+      "nombre": "paquetes de incredible pizza",
+      "inversion": 18.77,
+      "impresiones": 24,
+      "clics": 12,
+      "ctr": 0.5,
+      "cpc": 1.56,
+      "pct_clics": 0.0106
+     },
+     {
+      "nombre": "paquetes incredible pizza chihuahua",
+      "inversion": 0.56,
+      "impresiones": 18,
+      "clics": 9,
+      "ctr": 0.5,
+      "cpc": 0.06,
+      "pct_clics": 0.008
+     },
+     {
+      "nombre": "incredible pizza chihuahua precios 2026",
+      "inversion": 4.21,
+      "impresiones": 27,
+      "clics": 8,
+      "ctr": 0.2963,
+      "cpc": 0.53,
+      "pct_clics": 0.0071
+     },
+     {
+      "nombre": "menú de incredible pizza chihuahua",
+      "inversion": 7.04,
+      "impresiones": 11,
+      "clics": 6,
+      "ctr": 0.5455,
+      "cpc": 1.17,
+      "pct_clics": 0.0053
+     }
+    ],
+    "dispositivo": [
+     {
+      "nombre": "Celular",
+      "inversion": 2063.97,
+      "impresiones": 5905,
+      "clics": 1376,
+      "ctr": 0.233,
+      "cpc": 1.5,
+      "pct_clics": 0.9496
+     },
+     {
+      "nombre": "Computadora",
+      "inversion": 155.61,
+      "impresiones": 248,
+      "clics": 68,
+      "ctr": 0.2742,
+      "cpc": 2.29,
+      "pct_clics": 0.0469
+     },
+     {
+      "nombre": "Tablet",
+      "inversion": 12.24,
+      "impresiones": 27,
+      "clics": 5,
+      "ctr": 0.1852,
+      "cpc": 2.45,
+      "pct_clics": 0.0035
+     }
+    ],
+    "ciudad": [
+     {
+      "nombre": "Chihuahua",
+      "inversion": 2110.59,
+      "impresiones": 5883,
+      "clics": 1372,
+      "ctr": 0.2332,
+      "cpc": 1.54,
+      "pct_clics": 0.9821
+     },
+     {
+      "nombre": "Delicias",
+      "inversion": 38.66,
+      "impresiones": 95,
+      "clics": 15,
+      "ctr": 0.1579,
+      "cpc": 2.58,
+      "pct_clics": 0.0107
+     },
+     {
+      "nombre": "Ciudad Cuauhtemoc",
+      "inversion": 10.79,
+      "impresiones": 33,
+      "clics": 10,
+      "ctr": 0.303,
+      "cpc": 1.08,
+      "pct_clics": 0.0072
+     }
+    ],
+    "edad": [
+     {
+      "nombre": "18-24",
+      "inversion": 320.6,
+      "impresiones": 962,
+      "clics": 220,
+      "ctr": 0.2287,
+      "cpc": 1.46,
+      "pct_clics": 0.1518
+     },
+     {
+      "nombre": "25-34",
+      "inversion": 707.08,
+      "impresiones": 2115,
+      "clics": 494,
+      "ctr": 0.2336,
+      "cpc": 1.43,
+      "pct_clics": 0.3409
+     },
+     {
+      "nombre": "35-44",
+      "inversion": 474.82,
+      "impresiones": 1202,
+      "clics": 303,
+      "ctr": 0.2521,
+      "cpc": 1.57,
+      "pct_clics": 0.2091
+     },
+     {
+      "nombre": "45-54",
+      "inversion": 199.86,
+      "impresiones": 469,
+      "clics": 121,
+      "ctr": 0.258,
+      "cpc": 1.65,
+      "pct_clics": 0.0835
+     },
+     {
+      "nombre": "55-64",
+      "inversion": 47.94,
+      "impresiones": 124,
+      "clics": 30,
+      "ctr": 0.2419,
+      "cpc": 1.6,
+      "pct_clics": 0.0207
+     },
+     {
+      "nombre": "65+",
+      "inversion": 22.4,
+      "impresiones": 69,
+      "clics": 14,
+      "ctr": 0.2029,
+      "cpc": 1.6,
+      "pct_clics": 0.0097
+     },
+     {
+      "nombre": "Sin dato",
+      "inversion": 459.11,
+      "impresiones": 1239,
+      "clics": 267,
+      "ctr": 0.2155,
+      "cpc": 1.72,
+      "pct_clics": 0.1843
+     }
+    ],
+    "genero": [
+     {
+      "nombre": "Mujeres",
+      "inversion": 1153.01,
+      "impresiones": 3156,
+      "clics": 736,
+      "ctr": 0.2332,
+      "cpc": 1.57,
+      "pct_clics": 0.5079
+     },
+     {
+      "nombre": "Hombres",
+      "inversion": 615.97,
+      "impresiones": 1818,
+      "clics": 448,
+      "ctr": 0.2464,
+      "cpc": 1.37,
+      "pct_clics": 0.3092
+     },
+     {
+      "nombre": "Sin dato",
+      "inversion": 462.84,
+      "impresiones": 1206,
+      "clics": 265,
+      "ctr": 0.2197,
+      "cpc": 1.75,
+      "pct_clics": 0.1829
+     }
     ]
    },
    {
@@ -1130,9 +2067,9 @@
     "ctr": 0.2812,
     "cpc": 0.01,
     "conversiones": 0.0,
-    "is": 0.6625,
-    "lost_budget": 0.0414,
-    "lost_rank": 0.2961,
+    "is": 0.6177,
+    "lost_budget": 0.0588,
+    "lost_rank": 0.3235,
     "hasta": "2026-07-31",
     "mes": "2026-07-01",
     "cortes": [
@@ -1192,6 +2129,142 @@
       "etiqueta": "Del 1 al 28",
       "en_curso": false
      }
+    ],
+    "top_is": 0.5882,
+    "abs_top_is": 0.5882,
+    "click_share": 0.0999,
+    "is_oficial": true,
+    "palabras_clave": [
+     {
+      "nombre": "incredible pizza chihuahua",
+      "inversion": 0.05,
+      "impresiones": 15,
+      "clics": 5,
+      "ctr": 0.3333,
+      "cpc": 0.01,
+      "pct_clics": 0.5556,
+      "quality_score": 10.0,
+      "concordancia": "Amplia"
+     },
+     {
+      "nombre": "incredible pizza",
+      "inversion": 0.04,
+      "impresiones": 17,
+      "clics": 4,
+      "ctr": 0.2353,
+      "cpc": 0.01,
+      "pct_clics": 0.4444,
+      "quality_score": 9.0,
+      "concordancia": "Amplia"
+     }
+    ],
+    "busquedas": [],
+    "dispositivo": [
+     {
+      "nombre": "Celular",
+      "inversion": 0.09,
+      "impresiones": 32,
+      "clics": 9,
+      "ctr": 0.2812,
+      "cpc": 0.01,
+      "pct_clics": 1.0
+     }
+    ],
+    "ciudad": [
+     {
+      "nombre": "Chihuahua",
+      "inversion": 0.0,
+      "impresiones": 5,
+      "clics": 0,
+      "ctr": 0.0,
+      "cpc": null,
+      "pct_clics": 0.0
+     }
+    ],
+    "edad": [
+     {
+      "nombre": "18-24",
+      "inversion": 0.02,
+      "impresiones": 4,
+      "clics": 2,
+      "ctr": 0.5,
+      "cpc": 0.01,
+      "pct_clics": 0.2222
+     },
+     {
+      "nombre": "25-34",
+      "inversion": 0.03,
+      "impresiones": 12,
+      "clics": 3,
+      "ctr": 0.25,
+      "cpc": 0.01,
+      "pct_clics": 0.3333
+     },
+     {
+      "nombre": "35-44",
+      "inversion": 0.01,
+      "impresiones": 6,
+      "clics": 1,
+      "ctr": 0.1667,
+      "cpc": 0.01,
+      "pct_clics": 0.1111
+     },
+     {
+      "nombre": "45-54",
+      "inversion": 0.02,
+      "impresiones": 6,
+      "clics": 2,
+      "ctr": 0.3333,
+      "cpc": 0.01,
+      "pct_clics": 0.2222
+     },
+     {
+      "nombre": "55-64",
+      "inversion": 0.01,
+      "impresiones": 2,
+      "clics": 1,
+      "ctr": 0.5,
+      "cpc": 0.01,
+      "pct_clics": 0.1111
+     },
+     {
+      "nombre": "Sin dato",
+      "inversion": 0.0,
+      "impresiones": 2,
+      "clics": 0,
+      "ctr": 0.0,
+      "cpc": null,
+      "pct_clics": 0.0
+     }
+    ],
+    "genero": [
+     {
+      "nombre": "Mujeres",
+      "inversion": 0.05,
+      "impresiones": 20,
+      "clics": 5,
+      "ctr": 0.25,
+      "cpc": 0.01,
+      "pct_clics": 0.5556
+     },
+     {
+      "nombre": "Hombres",
+      "inversion": 0.04,
+      "impresiones": 10,
+      "clics": 4,
+      "ctr": 0.4,
+      "cpc": 0.01,
+      "pct_clics": 0.4444
+     },
+     {
+      "nombre": "Sin dato",
+      "inversion": 0.0,
+      "impresiones": 2,
+      "clics": 0,
+      "ctr": 0.0,
+      "cpc": null,
+      "pct_clics": 0.0
+     }
     ]
    },
    {
@@ -1201,9 +2274,9 @@
     "ctr": 0.1875,
     "cpc": 0.01,
     "conversiones": 0.0,
-    "is": 0.6917,
-    "lost_budget": 0.0216,
-    "lost_rank": 0.2867,
+    "is": 0.6765,
+    "lost_budget": 0.0294,
+    "lost_rank": 0.2941,
     "hasta": "2026-08-16",
     "mes": "2026-08-01",
     "cortes": [
@@ -1263,6 +2336,133 @@
       "etiqueta": "Del 1 al 28",
       "en_curso": false
      }
+    ],
+    "top_is": 0.6177,
+    "abs_top_is": 0.6177,
+    "click_share": 0.0999,
+    "is_oficial": true,
+    "palabras_clave": [
+     {
+      "nombre": "incredible pizza",
+      "inversion": 0.05,
+      "impresiones": 23,
+      "clics": 5,
+      "ctr": 0.2174,
+      "cpc": 0.01,
+      "pct_clics": 0.8333,
+      "quality_score": 9.0,
+      "concordancia": "Amplia"
+     },
+     {
+      "nombre": "incredible pizza chihuahua",
+      "inversion": 0.01,
+      "impresiones": 9,
+      "clics": 1,
+      "ctr": 0.1111,
+      "cpc": 0.01,
+      "pct_clics": 0.1667,
+      "quality_score": 10.0,
+      "concordancia": "Amplia"
+     }
+    ],
+    "busquedas": [],
+    "dispositivo": [
+     {
+      "nombre": "Celular",
+      "inversion": 0.06,
+      "impresiones": 32,
+      "clics": 6,
+      "ctr": 0.1875,
+      "cpc": 0.01,
+      "pct_clics": 1.0
+     }
+    ],
+    "ciudad": [
+     {
+      "nombre": "Chihuahua",
+      "inversion": 0.02,
+      "impresiones": 10,
+      "clics": 2,
+      "ctr": 0.2,
+      "cpc": 0.01,
+      "pct_clics": 1.0
+     }
+    ],
+    "edad": [
+     {
+      "nombre": "18-24",
+      "inversion": 0.0,
+      "impresiones": 3,
+      "clics": 0,
+      "ctr": 0.0,
+      "cpc": null,
+      "pct_clics": 0.0
+     },
+     {
+      "nombre": "25-34",
+      "inversion": 0.05,
+      "impresiones": 16,
+      "clics": 5,
+      "ctr": 0.3125,
+      "cpc": 0.01,
+      "pct_clics": 0.8333
+     },
+     {
+      "nombre": "35-44",
+      "inversion": 0.01,
+      "impresiones": 4,
+      "clics": 1,
+      "ctr": 0.25,
+      "cpc": 0.01,
+      "pct_clics": 0.1667
+     },
+     {
+      "nombre": "45-54",
+      "inversion": 0.0,
+      "impresiones": 1,
+      "clics": 0,
+      "ctr": 0.0,
+      "cpc": null,
+      "pct_clics": 0.0
+     },
+     {
+      "nombre": "Sin dato",
+      "inversion": 0.0,
+      "impresiones": 8,
+      "clics": 0,
+      "ctr": 0.0,
+      "cpc": null,
+      "pct_clics": 0.0
+     }
+    ],
+    "genero": [
+     {
+      "nombre": "Hombres",
+      "inversion": 0.04,
+      "impresiones": 11,
+      "clics": 4,
+      "ctr": 0.3636,
+      "cpc": 0.01,
+      "pct_clics": 0.6667
+     },
+     {
+      "nombre": "Mujeres",
+      "inversion": 0.02,
+      "impresiones": 13,
+      "clics": 2,
+      "ctr": 0.1538,
+      "cpc": 0.01,
+      "pct_clics": 0.3333
+     },
+     {
+      "nombre": "Sin dato",
+      "inversion": 0.0,
+      "impresiones": 8,
+      "clics": 0,
+      "ctr": 0.0,
+      "cpc": null,
+      "pct_clics": 0.0
+     }
     ]
    },
    {
@@ -1272,9 +2472,9 @@
     "ctr": 0.125,
     "cpc": 0.01,
     "conversiones": 0.0,
-    "is": 0.5,
-    "lost_budget": 0.0625,
-    "lost_rank": 0.4375,
+    "is": 0.5385,
+    "lost_budget": 0.0769,
+    "lost_rank": 0.3846,
     "hasta": "2026-09-10",
     "mes": "2026-09-01",
     "cortes": [
@@ -1334,6 +2534,103 @@
       "etiqueta": "Del 1 al 28",
       "en_curso": false
      }
+    ],
+    "top_is": 0.5385,
+    "abs_top_is": 0.5385,
+    "click_share": 0.0999,
+    "is_oficial": true,
+    "palabras_clave": [
+     {
+      "nombre": "incredible pizza",
+      "inversion": 0.01,
+      "impresiones": 8,
+      "clics": 1,
+      "ctr": 0.125,
+      "cpc": 0.01,
+      "pct_clics": 1.0,
+      "quality_score": 9.0,
+      "concordancia": "Amplia"
+     }
+    ],
+    "busquedas": [],
+    "dispositivo": [
+     {
+      "nombre": "Celular",
+      "inversion": 0.01,
+      "impresiones": 8,
+      "clics": 1,
+      "ctr": 0.125,
+      "cpc": 0.01,
+      "pct_clics": 1.0
+     }
+    ],
+    "ciudad": [],
+    "edad": [
+     {
+      "nombre": "18-24",
+      "inversion": 0.0,
+      "impresiones": 2,
+      "clics": 0,
+      "ctr": 0.0,
+      "cpc": null,
+      "pct_clics": 0.0
+     },
+     {
+      "nombre": "25-34",
+      "inversion": 0.01,
+      "impresiones": 3,
+      "clics": 1,
+      "ctr": 0.3333,
+      "cpc": 0.01,
+      "pct_clics": 1.0
+     },
+     {
+      "nombre": "35-44",
+      "inversion": 0.0,
+      "impresiones": 2,
+      "clics": 0,
+      "ctr": 0.0,
+      "cpc": null,
+      "pct_clics": 0.0
+     },
+     {
+      "nombre": "Sin dato",
+      "inversion": 0.0,
+      "impresiones": 1,
+      "clics": 0,
+      "ctr": 0.0,
+      "cpc": null,
+      "pct_clics": 0.0
+     }
+    ],
+    "genero": [
+     {
+      "nombre": "Mujeres",
+      "inversion": 0.01,
+      "impresiones": 6,
+      "clics": 1,
+      "ctr": 0.1667,
+      "cpc": 0.01,
+      "pct_clics": 1.0
+     },
+     {
+      "nombre": "Hombres",
+      "inversion": 0.0,
+      "impresiones": 1,
+      "clics": 0,
+      "ctr": 0.0,
+      "cpc": null,
+      "pct_clics": 0.0
+     },
+     {
+      "nombre": "Sin dato",
+      "inversion": 0.0,
+      "impresiones": 1,
+      "clics": 0,
+      "ctr": 0.0,
+      "cpc": null,
+      "pct_clics": 0.0
+     }
     ]
    },
    {
@@ -1343,9 +2640,9 @@
     "ctr": 0.2645,
     "cpc": 1.22,
     "conversiones": 0.0,
-    "is": 0.4541,
-    "lost_budget": 0.2026,
-    "lost_rank": 0.3433,
+    "is": 0.4401,
+    "lost_budget": 0.2233,
+    "lost_rank": 0.3366,
     "hasta": "2026-10-27",
     "mes": "2026-10-01",
     "cortes": [
@@ -1405,7 +2702,451 @@
       "etiqueta": "Del 1 al 28",
       "en_curso": true
      }
+    ],
+    "top_is": 0.3916,
+    "abs_top_is": 0.3859,
+    "click_share": 0.3636,
+    "is_oficial": true,
+    "palabras_clave": [
+     {
+      "nombre": "incredible pizza",
+      "inversion": 2037.28,
+      "impresiones": 6338,
+      "clics": 1731,
+      "ctr": 0.2731,
+      "cpc": 1.18,
+      "pct_clics": 0.8142,
+      "quality_score": 9.0,
+      "concordancia": "Amplia"
+     },
+     {
+      "nombre": "incredible pizza chihuahua",
+      "inversion": 458.25,
+      "impresiones": 1289,
+      "clics": 365,
+      "ctr": 0.2832,
+      "cpc": 1.26,
+      "pct_clics": 0.1717,
+      "quality_score": 10.0,
+      "concordancia": "Amplia"
+     },
+     {
+      "nombre": "buffet pizza",
+      "inversion": 48.4,
+      "impresiones": 213,
+      "clics": 21,
+      "ctr": 0.0986,
+      "cpc": 2.3,
+      "pct_clics": 0.0099,
+      "quality_score": 5.0,
+      "concordancia": "Amplia"
+     },
+     {
+      "nombre": "restaurante para niños",
+      "inversion": 31.64,
+      "impresiones": 114,
+      "clics": 7,
+      "ctr": 0.0614,
+      "cpc": 4.52,
+      "pct_clics": 0.0033,
+      "quality_score": null,
+      "concordancia": "Amplia"
+     },
+     {
+      "nombre": "diversion en chihuahua",
+      "inversion": 5.29,
+      "impresiones": 76,
+      "clics": 1,
+      "ctr": 0.0132,
+      "cpc": 5.29,
+      "pct_clics": 0.0005,
+      "quality_score": null,
+      "concordancia": "Amplia"
+     },
+     {
+      "nombre": "que hacer en chihuahua con niños",
+      "inversion": 5.34,
+      "impresiones": 5,
+      "clics": 1,
+      "ctr": 0.2,
+      "cpc": 5.34,
+      "pct_clics": 0.0005,
+      "quality_score": 1.0,
+      "concordancia": "Amplia"
+     },
+     {
+      "nombre": "que hacer en chihuahua",
+      "inversion": 0.0,
+      "impresiones": 4,
+      "clics": 0,
+      "ctr": 0.0,
+      "cpc": null,
+      "pct_clics": 0.0,
+      "quality_score": 1.0,
+      "concordancia": "Amplia"
+     }
+    ],
+    "busquedas": [
+     {
+      "nombre": "incredible pizza",
+      "inversion": 1057.15,
+      "impresiones": 3532,
+      "clics": 960,
+      "ctr": 0.2718,
+      "cpc": 1.1,
+      "pct_clics": 0.589
+     },
+     {
+      "nombre": "incredible pizza chihuahua",
+      "inversion": 444.67,
+      "impresiones": 1250,
+      "clics": 357,
+      "ctr": 0.2856,
+      "cpc": 1.25,
+      "pct_clics": 0.219
+     },
+     {
+      "nombre": "incredible pizza precios",
+      "inversion": 123.16,
+      "impresiones": 192,
+      "clics": 78,
+      "ctr": 0.4062,
+      "cpc": 1.58,
+      "pct_clics": 0.0479
+     },
+     {
+      "nombre": "precios incredible pizza",
+      "inversion": 32.98,
+      "impresiones": 71,
+      "clics": 39,
+      "ctr": 0.5493,
+      "cpc": 0.85,
+      "pct_clics": 0.0239
+     },
+     {
+      "nombre": "paquetes incredible pizza",
+      "inversion": 6.38,
+      "impresiones": 47,
+      "clics": 28,
+      "ctr": 0.5957,
+      "cpc": 0.23,
+      "pct_clics": 0.0172
+     },
+     {
+      "nombre": "incredible pizza chihuahua precios 2026",
+      "inversion": 27.78,
+      "impresiones": 34,
+      "clics": 20,
+      "ctr": 0.5882,
+      "cpc": 1.39,
+      "pct_clics": 0.0123
+     },
+     {
+      "nombre": "paquetes de incredible pizza",
+      "inversion": 6.32,
+      "impresiones": 28,
+      "clics": 13,
+      "ctr": 0.4643,
+      "cpc": 0.49,
+      "pct_clics": 0.008
+     },
+     {
+      "nombre": "precios de incredible pizza",
+      "inversion": 11.51,
+      "impresiones": 21,
+      "clics": 12,
+      "ctr": 0.5714,
+      "cpc": 0.96,
+      "pct_clics": 0.0074
+     },
+     {
+      "nombre": "precios de incredible pizza chihuahua",
+      "inversion": 10.43,
+      "impresiones": 24,
+      "clics": 10,
+      "ctr": 0.4167,
+      "cpc": 1.04,
+      "pct_clics": 0.0061
+     },
+     {
+      "nombre": "paquetes incredible pizza chihuahua",
+      "inversion": 0.81,
+      "impresiones": 11,
+      "clics": 10,
+      "ctr": 0.9091,
+      "cpc": 0.08,
+      "pct_clics": 0.0061
+     }
+    ],
+    "dispositivo": [
+     {
+      "nombre": "Celular",
+      "inversion": 2278.83,
+      "impresiones": 7567,
+      "clics": 1960,
+      "ctr": 0.259,
+      "cpc": 1.16,
+      "pct_clics": 0.9219
+     },
+     {
+      "nombre": "Computadora",
+      "inversion": 293.86,
+      "impresiones": 436,
+      "clics": 158,
+      "ctr": 0.3624,
+      "cpc": 1.86,
+      "pct_clics": 0.0743
+     },
+     {
+      "nombre": "Tablet",
+      "inversion": 13.51,
+      "impresiones": 36,
+      "clics": 8,
+      "ctr": 0.2222,
+      "cpc": 1.69,
+      "pct_clics": 0.0038
+     }
+    ],
+    "ciudad": [
+     {
+      "nombre": "Chihuahua",
+      "inversion": 2491.68,
+      "impresiones": 7771,
+      "clics": 2063,
+      "ctr": 0.2655,
+      "cpc": 1.21,
+      "pct_clics": 0.9819
+     },
+     {
+      "nombre": "Delicias",
+      "inversion": 54.26,
+      "impresiones": 169,
+      "clics": 36,
+      "ctr": 0.213,
+      "cpc": 1.51,
+      "pct_clics": 0.0171
+     },
+     {
+      "nombre": "Ciudad Cuauhtemoc",
+      "inversion": 7.82,
+      "impresiones": 12,
+      "clics": 2,
+      "ctr": 0.1667,
+      "cpc": 3.91,
+      "pct_clics": 0.001
+     }
+    ],
+    "edad": [
+     {
+      "nombre": "18-24",
+      "inversion": 310.74,
+      "impresiones": 945,
+      "clics": 247,
+      "ctr": 0.2614,
+      "cpc": 1.26,
+      "pct_clics": 0.1162
+     },
+     {
+      "nombre": "25-34",
+      "inversion": 765.36,
+      "impresiones": 2572,
+      "clics": 698,
+      "ctr": 0.2714,
+      "cpc": 1.1,
+      "pct_clics": 0.3283
+     },
+     {
+      "nombre": "35-44",
+      "inversion": 620.88,
+      "impresiones": 1873,
+      "clics": 556,
+      "ctr": 0.2968,
+      "cpc": 1.12,
+      "pct_clics": 0.2615
+     },
+     {
+      "nombre": "45-54",
+      "inversion": 275.07,
+      "impresiones": 726,
+      "clics": 186,
+      "ctr": 0.2562,
+      "cpc": 1.48,
+      "pct_clics": 0.0875
+     },
+     {
+      "nombre": "55-64",
+      "inversion": 120.89,
+      "impresiones": 223,
+      "clics": 67,
+      "ctr": 0.3004,
+      "cpc": 1.8,
+      "pct_clics": 0.0315
+     },
+     {
+      "nombre": "65+",
+      "inversion": 17.38,
+      "impresiones": 75,
+      "clics": 11,
+      "ctr": 0.1467,
+      "cpc": 1.58,
+      "pct_clics": 0.0052
+     },
+     {
+      "nombre": "Sin dato",
+      "inversion": 475.88,
+      "impresiones": 1625,
+      "clics": 361,
+      "ctr": 0.2222,
+      "cpc": 1.32,
+      "pct_clics": 0.1698
+     }
+    ],
+    "genero": [
+     {
+      "nombre": "Mujeres",
+      "inversion": 1357.25,
+      "impresiones": 4080,
+      "clics": 1096,
+      "ctr": 0.2686,
+      "cpc": 1.24,
+      "pct_clics": 0.5155
+     },
+     {
+      "nombre": "Hombres",
+      "inversion": 758.92,
+      "impresiones": 2380,
+      "clics": 678,
+      "ctr": 0.2849,
+      "cpc": 1.12,
+      "pct_clics": 0.3189
+     },
+     {
+      "nombre": "Sin dato",
+      "inversion": 470.03,
+      "impresiones": 1579,
+      "clics": 352,
+      "ctr": 0.2229,
+      "cpc": 1.34,
+      "pct_clics": 0.1656
+     }
     ]
+   }
+  ],
+  "palabras_config": [
+   {
+    "texto": "karts",
+    "estado": "Pausada",
+    "quality_score": null
+   },
+   {
+    "texto": "go karts",
+    "estado": "Pausada",
+    "quality_score": null
+   },
+   {
+    "texto": "laser tag",
+    "estado": "Pausada",
+    "quality_score": null
+   },
+   {
+    "texto": "buffet de pizza",
+    "estado": "Pausada",
+    "quality_score": null
+   },
+   {
+    "texto": "buffet pizza",
+    "estado": "Activa",
+    "quality_score": 5.0
+   },
+   {
+    "texto": "incredible pizza",
+    "estado": "Activa",
+    "quality_score": 9.0
+   },
+   {
+    "texto": "restaurante para niños",
+    "estado": "Activa",
+    "quality_score": null
+   },
+   {
+    "texto": "que hacer en chihuahua",
+    "estado": "Activa",
+    "quality_score": 1.0
+   },
+   {
+    "texto": "que visitar en chihuahua",
+    "estado": "Activa",
+    "quality_score": null
+   },
+   {
+    "texto": "precio del buffet de cicis pizza",
+    "estado": "Activa",
+    "quality_score": null
+   },
+   {
+    "texto": "buffet cicis pizza",
+    "estado": "Activa",
+    "quality_score": null
+   },
+   {
+    "texto": "buffet de pizzas para eventos",
+    "estado": "Activa",
+    "quality_score": null
+   },
+   {
+    "texto": "buffet de pizza cerca de mí",
+    "estado": "Activa",
+    "quality_score": null
+   },
+   {
+    "texto": "papa johns buffet",
+    "estado": "Activa",
+    "quality_score": null
+   },
+   {
+    "texto": "incredible pizza chihuahua",
+    "estado": "Activa",
+    "quality_score": 10.0
+   },
+   {
+    "texto": "cicis pizza buffet precios",
+    "estado": "Activa",
+    "quality_score": null
+   },
+   {
+    "texto": "peter piper pizza buffet precio",
+    "estado": "Activa",
+    "quality_score": null
+   },
+   {
+    "texto": "pizza buffet cerca de mí",
+    "estado": "Activa",
+    "quality_score": null
+   },
+   {
+    "texto": "que hacer en chihuahua con niños",
+    "estado": "Activa",
+    "quality_score": 1.0
+   },
+   {
+    "texto": "buffet de pizza cerca de mi ubicación",
+    "estado": "Activa",
+    "quality_score": null
+   },
+   {
+    "texto": "10 cosas que hacer en chihuahua",
+    "estado": "Activa",
+    "quality_score": null
+   },
+   {
+    "texto": "diversion en chihuahua",
+    "estado": "Activa",
+    "quality_score": null
+   },
+   {
+    "texto": "lugares de recreacion en chihuahua",
+    "estado": "Activa",
+    "quality_score": null
    }
   ]
  }

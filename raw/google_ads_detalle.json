@@ -1,0 +1,1949 @@
+{
+ "cuenta": "546-956-0591",
+ "fuente": "Windsor.ai",
+ "consultado": "2026-10-30",
+ "periodo": [
+  "2026-04-01",
+  "2026-10-30"
+ ],
+ "dispositivo": [
+  {
+   "month": "04",
+   "device": "DESKTOP",
+   "spend": 176.6648,
+   "impressions": 371.0,
+   "clicks": 79.0
+  },
+  {
+   "month": "04",
+   "device": "MOBILE",
+   "spend": 1417.7971,
+   "impressions": 4755.0,
+   "clicks": 860.0
+  },
+  {
+   "month": "04",
+   "device": "TABLET",
+   "spend": 5.65,
+   "impressions": 9.0,
+   "clicks": 1.0
+  },
+  {
+   "month": "05",
+   "device": "DESKTOP",
+   "spend": 60.0821,
+   "impressions": 149.0,
+   "clicks": 34.0
+  },
+  {
+   "month": "05",
+   "device": "MOBILE",
+   "spend": 1275.3147,
+   "impressions": 5311.0,
+   "clicks": 1071.0
+  },
+  {
+   "month": "05",
+   "device": "TABLET",
+   "spend": 5.6028,
+   "impressions": 15.0,
+   "clicks": 3.0
+  },
+  {
+   "month": "06",
+   "device": "DESKTOP",
+   "spend": 155.6051,
+   "impressions": 248.0,
+   "clicks": 68.0
+  },
+  {
+   "month": "06",
+   "device": "MOBILE",
+   "spend": 2063.967,
+   "impressions": 5905.0,
+   "clicks": 1376.0
+  },
+  {
+   "month": "06",
+   "device": "TABLET",
+   "spend": 12.24,
+   "impressions": 27.0,
+   "clicks": 5.0
+  },
+  {
+   "month": "07",
+   "device": "MOBILE",
+   "spend": 0.0868,
+   "impressions": 32.0,
+   "clicks": 9.0
+  },
+  {
+   "month": "08",
+   "device": "MOBILE",
+   "spend": 0.058,
+   "impressions": 32.0,
+   "clicks": 6.0
+  },
+  {
+   "month": "09",
+   "device": "MOBILE",
+   "spend": 0.0079,
+   "impressions": 8.0,
+   "clicks": 1.0
+  },
+  {
+   "month": "10",
+   "device": "MOBILE",
+   "spend": 2278.83,
+   "impressions": 7567.0,
+   "clicks": 1960.0
+  },
+  {
+   "month": "10",
+   "device": "DESKTOP",
+   "spend": 293.86,
+   "impressions": 436.0,
+   "clicks": 158.0
+  },
+  {
+   "month": "10",
+   "device": "TABLET",
+   "spend": 13.51,
+   "impressions": 36.0,
+   "clicks": 8.0
+  }
+ ],
+ "busquedas": [
+  {
+   "month": "04",
+   "search_term": "incredible pizza",
+   "spend": 829.4383,
+   "impressions": 2581.0,
+   "clicks": 487.0
+  },
+  {
+   "month": "04",
+   "search_term": "incredible pizza chihuahua",
+   "spend": 212.7092,
+   "impressions": 699.0,
+   "clicks": 125.0
+  },
+  {
+   "month": "04",
+   "search_term": "precios incredible pizza",
+   "spend": 8.6007,
+   "impressions": 19.0,
+   "clicks": 8.0
+  },
+  {
+   "month": "04",
+   "search_term": "cosas que hacer en chihuahua",
+   "spend": 19.42,
+   "impressions": 5.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "04",
+   "search_term": "horario de incredible pizza",
+   "spend": 10.5396,
+   "impressions": 1.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "04",
+   "search_term": "incredible pizza precios",
+   "spend": 17.7901,
+   "impressions": 56.0,
+   "clicks": 14.0
+  },
+  {
+   "month": "04",
+   "search_term": "precio de incredible pizza",
+   "spend": 5.12,
+   "impressions": 2.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "04",
+   "search_term": "incredible pizza paquetes",
+   "spend": 9.03,
+   "impressions": 28.0,
+   "clicks": 11.0
+  },
+  {
+   "month": "04",
+   "search_term": "incredible pizza chihuahua precios 2026",
+   "spend": 13.37,
+   "impressions": 22.0,
+   "clicks": 11.0
+  },
+  {
+   "month": "04",
+   "search_term": "precios de incredible pizza 2026",
+   "spend": 1.8,
+   "impressions": 1.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "04",
+   "search_term": "buffet incredible pizza",
+   "spend": 0.75,
+   "impressions": 4.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "04",
+   "search_term": "paquetes de incredible pizza chihuahua",
+   "spend": 1.47,
+   "impressions": 4.0,
+   "clicks": 4.0
+  },
+  {
+   "month": "04",
+   "search_term": "paquetes incredible pizza",
+   "spend": 1.3,
+   "impressions": 14.0,
+   "clicks": 6.0
+  },
+  {
+   "month": "04",
+   "search_term": "precios de incredible pizza",
+   "spend": 15.3119,
+   "impressions": 24.0,
+   "clicks": 15.0
+  },
+  {
+   "month": "04",
+   "search_term": "menú de incredible pizza chihuahua",
+   "spend": 13.31,
+   "impressions": 46.0,
+   "clicks": 9.0
+  },
+  {
+   "month": "04",
+   "search_term": "paquete familiar incredible pizza",
+   "spend": 0.46,
+   "impressions": 15.0,
+   "clicks": 6.0
+  },
+  {
+   "month": "04",
+   "search_term": "paquetes de incredible pizza",
+   "spend": 4.77,
+   "impressions": 16.0,
+   "clicks": 8.0
+  },
+  {
+   "month": "04",
+   "search_term": "costo incredible pizza",
+   "spend": 0.14,
+   "impressions": 2.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "04",
+   "search_term": "incredible pizza costos",
+   "spend": 7.83,
+   "impressions": 10.0,
+   "clicks": 6.0
+  },
+  {
+   "month": "04",
+   "search_term": "incrédulo pizza",
+   "spend": 4.083,
+   "impressions": 2.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "04",
+   "search_term": "incredible pizza chihuahua precios",
+   "spend": 0.74,
+   "impressions": 4.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "04",
+   "search_term": "teléfono incredible pizza chihuahua",
+   "spend": 1.7386,
+   "impressions": 2.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "04",
+   "search_term": "costos incredible pizza",
+   "spend": 1.21,
+   "impressions": 4.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "04",
+   "search_term": "precio incredible pizza",
+   "spend": 1.54,
+   "impressions": 4.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "05",
+   "search_term": "incredible pizza",
+   "spend": 680.1415,
+   "impressions": 2504.0,
+   "clicks": 571.0
+  },
+  {
+   "month": "05",
+   "search_term": "incredible pizza chihuahua",
+   "spend": 211.8083,
+   "impressions": 807.0,
+   "clicks": 156.0
+  },
+  {
+   "month": "05",
+   "search_term": "incredible pizza chihuahua paquetes",
+   "spend": 0.14,
+   "impressions": 1.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "05",
+   "search_term": "incredible pizza chihuahua precios 2026",
+   "spend": 10.5585,
+   "impressions": 48.0,
+   "clicks": 14.0
+  },
+  {
+   "month": "05",
+   "search_term": "incredible pizza precios",
+   "spend": 31.3817,
+   "impressions": 97.0,
+   "clicks": 23.0
+  },
+  {
+   "month": "05",
+   "search_term": "menú de incredible pizza chihuahua",
+   "spend": 6.4279,
+   "impressions": 29.0,
+   "clicks": 6.0
+  },
+  {
+   "month": "05",
+   "search_term": "paquetes de incredible pizza",
+   "spend": 0.21,
+   "impressions": 2.0,
+   "clicks": 3.0
+  },
+  {
+   "month": "05",
+   "search_term": "paquetes incredible pizza",
+   "spend": 2.9184,
+   "impressions": 31.0,
+   "clicks": 12.0
+  },
+  {
+   "month": "05",
+   "search_term": "precios de incredible pizza",
+   "spend": 12.9821,
+   "impressions": 29.0,
+   "clicks": 12.0
+  },
+  {
+   "month": "05",
+   "search_term": "precios incredible pizza",
+   "spend": 16.7485,
+   "impressions": 54.0,
+   "clicks": 21.0
+  },
+  {
+   "month": "05",
+   "search_term": "precios incredible pizza 2026",
+   "spend": 0.21,
+   "impressions": 10.0,
+   "clicks": 3.0
+  },
+  {
+   "month": "05",
+   "search_term": "incredible pizza paquetes",
+   "spend": 1.6167,
+   "impressions": 28.0,
+   "clicks": 11.0
+  },
+  {
+   "month": "05",
+   "search_term": "incredible pizza precio buffet",
+   "spend": 1.72,
+   "impressions": 2.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "05",
+   "search_term": "pizza increible",
+   "spend": 2.44,
+   "impressions": 2.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "05",
+   "search_term": "precios de incredible pizza chihuahua",
+   "spend": 1.2906,
+   "impressions": 4.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "05",
+   "search_term": "paquetes de incredible pizza chihuahua",
+   "spend": 0.14,
+   "impressions": 2.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "05",
+   "search_term": "precio de incredible pizza chihuahua",
+   "spend": 2.72,
+   "impressions": 2.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "05",
+   "search_term": "incredible pizza precios chihuahua",
+   "spend": 0.11,
+   "impressions": 6.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "05",
+   "search_term": "incredible pizza chihuahua menu",
+   "spend": 1.46,
+   "impressions": 4.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "05",
+   "search_term": "incrédulo pizza",
+   "spend": 5.76,
+   "impressions": 5.0,
+   "clicks": 4.0
+  },
+  {
+   "month": "05",
+   "search_term": "pizza incredible chihuahua",
+   "spend": 5.07,
+   "impressions": 7.0,
+   "clicks": 3.0
+  },
+  {
+   "month": "05",
+   "search_term": "precio incredible pizza chihuahua",
+   "spend": 15.0286,
+   "impressions": 6.0,
+   "clicks": 5.0
+  },
+  {
+   "month": "05",
+   "search_term": "promocion de comida hoy",
+   "spend": 8.2,
+   "impressions": 1.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "05",
+   "search_term": "incredible pizza precios 2026",
+   "spend": 8.1453,
+   "impressions": 7.0,
+   "clicks": 3.0
+  },
+  {
+   "month": "06",
+   "search_term": "incredible pizza",
+   "spend": 809.3264,
+   "impressions": 2169.0,
+   "clicks": 520.0
+  },
+  {
+   "month": "06",
+   "search_term": "incredible pizza chihuahua",
+   "spend": 772.4726,
+   "impressions": 1782.0,
+   "clicks": 425.0
+  },
+  {
+   "month": "06",
+   "search_term": "paquetes incredible pizza",
+   "spend": 1.5512,
+   "impressions": 24.0,
+   "clicks": 13.0
+  },
+  {
+   "month": "06",
+   "search_term": "incredible pizza chihuahua precios 2026",
+   "spend": 4.2142,
+   "impressions": 27.0,
+   "clicks": 8.0
+  },
+  {
+   "month": "06",
+   "search_term": "incredible pizza paseo de las moras saucito chihuahua",
+   "spend": 0.1371,
+   "impressions": 4.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "06",
+   "search_term": "menú de incredible pizza chihuahua",
+   "spend": 7.0398,
+   "impressions": 11.0,
+   "clicks": 6.0
+  },
+  {
+   "month": "06",
+   "search_term": "precios de incredible pizza chihuahua",
+   "spend": 3.628,
+   "impressions": 4.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "06",
+   "search_term": "paquetes de incredible pizza",
+   "spend": 18.7656,
+   "impressions": 24.0,
+   "clicks": 12.0
+  },
+  {
+   "month": "06",
+   "search_term": "incredible pizza chihuahua precios",
+   "spend": 10.7868,
+   "impressions": 11.0,
+   "clicks": 5.0
+  },
+  {
+   "month": "06",
+   "search_term": "incredible pizza precios",
+   "spend": 91.7624,
+   "impressions": 128.0,
+   "clicks": 50.0
+  },
+  {
+   "month": "06",
+   "search_term": "precios incredible pizza",
+   "spend": 16.1907,
+   "impressions": 31.0,
+   "clicks": 13.0
+  },
+  {
+   "month": "06",
+   "search_term": "incredible pizza paquetes",
+   "spend": 7.4783,
+   "impressions": 55.0,
+   "clicks": 25.0
+  },
+  {
+   "month": "06",
+   "search_term": "precios de incredible pizza",
+   "spend": 9.0262,
+   "impressions": 7.0,
+   "clicks": 4.0
+  },
+  {
+   "month": "06",
+   "search_term": "precios de incredible pizza 2026",
+   "spend": 5.8987,
+   "impressions": 4.0,
+   "clicks": 3.0
+  },
+  {
+   "month": "06",
+   "search_term": "buffet incredible pizza",
+   "spend": 0.1385,
+   "impressions": 4.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "06",
+   "search_term": "incredible pizza precios 2026",
+   "spend": 9.3455,
+   "impressions": 13.0,
+   "clicks": 4.0
+  },
+  {
+   "month": "06",
+   "search_term": "paquetes incredible pizza chihuahua",
+   "spend": 0.5645,
+   "impressions": 18.0,
+   "clicks": 9.0
+  },
+  {
+   "month": "06",
+   "search_term": "precio de incredible pizza chihuahua",
+   "spend": 5.9785,
+   "impressions": 6.0,
+   "clicks": 4.0
+  },
+  {
+   "month": "06",
+   "search_term": "costos incredible pizza",
+   "spend": 1.1528,
+   "impressions": 2.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "06",
+   "search_term": "cuanto cuesta la entrada a incredible pizza",
+   "spend": 4.08,
+   "impressions": 3.0,
+   "clicks": 3.0
+  },
+  {
+   "month": "06",
+   "search_term": "incredible pizza chihuahua paquetes",
+   "spend": 1.84,
+   "impressions": 4.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "06",
+   "search_term": "incredible pizza precio",
+   "spend": 3.653,
+   "impressions": 2.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "06",
+   "search_term": "precio incredible pizza",
+   "spend": 8.9868,
+   "impressions": 9.0,
+   "clicks": 4.0
+  },
+  {
+   "month": "06",
+   "search_term": "incredible pizza chihuahua precio",
+   "spend": 6.86,
+   "impressions": 2.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "06",
+   "search_term": "paquete familiar incredible pizza",
+   "spend": 8.73,
+   "impressions": 8.0,
+   "clicks": 5.0
+  },
+  {
+   "month": "06",
+   "search_term": "incredible pizza chihuahua menu",
+   "spend": 0.14,
+   "impressions": 2.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "06",
+   "search_term": "precios incredible pizza chihuahua",
+   "spend": 2.5,
+   "impressions": 4.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "10",
+   "search_term": "incredible pizza",
+   "spend": 1057.15,
+   "impressions": 3532.0,
+   "clicks": 960.0
+  },
+  {
+   "month": "10",
+   "search_term": "incredible pizza chihuahua",
+   "spend": 444.67,
+   "impressions": 1250.0,
+   "clicks": 357.0
+  },
+  {
+   "month": "10",
+   "search_term": "paquetes incredible pizza",
+   "spend": 6.38,
+   "impressions": 47.0,
+   "clicks": 28.0
+  },
+  {
+   "month": "10",
+   "search_term": "incredible pizza precios",
+   "spend": 123.16,
+   "impressions": 192.0,
+   "clicks": 78.0
+  },
+  {
+   "month": "10",
+   "search_term": "precios incredible pizza",
+   "spend": 32.98,
+   "impressions": 71.0,
+   "clicks": 39.0
+  },
+  {
+   "month": "10",
+   "search_term": "fiesta en incredible pizza",
+   "spend": 1.53,
+   "impressions": 4.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "10",
+   "search_term": "precios de incredible pizza chihuahua",
+   "spend": 10.43,
+   "impressions": 24.0,
+   "clicks": 10.0
+  },
+  {
+   "month": "10",
+   "search_term": "costo incredible pizza",
+   "spend": 6.5,
+   "impressions": 7.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "10",
+   "search_term": "cupones para incredible pizza",
+   "spend": 5.8,
+   "impressions": 2.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "10",
+   "search_term": "paquetes de incredible pizza",
+   "spend": 6.32,
+   "impressions": 28.0,
+   "clicks": 13.0
+  },
+  {
+   "month": "10",
+   "search_term": "buffet incredible pizza",
+   "spend": 5.87,
+   "impressions": 8.0,
+   "clicks": 4.0
+  },
+  {
+   "month": "10",
+   "search_term": "comida cerca de me",
+   "spend": 11.18,
+   "impressions": 2.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "10",
+   "search_term": "incredible pizza chihuahua precios 2026",
+   "spend": 27.78,
+   "impressions": 34.0,
+   "clicks": 20.0
+  },
+  {
+   "month": "10",
+   "search_term": "paquete incredible pizza",
+   "spend": 2.39,
+   "impressions": 7.0,
+   "clicks": 4.0
+  },
+  {
+   "month": "10",
+   "search_term": "paquetes en incredible pizza",
+   "spend": 0.14,
+   "impressions": 2.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "10",
+   "search_term": "paquetes incredible pizza chihuahua",
+   "spend": 0.81,
+   "impressions": 11.0,
+   "clicks": 10.0
+  },
+  {
+   "month": "10",
+   "search_term": "incredible pizza buffet",
+   "spend": 6.3,
+   "impressions": 3.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "10",
+   "search_term": "incredible pizza paquetes",
+   "spend": 5.97,
+   "impressions": 16.0,
+   "clicks": 9.0
+  },
+  {
+   "month": "10",
+   "search_term": "precio incredible pizza",
+   "spend": 5.42,
+   "impressions": 4.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "10",
+   "search_term": "incredible pizza chihuahua menu",
+   "spend": 2.04,
+   "impressions": 3.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "10",
+   "search_term": "incredible pizza chihuahua precios",
+   "spend": 0.14,
+   "impressions": 3.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "10",
+   "search_term": "precio de incredible pizza chihuahua",
+   "spend": 7.6,
+   "impressions": 8.0,
+   "clicks": 6.0
+  },
+  {
+   "month": "10",
+   "search_term": "precios de incredible pizza 2026",
+   "spend": 5.99,
+   "impressions": 9.0,
+   "clicks": 9.0
+  },
+  {
+   "month": "10",
+   "search_term": "precios incredible pizza chihuahua",
+   "spend": 4.78,
+   "impressions": 7.0,
+   "clicks": 7.0
+  },
+  {
+   "month": "10",
+   "search_term": "incredible pizza paseo de las moras saucito chihuahua",
+   "spend": 7.18,
+   "impressions": 9.0,
+   "clicks": 5.0
+  },
+  {
+   "month": "10",
+   "search_term": "precios incredible pizza 2026",
+   "spend": 4.93,
+   "impressions": 5.0,
+   "clicks": 4.0
+  },
+  {
+   "month": "10",
+   "search_term": "incredible pizza incredible pizza",
+   "spend": 5.6,
+   "impressions": 2.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "10",
+   "search_term": "incredible pizza promociones",
+   "spend": 10.8,
+   "impressions": 3.0,
+   "clicks": 4.0
+  },
+  {
+   "month": "10",
+   "search_term": "costos de incredible pizza chihuahua",
+   "spend": 4.54,
+   "impressions": 2.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "10",
+   "search_term": "cuanto cuesta la entrada a incredible pizza",
+   "spend": 6.83,
+   "impressions": 3.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "10",
+   "search_term": "incredible pizza horario",
+   "spend": 5.36,
+   "impressions": 4.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "10",
+   "search_term": "paquete familiar incredible pizza",
+   "spend": 0.14,
+   "impressions": 1.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "10",
+   "search_term": "precios de incredible pizza",
+   "spend": 11.51,
+   "impressions": 21.0,
+   "clicks": 12.0
+  },
+  {
+   "month": "10",
+   "search_term": "costo de incredible pizza",
+   "spend": 0.14,
+   "impressions": 1.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "10",
+   "search_term": "horario incredible pizza chihuahua",
+   "spend": 6.49,
+   "impressions": 6.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "10",
+   "search_term": "incredible pizza fotos",
+   "spend": 2.99,
+   "impressions": 4.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "10",
+   "search_term": "promociones de incredible pizza",
+   "spend": 4.97,
+   "impressions": 3.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "10",
+   "search_term": "precio buffet incredible pizza",
+   "spend": 4.43,
+   "impressions": 3.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "10",
+   "search_term": "paquetes de incredible pizza chihuahua",
+   "spend": 0.46,
+   "impressions": 2.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "10",
+   "search_term": "menu incredible pizza",
+   "spend": 0.14,
+   "impressions": 2.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "10",
+   "search_term": "promociones incredible pizza",
+   "spend": 3.81,
+   "impressions": 2.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "10",
+   "search_term": "cuanto cuesta el buffet de incredible pizza",
+   "spend": 4.5,
+   "impressions": 1.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "10",
+   "search_term": "cuanto cuesta incredible pizza",
+   "spend": 0.65,
+   "impressions": 4.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "10",
+   "search_term": "precios de incredible pizza chihuahua 2026",
+   "spend": 0.21,
+   "impressions": 8.0,
+   "clicks": 3.0
+  }
+ ],
+ "ciudad": [
+  {
+   "month": "04",
+   "city": "Chihuahua",
+   "spend": 1589.6809,
+   "impressions": 5048.0,
+   "clicks": 924.0
+  },
+  {
+   "month": "04",
+   "city": "Delicias",
+   "spend": 0.25,
+   "impressions": 24.0,
+   "clicks": 3.0
+  },
+  {
+   "month": "04",
+   "city": "Ciudad Cuauhtemoc",
+   "spend": 0.0,
+   "impressions": 11.0,
+   "clicks": 0.0
+  },
+  {
+   "month": "05",
+   "city": "Chihuahua",
+   "spend": 1303.3154,
+   "impressions": 5298.0,
+   "clicks": 1079.0
+  },
+  {
+   "month": "05",
+   "city": "Ciudad Cuauhtemoc",
+   "spend": 0.0685,
+   "impressions": 39.0,
+   "clicks": 1.0
+  },
+  {
+   "month": "05",
+   "city": "Delicias",
+   "spend": 12.3958,
+   "impressions": 59.0,
+   "clicks": 12.0
+  },
+  {
+   "month": "06",
+   "city": "Chihuahua",
+   "spend": 2110.5857,
+   "impressions": 5883.0,
+   "clicks": 1372.0
+  },
+  {
+   "month": "06",
+   "city": "Ciudad Cuauhtemoc",
+   "spend": 10.7871,
+   "impressions": 33.0,
+   "clicks": 10.0
+  },
+  {
+   "month": "06",
+   "city": "Delicias",
+   "spend": 38.6629,
+   "impressions": 95.0,
+   "clicks": 15.0
+  },
+  {
+   "month": "07",
+   "city": "Chihuahua",
+   "spend": 0.0,
+   "impressions": 5.0,
+   "clicks": 0.0
+  },
+  {
+   "month": "08",
+   "city": "Chihuahua",
+   "spend": 0.0185,
+   "impressions": 10.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "10",
+   "city": "Chihuahua",
+   "spend": 2491.68,
+   "impressions": 7771.0,
+   "clicks": 2063.0
+  },
+  {
+   "month": "10",
+   "city": "Delicias",
+   "spend": 54.26,
+   "impressions": 169.0,
+   "clicks": 36.0
+  },
+  {
+   "month": "10",
+   "city": "Ciudad Cuauhtemoc",
+   "spend": 7.82,
+   "impressions": 12.0,
+   "clicks": 2.0
+  }
+ ],
+ "genero": [
+  {
+   "month": "04",
+   "gender_type": "MALE",
+   "spend": 546.1356,
+   "impressions": 1416.0,
+   "clicks": 312.0
+  },
+  {
+   "month": "04",
+   "gender_type": "FEMALE",
+   "spend": 763.9411,
+   "impressions": 2608.0,
+   "clicks": 430.0
+  },
+  {
+   "month": "04",
+   "gender_type": "UNDETERMINED",
+   "spend": 290.0352,
+   "impressions": 1111.0,
+   "clicks": 198.0
+  },
+  {
+   "month": "05",
+   "gender_type": "MALE",
+   "spend": 385.2708,
+   "impressions": 1682.0,
+   "clicks": 337.0
+  },
+  {
+   "month": "05",
+   "gender_type": "FEMALE",
+   "spend": 713.3909,
+   "impressions": 2806.0,
+   "clicks": 591.0
+  },
+  {
+   "month": "05",
+   "gender_type": "UNDETERMINED",
+   "spend": 242.3379,
+   "impressions": 987.0,
+   "clicks": 180.0
+  },
+  {
+   "month": "06",
+   "gender_type": "MALE",
+   "spend": 615.9672,
+   "impressions": 1818.0,
+   "clicks": 448.0
+  },
+  {
+   "month": "06",
+   "gender_type": "FEMALE",
+   "spend": 1153.0061,
+   "impressions": 3156.0,
+   "clicks": 736.0
+  },
+  {
+   "month": "06",
+   "gender_type": "UNDETERMINED",
+   "spend": 462.8388,
+   "impressions": 1206.0,
+   "clicks": 265.0
+  },
+  {
+   "month": "07",
+   "gender_type": "MALE",
+   "spend": 0.0394,
+   "impressions": 10.0,
+   "clicks": 4.0
+  },
+  {
+   "month": "07",
+   "gender_type": "FEMALE",
+   "spend": 0.0474,
+   "impressions": 20.0,
+   "clicks": 5.0
+  },
+  {
+   "month": "07",
+   "gender_type": "UNDETERMINED",
+   "spend": 0.0,
+   "impressions": 2.0,
+   "clicks": 0.0
+  },
+  {
+   "month": "08",
+   "gender_type": "FEMALE",
+   "spend": 0.0185,
+   "impressions": 13.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "08",
+   "gender_type": "MALE",
+   "spend": 0.0395,
+   "impressions": 11.0,
+   "clicks": 4.0
+  },
+  {
+   "month": "08",
+   "gender_type": "UNDETERMINED",
+   "spend": 0.0,
+   "impressions": 8.0,
+   "clicks": 0.0
+  },
+  {
+   "month": "09",
+   "gender_type": "FEMALE",
+   "spend": 0.0079,
+   "impressions": 6.0,
+   "clicks": 1.0
+  },
+  {
+   "month": "09",
+   "gender_type": "MALE",
+   "spend": 0.0,
+   "impressions": 1.0,
+   "clicks": 0.0
+  },
+  {
+   "month": "09",
+   "gender_type": "UNDETERMINED",
+   "spend": 0.0,
+   "impressions": 1.0,
+   "clicks": 0.0
+  },
+  {
+   "month": "10",
+   "gender_type": "MALE",
+   "spend": 758.92,
+   "impressions": 2380.0,
+   "clicks": 678.0
+  },
+  {
+   "month": "10",
+   "gender_type": "FEMALE",
+   "spend": 1357.25,
+   "impressions": 4080.0,
+   "clicks": 1096.0
+  },
+  {
+   "month": "10",
+   "gender_type": "UNDETERMINED",
+   "spend": 470.03,
+   "impressions": 1579.0,
+   "clicks": 352.0
+  }
+ ],
+ "edad": [
+  {
+   "month": "04",
+   "age_range_type": "AGE_RANGE_18_24",
+   "spend": 184.1648,
+   "impressions": 642.0,
+   "clicks": 112.0
+  },
+  {
+   "month": "04",
+   "age_range_type": "AGE_RANGE_25_34",
+   "spend": 441.9363,
+   "impressions": 1558.0,
+   "clicks": 281.0
+  },
+  {
+   "month": "04",
+   "age_range_type": "AGE_RANGE_35_44",
+   "spend": 422.5333,
+   "impressions": 1157.0,
+   "clicks": 229.0
+  },
+  {
+   "month": "04",
+   "age_range_type": "AGE_RANGE_45_54",
+   "spend": 152.3558,
+   "impressions": 419.0,
+   "clicks": 81.0
+  },
+  {
+   "month": "04",
+   "age_range_type": "AGE_RANGE_55_64",
+   "spend": 88.53,
+   "impressions": 162.0,
+   "clicks": 31.0
+  },
+  {
+   "month": "04",
+   "age_range_type": "AGE_RANGE_UNDETERMINED",
+   "spend": 300.2317,
+   "impressions": 1153.0,
+   "clicks": 201.0
+  },
+  {
+   "month": "04",
+   "age_range_type": "AGE_RANGE_65_UP",
+   "spend": 10.36,
+   "impressions": 44.0,
+   "clicks": 5.0
+  },
+  {
+   "month": "05",
+   "age_range_type": "AGE_RANGE_18_24",
+   "spend": 136.8908,
+   "impressions": 623.0,
+   "clicks": 122.0
+  },
+  {
+   "month": "05",
+   "age_range_type": "AGE_RANGE_25_34",
+   "spend": 401.3131,
+   "impressions": 1795.0,
+   "clicks": 345.0
+  },
+  {
+   "month": "05",
+   "age_range_type": "AGE_RANGE_35_44",
+   "spend": 371.0232,
+   "impressions": 1298.0,
+   "clicks": 318.0
+  },
+  {
+   "month": "05",
+   "age_range_type": "AGE_RANGE_45_54",
+   "spend": 142.1525,
+   "impressions": 521.0,
+   "clicks": 109.0
+  },
+  {
+   "month": "05",
+   "age_range_type": "AGE_RANGE_55_64",
+   "spend": 30.5582,
+   "impressions": 158.0,
+   "clicks": 23.0
+  },
+  {
+   "month": "05",
+   "age_range_type": "AGE_RANGE_65_UP",
+   "spend": 4.4054,
+   "impressions": 59.0,
+   "clicks": 3.0
+  },
+  {
+   "month": "05",
+   "age_range_type": "AGE_RANGE_UNDETERMINED",
+   "spend": 254.6564,
+   "impressions": 1021.0,
+   "clicks": 188.0
+  },
+  {
+   "month": "06",
+   "age_range_type": "AGE_RANGE_18_24",
+   "spend": 320.596,
+   "impressions": 962.0,
+   "clicks": 220.0
+  },
+  {
+   "month": "06",
+   "age_range_type": "AGE_RANGE_25_34",
+   "spend": 707.0778,
+   "impressions": 2115.0,
+   "clicks": 494.0
+  },
+  {
+   "month": "06",
+   "age_range_type": "AGE_RANGE_35_44",
+   "spend": 474.8237,
+   "impressions": 1202.0,
+   "clicks": 303.0
+  },
+  {
+   "month": "06",
+   "age_range_type": "AGE_RANGE_45_54",
+   "spend": 199.8627,
+   "impressions": 469.0,
+   "clicks": 121.0
+  },
+  {
+   "month": "06",
+   "age_range_type": "AGE_RANGE_55_64",
+   "spend": 47.943,
+   "impressions": 124.0,
+   "clicks": 30.0
+  },
+  {
+   "month": "06",
+   "age_range_type": "AGE_RANGE_65_UP",
+   "spend": 22.3966,
+   "impressions": 69.0,
+   "clicks": 14.0
+  },
+  {
+   "month": "06",
+   "age_range_type": "AGE_RANGE_UNDETERMINED",
+   "spend": 459.1124,
+   "impressions": 1239.0,
+   "clicks": 267.0
+  },
+  {
+   "month": "07",
+   "age_range_type": "AGE_RANGE_25_34",
+   "spend": 0.0279,
+   "impressions": 12.0,
+   "clicks": 3.0
+  },
+  {
+   "month": "07",
+   "age_range_type": "AGE_RANGE_35_44",
+   "spend": 0.0099,
+   "impressions": 6.0,
+   "clicks": 1.0
+  },
+  {
+   "month": "07",
+   "age_range_type": "AGE_RANGE_45_54",
+   "spend": 0.0198,
+   "impressions": 6.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "07",
+   "age_range_type": "AGE_RANGE_55_64",
+   "spend": 0.0099,
+   "impressions": 2.0,
+   "clicks": 1.0
+  },
+  {
+   "month": "07",
+   "age_range_type": "AGE_RANGE_18_24",
+   "spend": 0.0194,
+   "impressions": 4.0,
+   "clicks": 2.0
+  },
+  {
+   "month": "07",
+   "age_range_type": "AGE_RANGE_UNDETERMINED",
+   "spend": 0.0,
+   "impressions": 2.0,
+   "clicks": 0.0
+  },
+  {
+   "month": "08",
+   "age_range_type": "AGE_RANGE_18_24",
+   "spend": 0.0,
+   "impressions": 3.0,
+   "clicks": 0.0
+  },
+  {
+   "month": "08",
+   "age_range_type": "AGE_RANGE_25_34",
+   "spend": 0.0482,
+   "impressions": 16.0,
+   "clicks": 5.0
+  },
+  {
+   "month": "08",
+   "age_range_type": "AGE_RANGE_35_44",
+   "spend": 0.0098,
+   "impressions": 4.0,
+   "clicks": 1.0
+  },
+  {
+   "month": "08",
+   "age_range_type": "AGE_RANGE_UNDETERMINED",
+   "spend": 0.0,
+   "impressions": 8.0,
+   "clicks": 0.0
+  },
+  {
+   "month": "08",
+   "age_range_type": "AGE_RANGE_45_54",
+   "spend": 0.0,
+   "impressions": 1.0,
+   "clicks": 0.0
+  },
+  {
+   "month": "09",
+   "age_range_type": "AGE_RANGE_18_24",
+   "spend": 0.0,
+   "impressions": 2.0,
+   "clicks": 0.0
+  },
+  {
+   "month": "09",
+   "age_range_type": "AGE_RANGE_35_44",
+   "spend": 0.0,
+   "impressions": 2.0,
+   "clicks": 0.0
+  },
+  {
+   "month": "09",
+   "age_range_type": "AGE_RANGE_UNDETERMINED",
+   "spend": 0.0,
+   "impressions": 1.0,
+   "clicks": 0.0
+  },
+  {
+   "month": "09",
+   "age_range_type": "AGE_RANGE_25_34",
+   "spend": 0.0079,
+   "impressions": 3.0,
+   "clicks": 1.0
+  },
+  {
+   "month": "10",
+   "age_range_type": "AGE_RANGE_18_24",
+   "spend": 310.74,
+   "impressions": 945.0,
+   "clicks": 247.0
+  },
+  {
+   "month": "10",
+   "age_range_type": "AGE_RANGE_25_34",
+   "spend": 765.36,
+   "impressions": 2572.0,
+   "clicks": 698.0
+  },
+  {
+   "month": "10",
+   "age_range_type": "AGE_RANGE_35_44",
+   "spend": 620.88,
+   "impressions": 1873.0,
+   "clicks": 556.0
+  },
+  {
+   "month": "10",
+   "age_range_type": "AGE_RANGE_UNDETERMINED",
+   "spend": 475.88,
+   "impressions": 1625.0,
+   "clicks": 361.0
+  },
+  {
+   "month": "10",
+   "age_range_type": "AGE_RANGE_45_54",
+   "spend": 275.07,
+   "impressions": 726.0,
+   "clicks": 186.0
+  },
+  {
+   "month": "10",
+   "age_range_type": "AGE_RANGE_55_64",
+   "spend": 120.89,
+   "impressions": 223.0,
+   "clicks": 67.0
+  },
+  {
+   "month": "10",
+   "age_range_type": "AGE_RANGE_65_UP",
+   "spend": 17.38,
+   "impressions": 75.0,
+   "clicks": 11.0
+  }
+ ],
+ "palabras_clave": [
+  {
+   "month": "04",
+   "keyword_info_text": "incredible pizza",
+   "keyword_info_match_type": "BROAD",
+   "spend": 1148.8218,
+   "impressions": 3539.0,
+   "clicks": 698.0
+  },
+  {
+   "month": "04",
+   "keyword_info_text": "que hacer en chihuahua",
+   "keyword_info_match_type": "BROAD",
+   "spend": 46.54,
+   "impressions": 85.0,
+   "clicks": 4.0
+  },
+  {
+   "month": "04",
+   "keyword_info_text": "incredible pizza chihuahua",
+   "keyword_info_match_type": "BROAD",
+   "spend": 386.7075,
+   "impressions": 1349.0,
+   "clicks": 227.0
+  },
+  {
+   "month": "04",
+   "keyword_info_text": "diversion en chihuahua",
+   "keyword_info_match_type": "BROAD",
+   "spend": 0.0,
+   "impressions": 3.0,
+   "clicks": 0.0
+  },
+  {
+   "month": "04",
+   "keyword_info_text": "buffet pizza",
+   "keyword_info_match_type": "BROAD",
+   "spend": 7.14,
+   "impressions": 58.0,
+   "clicks": 6.0
+  },
+  {
+   "month": "04",
+   "keyword_info_text": "restaurante para niños",
+   "keyword_info_match_type": "BROAD",
+   "spend": 10.9027,
+   "impressions": 79.0,
+   "clicks": 5.0
+  },
+  {
+   "month": "04",
+   "keyword_info_text": "buffet de pizza cerca de mí",
+   "keyword_info_match_type": "BROAD",
+   "spend": 0.0,
+   "impressions": 12.0,
+   "clicks": 0.0
+  },
+  {
+   "month": "04",
+   "keyword_info_text": "que hacer en chihuahua con niños",
+   "keyword_info_match_type": "BROAD",
+   "spend": 0.0,
+   "impressions": 10.0,
+   "clicks": 0.0
+  },
+  {
+   "month": "05",
+   "keyword_info_text": "buffet pizza",
+   "keyword_info_match_type": "BROAD",
+   "spend": 31.3084,
+   "impressions": 114.0,
+   "clicks": 20.0
+  },
+  {
+   "month": "05",
+   "keyword_info_text": "incredible pizza",
+   "keyword_info_match_type": "BROAD",
+   "spend": 905.9125,
+   "impressions": 3516.0,
+   "clicks": 787.0
+  },
+  {
+   "month": "05",
+   "keyword_info_text": "restaurante para niños",
+   "keyword_info_match_type": "BROAD",
+   "spend": 41.4305,
+   "impressions": 390.0,
+   "clicks": 16.0
+  },
+  {
+   "month": "05",
+   "keyword_info_text": "incredible pizza chihuahua",
+   "keyword_info_match_type": "BROAD",
+   "spend": 362.3482,
+   "impressions": 1454.0,
+   "clicks": 285.0
+  },
+  {
+   "month": "05",
+   "keyword_info_text": "que hacer en chihuahua",
+   "keyword_info_match_type": "BROAD",
+   "spend": 0.0,
+   "impressions": 1.0,
+   "clicks": 0.0
+  },
+  {
+   "month": "06",
+   "keyword_info_text": "buffet pizza",
+   "keyword_info_match_type": "BROAD",
+   "spend": 8.38,
+   "impressions": 61.0,
+   "clicks": 4.0
+  },
+  {
+   "month": "06",
+   "keyword_info_text": "incredible pizza",
+   "keyword_info_match_type": "BROAD",
+   "spend": 1238.5043,
+   "impressions": 3484.0,
+   "clicks": 841.0
+  },
+  {
+   "month": "06",
+   "keyword_info_text": "incredible pizza chihuahua",
+   "keyword_info_match_type": "BROAD",
+   "spend": 978.3279,
+   "impressions": 2589.0,
+   "clicks": 598.0
+  },
+  {
+   "month": "06",
+   "keyword_info_text": "restaurante para niños",
+   "keyword_info_match_type": "BROAD",
+   "spend": 6.6,
+   "impressions": 46.0,
+   "clicks": 6.0
+  },
+  {
+   "month": "07",
+   "keyword_info_text": "incredible pizza chihuahua",
+   "keyword_info_match_type": "BROAD",
+   "spend": 0.0489,
+   "impressions": 15.0,
+   "clicks": 5.0
+  },
+  {
+   "month": "07",
+   "keyword_info_text": "incredible pizza",
+   "keyword_info_match_type": "BROAD",
+   "spend": 0.0379,
+   "impressions": 17.0,
+   "clicks": 4.0
+  },
+  {
+   "month": "08",
+   "keyword_info_text": "incredible pizza",
+   "keyword_info_match_type": "BROAD",
+   "spend": 0.048,
+   "impressions": 23.0,
+   "clicks": 5.0
+  },
+  {
+   "month": "08",
+   "keyword_info_text": "incredible pizza chihuahua",
+   "keyword_info_match_type": "BROAD",
+   "spend": 0.0099,
+   "impressions": 9.0,
+   "clicks": 1.0
+  },
+  {
+   "month": "09",
+   "keyword_info_text": "incredible pizza",
+   "keyword_info_match_type": "BROAD",
+   "spend": 0.0079,
+   "impressions": 8.0,
+   "clicks": 1.0
+  },
+  {
+   "month": "10",
+   "keyword_info_text": "incredible pizza",
+   "keyword_info_match_type": "BROAD",
+   "spend": 2037.28,
+   "impressions": 6338.0,
+   "clicks": 1731.0
+  },
+  {
+   "month": "10",
+   "keyword_info_text": "incredible pizza chihuahua",
+   "keyword_info_match_type": "BROAD",
+   "spend": 458.25,
+   "impressions": 1289.0,
+   "clicks": 365.0
+  },
+  {
+   "month": "10",
+   "keyword_info_text": "que hacer en chihuahua",
+   "keyword_info_match_type": "BROAD",
+   "spend": 0.0,
+   "impressions": 4.0,
+   "clicks": 0.0
+  },
+  {
+   "month": "10",
+   "keyword_info_text": "buffet pizza",
+   "keyword_info_match_type": "BROAD",
+   "spend": 48.4,
+   "impressions": 213.0,
+   "clicks": 21.0
+  },
+  {
+   "month": "10",
+   "keyword_info_text": "restaurante para niños",
+   "keyword_info_match_type": "BROAD",
+   "spend": 31.64,
+   "impressions": 114.0,
+   "clicks": 7.0
+  },
+  {
+   "month": "10",
+   "keyword_info_text": "que hacer en chihuahua con niños",
+   "keyword_info_match_type": "BROAD",
+   "spend": 5.34,
+   "impressions": 5.0,
+   "clicks": 1.0
+  },
+  {
+   "month": "10",
+   "keyword_info_text": "diversion en chihuahua",
+   "keyword_info_match_type": "BROAD",
+   "spend": 5.29,
+   "impressions": 76.0,
+   "clicks": 1.0
+  }
+ ],
+ "mensual": [
+  {
+   "month": "04",
+   "impressions": 5135.0,
+   "search_impression_share": 0.1778,
+   "search_budget_lost_impression_share": 0.3874,
+   "search_rank_lost_impression_share": 0.4349,
+   "search_top_impression_share": 0.1428,
+   "search_absolute_top_impression_share": 0.1406,
+   "search_click_share": 0.2621
+  },
+  {
+   "month": "05",
+   "impressions": 5475.0,
+   "search_impression_share": 0.1558,
+   "search_budget_lost_impression_share": 0.0549,
+   "search_rank_lost_impression_share": 0.7893,
+   "search_top_impression_share": 0.1212,
+   "search_absolute_top_impression_share": 0.1188,
+   "search_click_share": 0.3181
+  },
+  {
+   "month": "06",
+   "impressions": 6180.0,
+   "search_impression_share": 0.4311,
+   "search_budget_lost_impression_share": 0.1855,
+   "search_rank_lost_impression_share": 0.3834,
+   "search_top_impression_share": 0.3603,
+   "search_absolute_top_impression_share": 0.3583,
+   "search_click_share": 0.3547
+  },
+  {
+   "month": "07",
+   "impressions": 32.0,
+   "search_impression_share": 0.6177,
+   "search_budget_lost_impression_share": 0.0588,
+   "search_rank_lost_impression_share": 0.3235,
+   "search_top_impression_share": 0.5882,
+   "search_absolute_top_impression_share": 0.5882,
+   "search_click_share": 0.0999
+  },
+  {
+   "month": "08",
+   "impressions": 32.0,
+   "search_impression_share": 0.6765,
+   "search_budget_lost_impression_share": 0.0294,
+   "search_rank_lost_impression_share": 0.2941,
+   "search_top_impression_share": 0.6177,
+   "search_absolute_top_impression_share": 0.6177,
+   "search_click_share": 0.0999
+  },
+  {
+   "month": "09",
+   "impressions": 8.0,
+   "search_impression_share": 0.5385,
+   "search_budget_lost_impression_share": 0.0769,
+   "search_rank_lost_impression_share": 0.3846,
+   "search_top_impression_share": 0.5385,
+   "search_absolute_top_impression_share": 0.5385,
+   "search_click_share": 0.0999
+  },
+  {
+   "month": "10",
+   "impressions": 8039.0,
+   "search_impression_share": 0.4401,
+   "search_budget_lost_impression_share": 0.2233,
+   "search_rank_lost_impression_share": 0.3366,
+   "search_top_impression_share": 0.3916,
+   "search_absolute_top_impression_share": 0.3859,
+   "search_click_share": 0.3636
+  }
+ ],
+ "config_palabras": [
+  {
+   "keyword_text": "karts",
+   "ad_group_criterion_keyword_match_type": "BROAD",
+   "quality_score": 0,
+   "keyword_status": "PAUSED"
+  },
+  {
+   "keyword_text": "go karts",
+   "ad_group_criterion_keyword_match_type": "BROAD",
+   "quality_score": 0,
+   "keyword_status": "PAUSED"
+  },
+  {
+   "keyword_text": "laser tag",
+   "ad_group_criterion_keyword_match_type": "BROAD",
+   "quality_score": 0,
+   "keyword_status": "PAUSED"
+  },
+  {
+   "keyword_text": "buffet de pizza",
+   "ad_group_criterion_keyword_match_type": "BROAD",
+   "quality_score": 0,
+   "keyword_status": "PAUSED"
+  },
+  {
+   "keyword_text": "buffet pizza",
+   "ad_group_criterion_keyword_match_type": "BROAD",
+   "quality_score": 5.0,
+   "keyword_status": "ENABLED"
+  },
+  {
+   "keyword_text": "incredible pizza",
+   "ad_group_criterion_keyword_match_type": "BROAD",
+   "quality_score": 9.0,
+   "keyword_status": "ENABLED"
+  },
+  {
+   "keyword_text": "restaurante para niños",
+   "ad_group_criterion_keyword_match_type": "BROAD",
+   "quality_score": 0,
+   "keyword_status": "ENABLED"
+  },
+  {
+   "keyword_text": "que hacer en chihuahua",
+   "ad_group_criterion_keyword_match_type": "BROAD",
+   "quality_score": 1.0,
+   "keyword_status": "ENABLED"
+  },
+  {
+   "keyword_text": "que visitar en chihuahua",
+   "ad_group_criterion_keyword_match_type": "BROAD",
+   "quality_score": 0,
+   "keyword_status": "ENABLED"
+  },
+  {
+   "keyword_text": "precio del buffet de cicis pizza",
+   "ad_group_criterion_keyword_match_type": "BROAD",
+   "quality_score": 0,
+   "keyword_status": "ENABLED"
+  },
+  {
+   "keyword_text": "buffet cicis pizza",
+   "ad_group_criterion_keyword_match_type": "BROAD",
+   "quality_score": 0,
+   "keyword_status": "ENABLED"
+  },
+  {
+   "keyword_text": "buffet de pizzas para eventos",
+   "ad_group_criterion_keyword_match_type": "BROAD",
+   "quality_score": 0,
+   "keyword_status": "ENABLED"
+  },
+  {
+   "keyword_text": "buffet de pizza cerca de mí",
+   "ad_group_criterion_keyword_match_type": "BROAD",
+   "quality_score": 0,
+   "keyword_status": "ENABLED"
+  },
+  {
+   "keyword_text": "papa johns buffet",
+   "ad_group_criterion_keyword_match_type": "BROAD",
+   "quality_score": 0,
+   "keyword_status": "ENABLED"
+  },
+  {
+   "keyword_text": "incredible pizza chihuahua",
+   "ad_group_criterion_keyword_match_type": "BROAD",
+   "quality_score": 10.0,
+   "keyword_status": "ENABLED"
+  },
+  {
+   "keyword_text": "cicis pizza buffet precios",
+   "ad_group_criterion_keyword_match_type": "BROAD",
+   "quality_score": 0,
+   "keyword_status": "ENABLED"
+  },
+  {
+   "keyword_text": "peter piper pizza buffet precio",
+   "ad_group_criterion_keyword_match_type": "BROAD",
+   "quality_score": 0,
+   "keyword_status": "ENABLED"
+  },
+  {
+   "keyword_text": "pizza buffet cerca de mí",
+   "ad_group_criterion_keyword_match_type": "BROAD",
+   "quality_score": 0,
+   "keyword_status": "ENABLED"
+  },
+  {
+   "keyword_text": "que hacer en chihuahua con niños",
+   "ad_group_criterion_keyword_match_type": "BROAD",
+   "quality_score": 1.0,
+   "keyword_status": "ENABLED"
+  },
+  {
+   "keyword_text": "buffet de pizza cerca de mi ubicación",
+   "ad_group_criterion_keyword_match_type": "BROAD",
+   "quality_score": 0,
+   "keyword_status": "ENABLED"
+  },
+  {
+   "keyword_text": "10 cosas que hacer en chihuahua",
+   "ad_group_criterion_keyword_match_type": "BROAD",
+   "quality_score": 0,
+   "keyword_status": "ENABLED"
+  },
+  {
+   "keyword_text": "diversion en chihuahua",
+   "ad_group_criterion_keyword_match_type": "BROAD",
+   "quality_score": 0,
+   "keyword_status": "ENABLED"
+  },
+  {
+   "keyword_text": "lugares de recreacion en chihuahua",
+   "ad_group_criterion_keyword_match_type": "BROAD",
+   "quality_score": 0,
+   "keyword_status": "ENABLED"
+  }
+ ]
+}

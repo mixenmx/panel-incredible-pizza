@@ -105,6 +105,34 @@ body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-s
 .ip-cortes .vacio td { color: var(--muted); }
 .ip-pend .ip-cn { margin-bottom: 0; }
 .ip-ct2 { margin-top: 22px; }
+.ga-is { margin: 6px 0 4px; }
+.ga-stack { display: flex; height: 34px; border-radius: 6px; overflow: hidden; background: var(--grid); }
+.ga-stack > span { display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 600; color: #fff; min-width: 0; overflow: hidden; white-space: nowrap; }
+.ga-stack .o { background: var(--ip-blue); } .ga-stack .b { background: var(--ip-yellow); color: #17171B; } .ga-stack .r { background: var(--ip-red); }
+.ga-ley { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 10px 0 0; font-size: var(--fs-cap); color: var(--muted); }
+.ga-ley i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; }
+.ga-ley b { color: var(--fg); font-weight: 600; }
+.ga-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 10px; margin: 16px 0 6px; }
+.ga-kpi { border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
+.ga-kpi b { display: block; font-size: 22px; font-weight: 600; margin-top: 2px; font-variant-numeric: tabular-nums; }
+.ga-kpi span { font-size: var(--fs-cap); color: var(--muted); }
+.ga-evo { display: grid; grid-template-columns: 92px 1fr; gap: 6px 10px; align-items: center; margin-top: 8px; font-size: var(--fs-cap); }
+.ga-evo .ga-stack { height: 18px; } .ga-evo .ga-stack > span { font-size: 10.5px; font-weight: 500; }
+.ga-evo .m { color: var(--muted); } .ga-evo .m.cur { color: var(--fg); font-weight: 600; }
+.ga-evo .poco { opacity: .45; }
+.ga-pub { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px 28px; }
+.ga-pub h4 { margin: 0 0 8px; font-size: 14px; font-weight: 600; }
+.ga-bar { display: grid; grid-template-columns: 96px 1fr 46px; gap: 8px; align-items: center; font-size: var(--fs-cap); margin: 5px 0; }
+.ga-bar .t { height: 10px; background: var(--grid); border-radius: 5px; overflow: hidden; }
+.ga-bar .t i { display: block; height: 100%; background: var(--ip-blue); border-radius: 5px; }
+.ga-bar .v { text-align: right; font-variant-numeric: tabular-nums; color: var(--fg); }
+.ga-bar .n { color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ga-qs { display: inline-block; min-width: 34px; text-align: center; border-radius: 4px; padding: 1px 6px; font-size: 12px; font-weight: 600; }
+.ga-qs.hi { background: color-mix(in srgb, var(--ok) 18%, transparent); color: var(--ok); }
+.ga-qs.md { background: color-mix(in srgb, var(--ip-yellow) 30%, transparent); color: var(--fg); }
+.ga-qs.lo { background: color-mix(in srgb, var(--bad) 16%, transparent); color: var(--bad); }
+.ga-pausa { font-size: var(--fs-cap); color: var(--muted); margin: 10px 0 0; }
+
 .ip-fuente { margin: 10px 0 0; font-size: 12px; }
 #tb-gads-hist tr { cursor: pointer; }
 .ip-foot { font-size: var(--fs-cap); color: var(--muted); border-top: 1px solid var(--line); margin-top: 24px; padding-top: 14px; }
@@ -279,6 +307,42 @@ body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-s
         </table>
       </div>
       <p class="ip-cn ip-fuente" id="gads-fuente">—</p>
+    </div>
+    <div class="ip-card ga-det" id="card-gads-is">
+      <h3 class="ip-ct">Google Ads · Lost impression share · <span class="ga-mes">—</span></h3>
+      <p class="ip-cn">De todas las veces que alguien buscó algo por lo que el anuncio podía salir, cuántas veces sí salió y por qué se perdieron las demás: por presupuesto (se acabó el dinero del día) o por ranking (calidad del anuncio y puja frente a otros anunciantes).</p>
+      <div class="ga-is"><div class="ga-stack" id="ga-stack"></div></div>
+      <div class="ga-ley" id="ga-ley"></div>
+      <div class="ga-kpis" id="ga-kpis"></div>
+      <h3 class="ip-ct ip-ct2">Evolución mensual del impression share</h3>
+      <div class="ga-evo" id="ga-evo"></div>
+      <p class="ip-cn ip-fuente">Mes completo: dato oficial de Google Ads. En los cortes de la tabla de arriba, el impression share es una estimación con datos diarios. Julio a septiembre, con muy pocas impresiones, aparecen atenuados.</p>
+    </div>
+
+    <div class="ip-card ga-det" id="card-gads-kw">
+      <h3 class="ip-ct">Google Ads · Palabras clave · <span class="ga-mes">—</span></h3>
+      <p class="ip-cn">Palabras clave que activaron el anuncio en el mes. Calidad = nivel de calidad de Google (1 a 10): mide qué tan relevantes son el anuncio y la página para esa búsqueda; más alto baja el costo y sube la posición.</p>
+      <div class="ip-tw">
+        <table class="ip-table">
+          <thead><tr><th>Palabra clave</th><th class="n">Calidad</th><th class="n">Impresiones</th><th class="n">Clics</th><th class="n">CTR</th><th class="n">CPC</th><th class="n">Gasto</th><th class="n">% de clics</th></tr></thead>
+          <tbody id="tb-ga-kw"></tbody>
+        </table>
+      </div>
+      <p class="ga-pausa" id="ga-kw-nota"></p>
+      <h3 class="ip-ct ip-ct2">Lo que la gente buscó (top 10 por clics)</h3>
+      <p class="ip-cn">Búsquedas reales en Google que mostraron el anuncio y recibieron más de un clic.</p>
+      <div class="ip-tw">
+        <table class="ip-table">
+          <thead><tr><th>Búsqueda</th><th class="n">Impresiones</th><th class="n">Clics</th><th class="n">CTR</th><th class="n">CPC</th><th class="n">Gasto</th></tr></thead>
+          <tbody id="tb-ga-st"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="ip-card ga-det" id="card-gads-pub">
+      <h3 class="ip-ct">Google Ads · Público · <span class="ga-mes">—</span></h3>
+      <p class="ip-cn">Quién hizo clic en el anuncio, como porcentaje de los clics del mes. “Sin dato” son personas de las que Google no conoce la edad o el género.</p>
+      <div class="ga-pub" id="ga-pub"></div>
     </div>
   </section>
 
@@ -476,6 +540,7 @@ body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-s
 
     renderCortes(rows, sel);
     renderGads(sel);
+    renderGadsDetalle(sel);
 
     const tb = $('tb-meta'); tb.innerHTML = '';
     rows.slice().reverse().forEach((x) => {
@@ -526,6 +591,68 @@ body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-s
     });
     const dh = g.datos_hasta;
     $('gads-fuente').textContent = 'Fuente: ' + g.fuente + ' (cuenta ' + g.cuenta + '). Datos hasta el ' + Number(dh.slice(8, 10)) + ' de ' + MESL[mi(dh)] + '. De julio a septiembre la campaña casi no tuvo entrega (centavos de gasto). Sin conversiones configuradas en la cuenta, por eso se reportan clics.';
+  }
+
+
+  function renderGadsDetalle(sel) {
+    const g = state.gads; if (!g) return;
+    const pct = (v) => v == null ? '—' : (v * 100).toFixed(1).replace('.', ',') + '%';
+    const m = g.meses.find((x) => x.mes.slice(0, 7) === sel.slice(0, 7));
+    document.querySelectorAll('.ga-det').forEach((c) => { c.hidden = !m; });
+    document.querySelectorAll('.ga-mes').forEach((e) => { e.textContent = mesLargo(sel); });
+    if (!m) return;
+    // Lost impression share
+    const seg = [['o', m.is, 'Obtenido'], ['b', m.lost_budget, 'Perdido por presupuesto'], ['r', m.lost_rank, 'Perdido por ranking']];
+    const tot = seg.reduce((a, x) => a + (x[1] || 0), 0) || 1;
+    const stack = (el, conTexto) => { el.replaceChildren(...seg.map(([k, v, t]) => { const sp = document.createElement('span'); sp.className = k; sp.style.width = ((v || 0) / tot * 100) + '%'; sp.title = t + ': ' + pct(v); if (conTexto && v >= 0.06) sp.textContent = pct(v); return sp; })); };
+    stack($('ga-stack'), true);
+    $('ga-ley').replaceChildren(...seg.map(([k, v, t]) => { const d = document.createElement('span'); const i = document.createElement('i'); i.style.background = k === 'o' ? 'var(--ip-blue)' : k === 'b' ? 'var(--ip-yellow)' : 'var(--ip-red)'; d.appendChild(i); d.append(t + ' '); const b = document.createElement('b'); b.textContent = pct(v); d.appendChild(b); return d; }));
+    const kp = [['Impression share', m.is, 'veces que sí salió el anuncio'], ['Perdido por presupuesto', m.lost_budget, 'subir presupuesto lo recupera'], ['Perdido por ranking', m.lost_rank, 'mejorar calidad o puja lo recupera'], ['Parte superior', m.top_is, 'salió arriba de los resultados'], ['Primera posición', m.abs_top_is, 'salió como el primer resultado'], ['Click share', m.click_share, 'de los clics posibles que se obtuvieron']];
+    $('ga-kpis').replaceChildren(...kp.filter((x) => x[1] != null).map(([t, v, n]) => { const d = document.createElement('div'); d.className = 'ga-kpi'; const a = document.createElement('span'); a.textContent = t; const b = document.createElement('b'); b.textContent = pct(v); const c = document.createElement('span'); c.textContent = n; d.append(a, b, c); return d; }));
+    const evo = $('ga-evo'); evo.innerHTML = '';
+    g.meses.forEach((x) => {
+      const l = document.createElement('div'); l.className = 'm' + (x.mes.slice(0, 7) === sel.slice(0, 7) ? ' cur' : ''); l.textContent = MESC[mi(x.mes)] + ' ' + x.mes.slice(0, 4);
+      const st = document.createElement('div'); st.className = 'ga-stack' + (x.impresiones < 500 ? ' poco' : '');
+      const sx = [['o', x.is], ['b', x.lost_budget], ['r', x.lost_rank]]; const tt = sx.reduce((a, y) => a + (y[1] || 0), 0) || 1;
+      sx.forEach(([k, v]) => { const sp = document.createElement('span'); sp.className = k; sp.style.width = ((v || 0) / tt * 100) + '%'; if (v >= 0.1) sp.textContent = pct(v); st.appendChild(sp); });
+      st.title = 'Obtenido ' + pct(x.is) + ' · presupuesto ' + pct(x.lost_budget) + ' · ranking ' + pct(x.lost_rank) + ' · ' + nf.format(x.impresiones) + ' impresiones';
+      l.style.cursor = st.style.cursor = 'pointer';
+      const go = () => { const k = state.meses.find((r) => r.mes.slice(0, 7) === x.mes.slice(0, 7)); if (k) { state.mes = k.mes; renderMetricos(); } };
+      l.addEventListener('click', go); st.addEventListener('click', go);
+      evo.append(l, st);
+    });
+    // Palabras clave
+    const td = (tr, txt, n) => { const c = document.createElement('td'); if (n) c.className = 'n'; if (txt instanceof Node) c.appendChild(txt); else c.textContent = txt; tr.appendChild(c); };
+    const tk = $('tb-ga-kw'); tk.innerHTML = '';
+    (m.palabras_clave || []).forEach((a) => {
+      const tr = document.createElement('tr');
+      td(tr, a.nombre);
+      let q = '—'; if (a.quality_score) { q = document.createElement('span'); q.className = 'ga-qs ' + (a.quality_score >= 7 ? 'hi' : a.quality_score >= 4 ? 'md' : 'lo'); q.textContent = a.quality_score + '/10'; }
+      td(tr, q, 1); td(tr, nf.format(a.impresiones), 1); td(tr, nf.format(a.clics), 1); td(tr, pct(a.ctr), 1); td(tr, a.cpc == null ? '—' : money.format(a.cpc), 1); td(tr, money.format(a.inversion), 1); td(tr, pct(a.pct_clics), 1);
+      tk.appendChild(tr);
+    });
+    const cfg = g.palabras_config || [];
+    const pausadas = cfg.filter((x) => x.estado === 'Pausada').map((x) => x.texto);
+    const activas = cfg.filter((x) => x.estado === 'Activa').length;
+    $('ga-kw-nota').textContent = cfg.length ? 'Configuración actual de la campaña: ' + activas + ' palabras clave activas, todas en concordancia amplia' + (pausadas.length ? '; pausadas: ' + pausadas.join(', ') + '.' : '.') + ' Las que no aparecen en la tabla no tuvieron impresiones en el mes.' : '';
+    const ts = $('tb-ga-st'); ts.innerHTML = '';
+    (m.busquedas || []).forEach((a) => { const tr = document.createElement('tr'); td(tr, a.nombre); td(tr, nf.format(a.impresiones), 1); td(tr, nf.format(a.clics), 1); td(tr, pct(a.ctr), 1); td(tr, a.cpc == null ? '—' : money.format(a.cpc), 1); td(tr, money.format(a.inversion), 1); ts.appendChild(tr); });
+    if (!(m.busquedas || []).length) { const tr = document.createElement('tr'); td(tr, 'Sin búsquedas con más de un clic este mes.'); tr.firstChild.colSpan = 6; ts.appendChild(tr); }
+    // Público
+    const pub = $('ga-pub'); pub.innerHTML = '';
+    [['edad', 'Edad'], ['genero', 'Género'], ['dispositivo', 'Dispositivo'], ['ciudad', 'Ciudad']].forEach(([k, t]) => {
+      const lista = m[k] || []; if (!lista.length) return;
+      const box = document.createElement('div'); const h = document.createElement('h4'); h.textContent = t; box.appendChild(h);
+      const mx = Math.max(...lista.map((a) => a.pct_clics), 0.0001);
+      lista.forEach((a) => {
+        const r = document.createElement('div'); r.className = 'ga-bar'; r.title = nf.format(a.clics) + ' clics · ' + nf.format(a.impresiones) + ' impresiones · ' + money.format(a.inversion);
+        const n = document.createElement('span'); n.className = 'n'; n.textContent = a.nombre;
+        const tt = document.createElement('span'); tt.className = 't'; const i = document.createElement('i'); i.style.width = (a.pct_clics / mx * 100) + '%'; if (a.nombre === 'Sin dato') i.style.background = 'var(--bar)'; tt.appendChild(i);
+        const v = document.createElement('span'); v.className = 'v'; v.textContent = pct(a.pct_clics);
+        r.append(n, tt, v); box.appendChild(r);
+      });
+      pub.appendChild(box);
+    });
   }
 
   function renderResumen() {
