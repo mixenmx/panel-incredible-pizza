@@ -129,6 +129,63 @@ def cortes_nuevos(hoy):
     return salida
 
 
+def ga_agrega(dias):
+    """Suma días de Google Ads. Impression share ponderado: elegibles = impresiones / IS."""
+    if not dias:
+        return None
+    gasto = sum(d["spend"] for d in dias)
+    imp = sum(d["impressions"] for d in dias)
+    clics = sum(d["clicks"] for d in dias)
+    eleg = [(d["impressions"] / d["is"], d) for d in dias if d["is"] > 0 and d["impressions"] > 0]
+    te = sum(e for e, _ in eleg)
+    return {
+        "inversion": round(gasto, 2),
+        "impresiones": int(imp),
+        "clics": int(clics),
+        "ctr": round(clics / imp, 4) if imp else None,
+        "cpc": round(gasto / clics, 2) if clics else None,
+        "conversiones": round(sum(d["conversions"] for d in dias), 1),
+        "is": round(imp / te, 4) if te else None,
+        "lost_budget": round(sum(e * d["lost_budget"] for e, d in eleg) / te, 4) if te else None,
+        "lost_rank": round(sum(e * d["lost_rank"] for e, d in eleg) / te, 4) if te else None,
+        "hasta": max(d["date"] for d in dias),
+    }
+
+
+def google_ads(hoy):
+    """raw/google_ads_diario.csv (Windsor.ai, cuenta 546-956-0591) -> resumen mensual con cortes."""
+    import csv
+    ruta = BASE / "raw" / "google_ads_diario.csv"
+    if not ruta.exists():
+        return None
+    dias = []
+    for r in csv.DictReader(ruta.open(encoding="utf-8")):
+        d = {k: (r[k] if k == "date" else float(r[k] or 0)) for k in r}
+        if d["date"] >= INICIO:
+            dias.append(d)
+    meses = []
+    for mes in sorted({d["date"][:7] for d in dias}):
+        dm = [d for d in dias if d["date"][:7] == mes]
+        r = ga_agrega(dm)
+        r["mes"] = mes + "-01"
+        cortes = []
+        for dia in CORTES:
+            corte = f"{mes}-{dia:02d}"
+            sub = [d for d in dm if d["date"] <= corte]
+            x = ga_agrega(sub)
+            if x is None:
+                continue
+            x["etiqueta"] = f"Del 1 al {dia}"
+            x["en_curso"] = corte >= hoy or x["hasta"] < corte and mes == hoy[:7]
+            cortes.append(x)
+            if x["en_curso"]:
+                break
+        r["cortes"] = cortes
+        meses.append(r)
+    return {"cuenta": "546-956-0591", "fuente": "Google Ads vía Windsor.ai",
+            "datos_hasta": max(d["date"] for d in dias) if dias else None, "meses": meses}
+
+
 def main():
     hoy = datetime.now(MERIDA).strftime("%Y-%m-%d")
     cuenta = load(BASE / "raw" / "cuenta.json")
@@ -184,7 +241,8 @@ def main():
             lista.append(x)
         r["cortes"] = lista
 
-    salida = {"actualizado": datetime.now(MERIDA).strftime("%Y-%m-%d %H:%M"), "meses": filas}
+    salida = {"actualizado": datetime.now(MERIDA).strftime("%Y-%m-%d %H:%M"), "meses": filas,
+              "google_ads": google_ads(hoy)}
     (BASE / "data" / "metricas.json").write_text(json.dumps(salida, ensure_ascii=False, indent=1), encoding="utf-8")
     ult = filas[-1]
     print(f"OK {len(filas)} meses; último {ult['mes']}: {ult['mensajes']} mensajes, CPL {ult['cpl']}, "

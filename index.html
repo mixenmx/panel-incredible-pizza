@@ -104,6 +104,9 @@ body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-s
 .ip-cortes .tag { display: inline-block; font-size: 10px; text-transform: uppercase; letter-spacing: .05em; color: var(--ip-red); border: 1px solid var(--ip-red); border-radius: 4px; padding: 0 4px; margin-left: 6px; font-weight: 500; }
 .ip-cortes .vacio td { color: var(--muted); }
 .ip-pend .ip-cn { margin-bottom: 0; }
+.ip-ct2 { margin-top: 22px; }
+.ip-fuente { margin: 10px 0 0; font-size: 12px; }
+#tb-gads-hist tr { cursor: pointer; }
 .ip-foot { font-size: var(--fs-cap); color: var(--muted); border-top: 1px solid var(--line); margin-top: 24px; padding-top: 14px; }
 .ip-calhead { display: flex; align-items: center; gap: 10px; }
 .ip-calhead .ip-sec { min-width: 10rem; text-align: center; text-transform: capitalize; }
@@ -252,9 +255,30 @@ body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-s
       </div>
     </div>
 
-    <div class="ip-card ip-pend">
-      <h3 class="ip-ct">Google Ads · Lost impression share</h3>
-      <p class="ip-cn">El porcentaje de impresiones perdidas (por presupuesto o por ranking) es una métrica de Google Ads. Se agregará aquí en cuanto se conecte la cuenta de Google Ads.</p>
+    <div class="ip-card" id="card-gads">
+      <h3 class="ip-ct">Google Ads · <span id="gads-mes">—</span></h3>
+      <p class="ip-cn" id="gads-nota">Campaña de búsqueda “Search IP Chihuahua”. Impression share = impresiones obtenidas ÷ impresiones a las que se era elegible; lo perdido se divide entre presupuesto y ranking (calidad y puja).</p>
+      <div class="ip-tw" id="gads-wrap">
+        <table class="ip-table ip-cortes">
+          <thead><tr>
+            <th>Corte</th><th class="n">Gasto</th><th class="n">Impresiones</th><th class="n">Clics</th><th class="n">CTR</th>
+            <th class="n">CPC</th><th class="n">Impression share</th><th class="n">Perdido por presupuesto</th><th class="n">Perdido por ranking</th>
+          </tr></thead>
+          <tbody id="tb-gads"></tbody>
+        </table>
+      </div>
+      <p class="ip-cn ip-vacio-ga" id="gads-vacio" hidden></p>
+      <h3 class="ip-ct ip-ct2">Historial mensual de Google Ads</h3>
+      <div class="ip-tw">
+        <table class="ip-table">
+          <thead><tr>
+            <th>Mes</th><th class="n">Gasto</th><th class="n">Impresiones</th><th class="n">Clics</th><th class="n">CTR</th>
+            <th class="n">CPC</th><th class="n">Impression share</th><th class="n">Perdido por presupuesto</th><th class="n">Perdido por ranking</th>
+          </tr></thead>
+          <tbody id="tb-gads-hist"></tbody>
+        </table>
+      </div>
+      <p class="ip-cn ip-fuente" id="gads-fuente">—</p>
     </div>
   </section>
 
@@ -273,12 +297,12 @@ body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-s
     <div class="ip-plan" id="plan"></div>
   </section>
 
-  <footer class="ip-foot">Panel elaborado por <b>Mixen</b> para <b>Incredible Pizza Chihuahua</b>. Fuente: Meta Ads. <span id="actualizado"></span></footer>
+  <footer class="ip-foot">Panel elaborado por <b>Mixen</b> para <b>Incredible Pizza Chihuahua</b>. Fuentes: Meta Ads y Google Ads. <span id="actualizado"></span></footer>
 </div>
 
 <script>
 (function () {
-  const state = { mes: null, metrica: 'mensajes', cal: null, meses: [], piezas: [], plan: [] };
+  const state = { gads: null, mes: null, metrica: 'mensajes', cal: null, meses: [], piezas: [], plan: [] };
   const nf = new Intl.NumberFormat('es-MX');
   const compact = new Intl.NumberFormat('es-MX', { notation: 'compact', maximumFractionDigits: 1 });
   const money = new Intl.NumberFormat('es-MX', { style: 'currency', currency: 'MXN', minimumFractionDigits: 2 });
@@ -451,6 +475,7 @@ body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-s
     if (!$('metricos').hidden) drawChart($('ch-evolucion'), rows, sel, m);
 
     renderCortes(rows, sel);
+    renderGads(sel);
 
     const tb = $('tb-meta'); tb.innerHTML = '';
     rows.slice().reverse().forEach((x) => {
@@ -463,6 +488,44 @@ body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-s
       });
       tb.appendChild(tr);
     });
+  }
+
+  function renderGads(sel) {
+    const g = state.gads; if (!g) return;
+    const pct = (v) => v == null ? '—' : (v * 100).toFixed(1).replace('.', ',') + '%';
+    const GF = { inversion: (v) => money.format(v), impresiones: (v) => nf.format(v), clics: (v) => nf.format(v), ctr: pct,
+      cpc: (v) => v == null ? '—' : money.format(v), is: pct, lost_budget: pct, lost_rank: pct };
+    const COLS = Object.keys(GF);
+    const fila = (label, x, cls, tag) => {
+      const tr = document.createElement('tr'); if (cls) tr.className = cls;
+      const td0 = document.createElement('td'); td0.textContent = label;
+      if (tag) { const t = document.createElement('span'); t.className = 'tag'; t.textContent = tag; td0.appendChild(t); }
+      tr.appendChild(td0);
+      COLS.forEach((f) => { const td = document.createElement('td'); td.className = 'n'; td.textContent = x ? GF[f](x[f]) : '—'; tr.appendChild(td); });
+      return tr;
+    };
+    const m = g.meses.find((x) => x.mes.slice(0, 7) === sel.slice(0, 7));
+    $('gads-mes').textContent = mesLargo(sel);
+    const tb = $('tb-gads'); tb.innerHTML = '';
+    $('gads-wrap').hidden = !m; $('gads-vacio').hidden = !!m;
+    if (!m) $('gads-vacio').textContent = 'Sin campaña de Google Ads en ' + MESL[mi(sel)] + '. La campaña de búsqueda empezó a correr el 15 de abril de 2026.';
+    else {
+      const desde15 = m.mes.slice(0, 7) === '2026-04';
+      [7, 14, 21, 28].forEach((d) => {
+        if (desde15 && d < 21) return;
+        const c = m.cortes.find((x) => x.etiqueta === 'Del 1 al ' + d);
+        tb.appendChild(fila((desde15 ? 'Del 15 al ' : 'Del 1 al ') + d, c, c ? '' : 'vacio', c && c.en_curso ? 'en curso' : ''));
+      });
+      tb.appendChild(fila('Mes completo', m, 'full', enCurso(m.mes) ? 'en curso' : ''));
+    }
+    const th = $('tb-gads-hist'); th.innerHTML = '';
+    g.meses.slice().reverse().forEach((x) => {
+      const tr = fila(mesTabla(x.mes) + (x.mes.slice(0, 7) === '2026-04' ? ' (desde el 15)' : ''), x, x.mes.slice(0, 7) === sel.slice(0, 7) ? 'cur' : '');
+      tr.addEventListener('click', () => { const k = state.meses.find((r) => r.mes.slice(0, 7) === x.mes.slice(0, 7)); if (k) { state.mes = k.mes; renderMetricos(); } });
+      th.appendChild(tr);
+    });
+    const dh = g.datos_hasta;
+    $('gads-fuente').textContent = 'Fuente: ' + g.fuente + ' (cuenta ' + g.cuenta + '). Datos hasta el ' + Number(dh.slice(8, 10)) + ' de ' + MESL[mi(dh)] + '. De julio a septiembre la campaña casi no tuvo entrega (centavos de gasto). Sin conversiones configuradas en la cuenta, por eso se reportan clics.';
   }
 
   function renderResumen() {
@@ -575,6 +638,7 @@ body { background: var(--bg); color: var(--fg); font-family: var(--sans); font-s
     state.plan = pl.status === 'fulfilled' && Array.isArray(pl.value) ? pl.value : [];
     if (met.status === 'fulfilled' && Array.isArray(met.value.meses)) {
       state.meses = met.value.meses;
+      state.gads = met.value.google_ads || null;
       $('actualizado').textContent = 'Actualizado: ' + met.value.actualizado + ' (hora de Chihuahua).';
       const [fd, fh] = String(met.value.actualizado).split(' ');
       const dt = new Date(fd + 'T12:00:00');
