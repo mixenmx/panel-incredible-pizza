@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30 07:44",
+ "actualizado": "2026-10-31 06:57",
  "meses": [
   {
    "inversion": 9999.71,
@@ -819,28 +819,28 @@
    ]
   },
   {
-   "inversion": 20947.07,
-   "impresiones": 2539075,
-   "alcance": 775542,
-   "frecuencia": 3.27,
-   "cpm": 8.25,
-   "alcance_walkin": 713900,
+   "inversion": 21796.53,
+   "impresiones": 2670184,
+   "alcance": 807774,
+   "frecuencia": 3.31,
+   "cpm": 8.16,
+   "alcance_walkin": 746308,
    "walkin_tipo": "campaña walk-in",
    "walkin_campanas": "IP | Impressions and Reach",
-   "mensajes": 884,
-   "inversion_ws": 12052.74,
+   "mensajes": 909,
+   "inversion_ws": 12389.22,
    "cpl": 13.63,
-   "seguidores_fb": 34,
+   "seguidores_fb": 36,
    "seguidores_ig": 11,
-   "seguidores": 45,
+   "seguidores": 47,
    "mes": "2026-10-01",
-   "hasta": "2026-10-30",
-   "d_inversion": -0.244,
-   "d_impresiones": -0.23,
-   "d_alcance": -0.154,
-   "d_mensajes": -0.082,
+   "hasta": "2026-10-31",
+   "d_inversion": -0.214,
+   "d_impresiones": -0.19,
+   "d_alcance": -0.119,
+   "d_mensajes": -0.056,
    "d_cpl": -0.243,
-   "d_alcance_walkin": -0.153,
+   "d_alcance_walkin": -0.114,
    "cortes": [
     {
      "inversion": 3202.22,
@@ -958,9 +958,9 @@
       "ctr": 0.1598,
       "cpc": 3.74,
       "conversiones": 0.0,
-      "is": 0.2589,
-      "lost_budget": 0.5942,
-      "lost_rank": 0.1468,
+      "is": 0.1778,
+      "lost_budget": 0.3874,
+      "lost_rank": 0.4349,
       "hasta": "2026-04-21",
       "etiqueta": "Del 1 al 21",
       "en_curso": false
@@ -972,9 +972,9 @@
       "ctr": 0.1652,
       "cpc": 2.03,
       "conversiones": 0.0,
-      "is": 0.1641,
-      "lost_budget": 0.3961,
-      "lost_rank": 0.4398,
+      "is": 0.1778,
+      "lost_budget": 0.3874,
+      "lost_rank": 0.4349,
       "hasta": "2026-04-28",
       "etiqueta": "Del 1 al 28",
       "en_curso": false
@@ -993,7 +993,7 @@
       "ctr": 0.1972,
       "cpc": 1.65,
       "pct_clics": 0.7426,
-      "quality_score": 9.0,
+      "quality_score": 9,
       "concordancia": "Amplia"
      },
      {
@@ -1004,7 +1004,7 @@
       "ctr": 0.1683,
       "cpc": 1.7,
       "pct_clics": 0.2415,
-      "quality_score": 10.0,
+      "quality_score": 10,
       "concordancia": "Amplia"
      },
      {
@@ -1015,7 +1015,7 @@
       "ctr": 0.1034,
       "cpc": 1.19,
       "pct_clics": 0.0064,
-      "quality_score": 5.0,
+      "quality_score": 5,
       "concordancia": "Amplia"
      },
      {
@@ -1037,7 +1037,7 @@
       "ctr": 0.0471,
       "cpc": 11.63,
       "pct_clics": 0.0043,
-      "quality_score": 1.0,
+      "quality_score": 1,
       "concordancia": "Amplia"
      },
      {
@@ -1059,7 +1059,7 @@
       "ctr": 0.0,
       "cpc": null,
       "pct_clics": 0.0,
-      "quality_score": 1.0,
+      "quality_score": 1,
       "concordancia": "Amplia"
      },
      {
@@ -1339,9 +1339,9 @@
       "ctr": 0.2295,
       "cpc": 0.94,
       "conversiones": 0.0,
-      "is": 0.1741,
-      "lost_budget": 0.0872,
-      "lost_rank": 0.74,
+      "is": 0.1558,
+      "lost_budget": 0.0549,
+      "lost_rank": 0.7893,
       "hasta": "2026-05-07",
       "etiqueta": "Del 1 al 7",
       "en_curso": false
@@ -1353,9 +1353,9 @@
       "ctr": 0.2039,
       "cpc": 1.04,
       "conversiones": 0.0,
-      "is": 0.1433,
-      "lost_budget": 0.0506,
-      "lost_rank": 0.8068,
+      "is": 0.1558,
+      "lost_budget": 0.0549,
+      "lost_rank": 0.7893,
       "hasta": "2026-05-13",
       "etiqueta": "Del 1 al 14",
       "en_curso": false
@@ -1367,9 +1367,9 @@
       "ctr": 0.2039,
       "cpc": 1.04,
       "conversiones": 0.0,
-      "is": 0.1433,
-      "lost_budget": 0.0506,
-      "lost_rank": 0.8068,
+      "is": 0.1558,
+      "lost_budget": 0.0549,
+      "lost_rank": 0.7893,
       "hasta": "2026-05-13",
       "etiqueta": "Del 1 al 21",
       "en_curso": false
@@ -1381,9 +1381,9 @@
       "ctr": 0.2039,
       "cpc": 1.04,
       "conversiones": 0.0,
-      "is": 0.1433,
-      "lost_budget": 0.0506,
-      "lost_rank": 0.8068,
+      "is": 0.1558,
+      "lost_budget": 0.0549,
+      "lost_rank": 0.7893,
       "hasta": "2026-05-13",
       "etiqueta": "Del 1 al 28",
       "en_curso": false
@@ -1402,7 +1402,7 @@
       "ctr": 0.2238,
       "cpc": 1.15,
       "pct_clics": 0.7103,
-      "quality_score": 9.0,
+      "quality_score": 9,
       "concordancia": "Amplia"
      },
      {
@@ -1413,7 +1413,7 @@
       "ctr": 0.196,
       "cpc": 1.27,
       "pct_clics": 0.2572,
-      "quality_score": 10.0,
+      "quality_score": 10,
       "concordancia": "Amplia"
      },
      {
@@ -1424,7 +1424,7 @@
       "ctr": 0.1754,
       "cpc": 1.57,
       "pct_clics": 0.0181,
-      "quality_score": 5.0,
+      "quality_score": 5,
       "concordancia": "Amplia"
      },
      {
@@ -1446,7 +1446,7 @@
       "ctr": 0.0,
       "cpc": null,
       "pct_clics": 0.0,
-      "quality_score": 1.0,
+      "quality_score": 1,
       "concordancia": "Amplia"
      }
     ],
@@ -1715,9 +1715,9 @@
       "ctr": 0.2162,
       "cpc": 1.56,
       "conversiones": 0.0,
-      "is": 0.5905,
-      "lost_budget": 0.1479,
-      "lost_rank": 0.2616,
+      "is": 0.4311,
+      "lost_budget": 0.1855,
+      "lost_rank": 0.3834,
       "hasta": "2026-06-07",
       "etiqueta": "Del 1 al 7",
       "en_curso": false
@@ -1729,9 +1729,9 @@
       "ctr": 0.2267,
       "cpc": 1.59,
       "conversiones": 0.0,
-      "is": 0.5949,
-      "lost_budget": 0.1495,
-      "lost_rank": 0.2556,
+      "is": 0.4311,
+      "lost_budget": 0.1855,
+      "lost_rank": 0.3834,
       "hasta": "2026-06-14",
       "etiqueta": "Del 1 al 14",
       "en_curso": false
@@ -1743,9 +1743,9 @@
       "ctr": 0.2337,
       "cpc": 1.55,
       "conversiones": 0.0,
-      "is": 0.4351,
-      "lost_budget": 0.181,
-      "lost_rank": 0.3839,
+      "is": 0.4311,
+      "lost_budget": 0.1855,
+      "lost_rank": 0.3834,
       "hasta": "2026-06-21",
       "etiqueta": "Del 1 al 21",
       "en_curso": false
@@ -1757,9 +1757,9 @@
       "ctr": 0.2343,
       "cpc": 1.54,
       "conversiones": 0.0,
-      "is": 0.4325,
-      "lost_budget": 0.18,
-      "lost_rank": 0.3875,
+      "is": 0.4311,
+      "lost_budget": 0.1855,
+      "lost_rank": 0.3834,
       "hasta": "2026-06-28",
       "etiqueta": "Del 1 al 28",
       "en_curso": false
@@ -1778,7 +1778,7 @@
       "ctr": 0.2414,
       "cpc": 1.47,
       "pct_clics": 0.5804,
-      "quality_score": 9.0,
+      "quality_score": 9,
       "concordancia": "Amplia"
      },
      {
@@ -1789,7 +1789,7 @@
       "ctr": 0.231,
       "cpc": 1.64,
       "pct_clics": 0.4127,
-      "quality_score": 10.0,
+      "quality_score": 10,
       "concordancia": "Amplia"
      },
      {
@@ -1811,7 +1811,7 @@
       "ctr": 0.0656,
       "cpc": 2.1,
       "pct_clics": 0.0028,
-      "quality_score": 5.0,
+      "quality_score": 5,
       "concordancia": "Amplia"
      }
     ],
@@ -2080,9 +2080,9 @@
       "ctr": 0.0667,
       "cpc": 0.01,
       "conversiones": 0.0,
-      "is": 0.5396,
-      "lost_budget": 0.036,
-      "lost_rank": 0.4245,
+      "is": 0.6177,
+      "lost_budget": 0.0588,
+      "lost_rank": 0.3235,
       "hasta": "2026-07-07",
       "etiqueta": "Del 1 al 7",
       "en_curso": false
@@ -2094,9 +2094,9 @@
       "ctr": 0.2105,
       "cpc": 0.01,
       "conversiones": 0.0,
-      "is": 0.5793,
-      "lost_budget": 0.0305,
-      "lost_rank": 0.3903,
+      "is": 0.6177,
+      "lost_budget": 0.0588,
+      "lost_rank": 0.3235,
       "hasta": "2026-07-14",
       "etiqueta": "Del 1 al 14",
       "en_curso": false
@@ -2108,9 +2108,9 @@
       "ctr": 0.2414,
       "cpc": 0.01,
       "conversiones": 0.0,
-      "is": 0.6402,
-      "lost_budget": 0.0441,
-      "lost_rank": 0.3157,
+      "is": 0.6177,
+      "lost_budget": 0.0588,
+      "lost_rank": 0.3235,
       "hasta": "2026-07-20",
       "etiqueta": "Del 1 al 21",
       "en_curso": false
@@ -2122,9 +2122,9 @@
       "ctr": 0.2581,
       "cpc": 0.01,
       "conversiones": 0.0,
-      "is": 0.6554,
-      "lost_budget": 0.0423,
-      "lost_rank": 0.3023,
+      "is": 0.6177,
+      "lost_budget": 0.0588,
+      "lost_rank": 0.3235,
       "hasta": "2026-07-22",
       "etiqueta": "Del 1 al 28",
       "en_curso": false
@@ -2143,7 +2143,7 @@
       "ctr": 0.3333,
       "cpc": 0.01,
       "pct_clics": 0.5556,
-      "quality_score": 10.0,
+      "quality_score": 10,
       "concordancia": "Amplia"
      },
      {
@@ -2154,7 +2154,7 @@
       "ctr": 0.2353,
       "cpc": 0.01,
       "pct_clics": 0.4444,
-      "quality_score": 9.0,
+      "quality_score": 9,
       "concordancia": "Amplia"
      }
     ],
@@ -2287,9 +2287,9 @@
       "ctr": 0.0588,
       "cpc": 0.01,
       "conversiones": 0.0,
-      "is": 0.5944,
-      "lost_budget": 0.0,
-      "lost_rank": 0.4056,
+      "is": 0.6765,
+      "lost_budget": 0.0294,
+      "lost_rank": 0.2941,
       "hasta": "2026-08-06",
       "etiqueta": "Del 1 al 7",
       "en_curso": false
@@ -2301,9 +2301,9 @@
       "ctr": 0.1852,
       "cpc": 0.01,
       "conversiones": 0.0,
-      "is": 0.6543,
-      "lost_budget": 0.0242,
-      "lost_rank": 0.3215,
+      "is": 0.6765,
+      "lost_budget": 0.0294,
+      "lost_rank": 0.2941,
       "hasta": "2026-08-14",
       "etiqueta": "Del 1 al 14",
       "en_curso": false
@@ -2315,9 +2315,9 @@
       "ctr": 0.1875,
       "cpc": 0.01,
       "conversiones": 0.0,
-      "is": 0.6917,
-      "lost_budget": 0.0216,
-      "lost_rank": 0.2867,
+      "is": 0.6765,
+      "lost_budget": 0.0294,
+      "lost_rank": 0.2941,
       "hasta": "2026-08-16",
       "etiqueta": "Del 1 al 21",
       "en_curso": false
@@ -2329,9 +2329,9 @@
       "ctr": 0.1875,
       "cpc": 0.01,
       "conversiones": 0.0,
-      "is": 0.6917,
-      "lost_budget": 0.0216,
-      "lost_rank": 0.2867,
+      "is": 0.6765,
+      "lost_budget": 0.0294,
+      "lost_rank": 0.2941,
       "hasta": "2026-08-16",
       "etiqueta": "Del 1 al 28",
       "en_curso": false
@@ -2350,7 +2350,7 @@
       "ctr": 0.2174,
       "cpc": 0.01,
       "pct_clics": 0.8333,
-      "quality_score": 9.0,
+      "quality_score": 9,
       "concordancia": "Amplia"
      },
      {
@@ -2361,7 +2361,7 @@
       "ctr": 0.1111,
       "cpc": 0.01,
       "pct_clics": 0.1667,
-      "quality_score": 10.0,
+      "quality_score": 10,
       "concordancia": "Amplia"
      }
     ],
@@ -2485,9 +2485,9 @@
       "ctr": 0.1667,
       "cpc": 0.01,
       "conversiones": 0.0,
-      "is": 0.6,
-      "lost_budget": 0.1,
-      "lost_rank": 0.3,
+      "is": 0.5385,
+      "lost_budget": 0.0769,
+      "lost_rank": 0.3846,
       "hasta": "2026-09-07",
       "etiqueta": "Del 1 al 7",
       "en_curso": false
@@ -2499,9 +2499,9 @@
       "ctr": 0.125,
       "cpc": 0.01,
       "conversiones": 0.0,
-      "is": 0.5,
-      "lost_budget": 0.0625,
-      "lost_rank": 0.4375,
+      "is": 0.5385,
+      "lost_budget": 0.0769,
+      "lost_rank": 0.3846,
       "hasta": "2026-09-10",
       "etiqueta": "Del 1 al 14",
       "en_curso": false
@@ -2513,9 +2513,9 @@
       "ctr": 0.125,
       "cpc": 0.01,
       "conversiones": 0.0,
-      "is": 0.5,
-      "lost_budget": 0.0625,
-      "lost_rank": 0.4375,
+      "is": 0.5385,
+      "lost_budget": 0.0769,
+      "lost_rank": 0.3846,
       "hasta": "2026-09-10",
       "etiqueta": "Del 1 al 21",
       "en_curso": false
@@ -2527,9 +2527,9 @@
       "ctr": 0.125,
       "cpc": 0.01,
       "conversiones": 0.0,
-      "is": 0.5,
-      "lost_budget": 0.0625,
-      "lost_rank": 0.4375,
+      "is": 0.5385,
+      "lost_budget": 0.0769,
+      "lost_rank": 0.3846,
       "hasta": "2026-09-10",
       "etiqueta": "Del 1 al 28",
       "en_curso": false
@@ -2548,7 +2548,7 @@
       "ctr": 0.125,
       "cpc": 0.01,
       "pct_clics": 1.0,
-      "quality_score": 9.0,
+      "quality_score": 9,
       "concordancia": "Amplia"
      }
     ],
@@ -2640,9 +2640,9 @@
     "ctr": 0.2645,
     "cpc": 1.22,
     "conversiones": 0.0,
-    "is": 0.4401,
-    "lost_budget": 0.2233,
-    "lost_rank": 0.3366,
+    "is": 0.4403,
+    "lost_budget": 0.2148,
+    "lost_rank": 0.3432,
     "hasta": "2026-10-27",
     "mes": "2026-10-01",
     "cortes": [
@@ -2703,9 +2703,9 @@
       "en_curso": true
      }
     ],
-    "top_is": 0.3916,
-    "abs_top_is": 0.3859,
-    "click_share": 0.3636,
+    "top_is": 0.3949,
+    "abs_top_is": 0.3894,
+    "click_share": 0.3606,
     "is_oficial": true,
     "palabras_clave": [
      {
@@ -2716,7 +2716,7 @@
       "ctr": 0.2731,
       "cpc": 1.18,
       "pct_clics": 0.8142,
-      "quality_score": 9.0,
+      "quality_score": 9,
       "concordancia": "Amplia"
      },
      {
@@ -2727,7 +2727,7 @@
       "ctr": 0.2832,
       "cpc": 1.26,
       "pct_clics": 0.1717,
-      "quality_score": 10.0,
+      "quality_score": 10,
       "concordancia": "Amplia"
      },
      {
@@ -2738,7 +2738,7 @@
       "ctr": 0.0986,
       "cpc": 2.3,
       "pct_clics": 0.0099,
-      "quality_score": 5.0,
+      "quality_score": 5,
       "concordancia": "Amplia"
      },
      {
@@ -2771,7 +2771,7 @@
       "ctr": 0.2,
       "cpc": 5.34,
       "pct_clics": 0.0005,
-      "quality_score": 1.0,
+      "quality_score": 1,
       "concordancia": "Amplia"
      },
      {
@@ -2782,7 +2782,7 @@
       "ctr": 0.0,
       "cpc": null,
       "pct_clics": 0.0,
-      "quality_score": 1.0,
+      "quality_score": 1,
       "concordancia": "Amplia"
      }
     ],
@@ -3056,12 +3056,12 @@
    {
     "texto": "buffet pizza",
     "estado": "Activa",
-    "quality_score": 5.0
+    "quality_score": 5
    },
    {
     "texto": "incredible pizza",
     "estado": "Activa",
-    "quality_score": 9.0
+    "quality_score": 9
    },
    {
     "texto": "restaurante para niños",
@@ -3071,7 +3071,7 @@
    {
     "texto": "que hacer en chihuahua",
     "estado": "Activa",
-    "quality_score": 1.0
+    "quality_score": 1
    },
    {
     "texto": "que visitar en chihuahua",
@@ -3106,7 +3106,7 @@
    {
     "texto": "incredible pizza chihuahua",
     "estado": "Activa",
-    "quality_score": 10.0
+    "quality_score": 10
    },
    {
     "texto": "cicis pizza buffet precios",
@@ -3126,7 +3126,7 @@
    {
     "texto": "que hacer en chihuahua con niños",
     "estado": "Activa",
-    "quality_score": 1.0
+    "quality_score": 1
    },
    {
     "texto": "buffet de pizza cerca de mi ubicación",
