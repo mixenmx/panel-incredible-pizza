@@ -629,5 +629,25 @@
   "hasta": "2026-10-28",
   "corte": "2026-10-28",
   "fuente": "Meta Ads: consulta acumulada por corte"
+ },
+ "2026-11-07": {
+  "inversion": 16.95,
+  "impresiones": 1089,
+  "alcance": 1013,
+  "frecuencia": 1.08,
+  "cpm": 15.56,
+  "alcance_walkin": null,
+  "walkin_tipo": null,
+  "walkin_campanas": "",
+  "mensajes": 1,
+  "inversion_ws": 16.95,
+  "cpl": 16.95,
+  "seguidores_fb": 0,
+  "seguidores_ig": 0,
+  "seguidores": 0,
+  "desde": "2026-11-01",
+  "hasta": "2026-11-01",
+  "corte": "2026-11-07",
+  "fuente": "Meta Ads: consulta acumulada por corte"
  }
 }

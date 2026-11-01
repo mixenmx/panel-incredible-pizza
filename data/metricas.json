@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31 06:57",
+ "actualizado": "2026-11-01 06:56",
  "meses": [
   {
    "inversion": 9999.71,
@@ -819,28 +819,28 @@
    ]
   },
   {
-   "inversion": 21796.53,
-   "impresiones": 2670184,
-   "alcance": 807774,
-   "frecuencia": 3.31,
-   "cpm": 8.16,
-   "alcance_walkin": 746308,
+   "inversion": 22627.17,
+   "impresiones": 2789434,
+   "alcance": 835906,
+   "frecuencia": 3.34,
+   "cpm": 8.11,
+   "alcance_walkin": 772179,
    "walkin_tipo": "campaña walk-in",
    "walkin_campanas": "IP | Impressions and Reach",
-   "mensajes": 909,
-   "inversion_ws": 12389.22,
-   "cpl": 13.63,
-   "seguidores_fb": 36,
+   "mensajes": 939,
+   "inversion_ws": 12811.72,
+   "cpl": 13.64,
+   "seguidores_fb": 37,
    "seguidores_ig": 11,
-   "seguidores": 47,
+   "seguidores": 48,
    "mes": "2026-10-01",
    "hasta": "2026-10-31",
-   "d_inversion": -0.214,
-   "d_impresiones": -0.19,
-   "d_alcance": -0.119,
-   "d_mensajes": -0.056,
-   "d_cpl": -0.243,
-   "d_alcance_walkin": -0.114,
+   "d_inversion": -0.184,
+   "d_impresiones": -0.154,
+   "d_alcance": -0.088,
+   "d_mensajes": -0.025,
+   "d_cpl": -0.242,
+   "d_alcance_walkin": -0.084,
    "cortes": [
     {
      "inversion": 3202.22,
@@ -929,6 +929,54 @@
      "fuente": "Meta Ads: consulta acumulada por corte",
      "etiqueta": "Del 1 al 28",
      "en_curso": false
+    }
+   ]
+  },
+  {
+   "inversion": 16.95,
+   "impresiones": 1089,
+   "alcance": 1013,
+   "frecuencia": 1.08,
+   "cpm": 15.56,
+   "alcance_walkin": null,
+   "walkin_tipo": null,
+   "walkin_campanas": "",
+   "mensajes": 1,
+   "inversion_ws": 16.95,
+   "cpl": 16.95,
+   "seguidores_fb": 0,
+   "seguidores_ig": 0,
+   "seguidores": 0,
+   "mes": "2026-11-01",
+   "hasta": "2026-11-01",
+   "d_inversion": -0.999,
+   "d_impresiones": -1.0,
+   "d_alcance": -0.999,
+   "d_mensajes": -0.999,
+   "d_cpl": 0.243,
+   "d_alcance_walkin": null,
+   "cortes": [
+    {
+     "inversion": 16.95,
+     "impresiones": 1089,
+     "alcance": 1013,
+     "frecuencia": 1.08,
+     "cpm": 15.56,
+     "alcance_walkin": null,
+     "walkin_tipo": null,
+     "walkin_campanas": "",
+     "mensajes": 1,
+     "inversion_ws": 16.95,
+     "cpl": 16.95,
+     "seguidores_fb": 0,
+     "seguidores_ig": 0,
+     "seguidores": 0,
+     "desde": "2026-11-01",
+     "hasta": "2026-11-01",
+     "corte": "2026-11-07",
+     "fuente": "Meta Ads: consulta acumulada por corte",
+     "etiqueta": "Del 1 al 7",
+     "en_curso": true
     }
    ]
   }
@@ -2700,7 +2748,7 @@
       "lost_rank": 0.3433,
       "hasta": "2026-10-27",
       "etiqueta": "Del 1 al 28",
-      "en_curso": true
+      "en_curso": false
      }
     ],
     "top_is": 0.3949,
