@@ -148,16 +148,6 @@
   "imagen": "piezas/2026-11-03-cambio-cover-buen-mes.jpg"
  },
  {
-  "id": "2026-11-03-hay-lugar-en-la-puerta",
-  "fecha": "2026-11-03",
-  "hora": "10:00",
-  "red": "Facebook / Instagram",
-  "formato": "Post",
-  "titulo": "Come y juega: ¡hay lugar en la puerta!",
-  "copy": "Papá llegando a Incredible un sábado: “¡Hay lugar en la puerta!” 🙌🚗\n\nTenemos estacionamiento exclusivo para ti: llegas, te estacionas y a jugar 🏎️🎮\n\nEtiqueta a quien siempre maneja en las salidas familiares 👇\n\n📍 Periférico de la Juventud 6506, Chihuahua, Chih.\n📲 WhatsApp (614) 221-8487\n\n#IncrediblePizzaChihuahua #ComeYJuega #BuffetIlimitado #Chihuahua #PlanesEnChihuahua #DiversiónEnFamilia",
-  "imagen": "piezas/2026-11-03-hay-lugar-en-la-puerta.jpg"
- },
- {
   "id": "2026-11-03-buen-mes-promociones",
   "fecha": "2026-11-03",
   "hora": "08:00",
@@ -166,6 +156,16 @@
   "titulo": "El Buen Mes: llegaron las promos (Increíble y Plus)",
   "copy": "¡Llegaron las promos del Buen Mes! 🪙✨\n\n🎮 Paquete Increíble: +1 hora de videojuegos extra y +2 atracciones adicionales.\n♾️ Paquete Plus: videojuegos y atracciones ilimitadas.\n\nTodo noviembre en Incredible Pizza. Pregunta por tu paquete por WhatsApp 📲\n\n*Aplican restricciones. Beneficios exclusivos para entrada general. No válidos con otras promociones ni acumulables. Válidos solo en Incredible Pizza Chihuahua. Vigencia: hasta el 30 de noviembre de 2026. Válidos al presentar esta promoción en caja.\n\n📍 Periférico de la Juventud 6506, Chihuahua, Chih.\n📲 WhatsApp (614) 221-8487\n\n#IncrediblePizzaChihuahua #ElBuenMes #PaqueteIncreíble #PaquetePlus #Chihuahua #PlanesEnChihuahua",
   "imagen": "piezas/2026-11-03-buen-mes-promociones.jpg"
+ },
+ {
+  "id": "2026-11-03-hay-lugar-en-la-puerta",
+  "fecha": "2026-11-03",
+  "hora": "10:00",
+  "red": "Facebook / Instagram",
+  "formato": "Post",
+  "titulo": "Come y juega: ¡hay lugar en la puerta!",
+  "copy": "Papá llegando a Incredible un sábado: “¡Hay lugar en la puerta!” 🙌🚗\n\nTenemos estacionamiento exclusivo para ti: llegas, te estacionas y a jugar 🏎️🎮\n\nEtiqueta a quien siempre maneja en las salidas familiares 👇\n\n📍 Periférico de la Juventud 6506, Chihuahua, Chih.\n📲 WhatsApp (614) 221-8487\n\n#IncrediblePizzaChihuahua #ComeYJuega #BuffetIlimitado #Chihuahua #PlanesEnChihuahua #DiversiónEnFamilia",
+  "imagen": "piezas/2026-11-03-hay-lugar-en-la-puerta.jpg"
  },
  {
   "id": "2026-11-04-comer-sin-limite",
@@ -319,5 +319,115 @@
   "titulo": "Posadas Incredibles (organizarla tú vs. aquí)",
   "copy": "Organizar la posada tú solo: 😵‍💫\nRentar salón, comida para 80 personas, algo para que los niños no se aburran… ¿y quién recoge todo? 🙈\n\nHacer tu posada en Incredible: 🎄✨\nNosotros nos encargamos de todo: buffet ilimitado, +100 juegos, espacios privados y facturación. Recibimos más de 1,000 personas por turno.\n\nEmpresas, familias y amigos: aparta tu fecha por WhatsApp 📲\n\n📍 Periférico de la Juventud 6506, Chihuahua, Chih.\n📲 WhatsApp (614) 221-8487\n\n#IncrediblePizzaChihuahua #PosadasIncredibles #PosadaEmpresarial #Navidad #Chihuahua #PlanesEnChihuahua",
   "imagen": "piezas/2026-11-17-posadas-incredibles.jpg"
+ },
+ {
+  "id": "2026-11-19-la-fiesta-que-todos-recuerdan",
+  "fecha": "2026-11-19",
+  "hora": "10:00",
+  "red": "Facebook / Instagram",
+  "formato": "Post",
+  "titulo": "Fiestas: la fiesta que todos van a recordar (encuesta del recreo)",
+  "copy": "El lunes, en el salón: ¿de qué se habló todo el día? 🎒📊\n\n🥇 La fiesta en Incredible: 97%\n📚 La tarea de mate: 2%\n🥪 Lo que trajeron de lonche: 1%\n\nUn cumpleaños en Incredible es la fiesta que todos van a recordar 🎉 Animador incluido, buffet y juegos, desde 15 invitados. Nosotros nos encargamos de todo.\n\nAgenda tu fiesta por WhatsApp 📲\n\n📍 Periférico de la Juventud 6506, Chihuahua, Chih.\n📲 WhatsApp (614) 221-8487\n\n#IncrediblePizzaChihuahua #CumpleañosIncredible #FiestasInfantiles #Chihuahua #CumpleañosChihuahua #DiversiónEnFamilia",
+  "imagen": "piezas/2026-11-19-la-fiesta-que-todos-recuerdan.jpg",
+  "estado": "aprobada"
+ },
+ {
+  "id": "2026-11-20-el-plan-del-viernes",
+  "fecha": "2026-11-20",
+  "hora": "10:00",
+  "red": "Facebook / Instagram",
+  "formato": "Post",
+  "titulo": "Walk-in: el plan del viernes (batería de la semana)",
+  "copy": "Mi batería esta semana 🔋\nLunes: 80%\nMartes: 52%\nMiércoles: 28%\nJueves: 6% 🪫\nViernes: recargando en Incredible ⚡\n\nHoy abrimos de 1:00 a 8:00 pm. Buffet ilimitado y más de 100 juegos para cerrar la semana en familia 🍕🎮\n\nEtiqueta a quien ya llegó al viernes en 1% 👇\n\n📍 Periférico de la Juventud 6506, Chihuahua, Chih.\n📲 WhatsApp (614) 221-8487\n\n#IncrediblePizzaChihuahua #ComeYJuega #PlanDeViernes #BuffetIlimitado #Chihuahua #PlanesEnChihuahua",
+  "imagen": "piezas/2026-11-20-el-plan-del-viernes.jpg",
+  "estado": "aprobada"
+ },
+ {
+  "id": "2026-11-21-vamos-todos-si-caben",
+  "fecha": "2026-11-21",
+  "hora": "10:00",
+  "red": "Facebook / Instagram",
+  "formato": "Post",
+  "titulo": "Eventos: “Vamos todos” ¿Todos? Sí caben (grupos grandes)",
+  "copy": "Cuando alguien en el grupo dice: “vamos todos” 🙋‍♀️🙋‍♂️🙋\nNosotros: ¿todos? Sí caben 😎\n\nMás de 1,000 personas por turno y más de 5,000 m² de diversión, con espacios privados para equipos deportivos, escuelas, iglesias, asociaciones y empresas 🏆🎒\n\nCotiza tu evento por WhatsApp 📲\n\n📍 Periférico de la Juventud 6506, Chihuahua, Chih.\n📲 WhatsApp (614) 221-8487\n\n#IncrediblePizzaChihuahua #EventosIncredible #EventosEnGrupo #Chihuahua #PlanesEnChihuahua",
+  "imagen": "piezas/2026-11-21-vamos-todos-si-caben.jpg",
+  "estado": "aprobada"
+ },
+ {
+  "id": "2026-11-23-tu-unica-tarea-disfrutar",
+  "fecha": "2026-11-23",
+  "hora": "10:00",
+  "red": "Facebook / Instagram",
+  "formato": "Post",
+  "titulo": "Fiestas: tu única tarea es disfrutar (pendientes de la fiesta)",
+  "copy": "Pendientes de la fiesta 📝\n✅ Comida para todos: Incredible\n✅ Juegos para los niños: Incredible\n✅ Animador: Incredible\n✅ Que nadie se aburra: Incredible\n✅ Recoger todo al final: Incredible\n👉 Disfrutar: TÚ\n\nEn la fiesta nosotros nos encargamos de todo; tu única tarea es disfrutar 🎉 Animador incluido, buffet y juegos, desde 15 invitados.\n\nAgenda tu fiesta por WhatsApp 📲\n\n📍 Periférico de la Juventud 6506, Chihuahua, Chih.\n📲 WhatsApp (614) 221-8487\n\n#IncrediblePizzaChihuahua #CumpleañosIncredible #FiestasInfantiles #Chihuahua #CumpleañosChihuahua #DiversiónEnFamilia",
+  "imagen": "piezas/2026-11-23-tu-unica-tarea-disfrutar.jpg",
+  "estado": "aprobada"
+ },
+ {
+  "id": "2026-11-24-tutorial-vr-papas",
+  "fecha": "2026-11-24",
+  "hora": "10:00",
+  "red": "Facebook / Instagram",
+  "formato": "Post",
+  "titulo": "Walk-in: cómo usar el VR (versión papás)",
+  "copy": "Tutorial: cómo usar el VR de Incredible (versión papás) 🥽\n1️⃣ Ponte los lentes.\n2️⃣ Di: “a mí esto no me asusta”.\n3️⃣ GRITA. 😱\n4️⃣ Di que no gritaste.\n\nPaso 5: volver a formarse “nada más para que vean los niños” 😏\n\nRealidad virtual, Go Karts y más de 100 juegos te esperan. Etiqueta al papá que se salta directo al paso 4 👇\n\n📍 Periférico de la Juventud 6506, Chihuahua, Chih.\n📲 WhatsApp (614) 221-8487\n\n#IncrediblePizzaChihuahua #ComeYJuega #RealidadVirtual #Chihuahua #PlanesEnChihuahua #DiversiónEnFamilia",
+  "imagen": "piezas/2026-11-24-tutorial-vr-papas.jpg",
+  "estado": "aprobada"
+ },
+ {
+  "id": "2026-11-25-eventos-privados-reservado",
+  "fecha": "2026-11-25",
+  "hora": "10:00",
+  "red": "Facebook / Instagram",
+  "formato": "Post",
+  "titulo": "Eventos: eventos privados (RESERVADO para tu grupo)",
+  "copy": "Hay reuniones que necesitan su propio espacio 🪧\n\nRESERVADO para: tu grupo ✍️\n\nEventos privados en Incredible: espacios privados, buffet ilimitado, más de 100 juegos, audio y proyección en el área de cine, y facturación 🍕🎮🎬\n\nCotiza tu evento por WhatsApp 📲\n\n📍 Periférico de la Juventud 6506, Chihuahua, Chih.\n📲 WhatsApp (614) 221-8487\n\n#IncrediblePizzaChihuahua #EventosIncredible #EventosPrivados #Chihuahua #PlanesEnChihuahua",
+  "imagen": "piezas/2026-11-25-eventos-privados-reservado.jpg",
+  "estado": "aprobada"
+ },
+ {
+  "id": "2026-11-26-go-karts-revancha",
+  "fecha": "2026-11-26",
+  "hora": "10:00",
+  "red": "Facebook / Instagram",
+  "formato": "Post",
+  "titulo": "Walk-in: Go Karts, resultados de la carrera familiar (¿revancha?)",
+  "copy": "Resultados oficiales de la carrera familiar 🏁\n🥇 La abuela. Nadie la vio venir.\n🥈 Valeria, 9 años. Dijo que iba “despacito”.\n🥉 Papá. “El carro estaba fallando.”\n\n¿Revancha? 🏎️💨 La pista de Go Karts te espera en Incredible.\n\nEtiqueta a quien te debe la revancha 👇\n\n📍 Periférico de la Juventud 6506, Chihuahua, Chih.\n📲 WhatsApp (614) 221-8487\n\n#IncrediblePizzaChihuahua #ComeYJuega #GoKarts #Chihuahua #PlanesEnChihuahua #DiversiónEnFamilia",
+  "imagen": "piezas/2026-11-26-go-karts-revancha.jpg",
+  "estado": "aprobada"
+ },
+ {
+  "id": "2026-11-27-posadas-encuesta-rh",
+  "fecha": "2026-11-27",
+  "hora": "10:00",
+  "red": "Facebook / Instagram",
+  "formato": "Post",
+  "titulo": "Posadas Incredibles: encuesta de RH (¿dónde hacemos la posada?)",
+  "copy": "Mientras tanto, en el chat de la oficina 💬\n¿Dónde hacemos la posada este año?\n⚪ En la oficina, otra vez: 4%\n⚪ Que alguien más organice: 9%\n🟢 En Incredible: 87%\n\nPosadas Incredibles para empresas 🎄✨ Buffet ilimitado, juegos, audio y proyección en el área de cine, y facturación. Nosotros nos encargamos de todo.\n\nCotiza tu posada por WhatsApp 📲\n\n📍 Periférico de la Juventud 6506, Chihuahua, Chih.\n📲 WhatsApp (614) 221-8487\n\n#IncrediblePizzaChihuahua #PosadasIncredibles #PosadaEmpresarial #Navidad #Chihuahua #PlanesEnChihuahua",
+  "imagen": "piezas/2026-11-27-posadas-encuesta-rh.jpg",
+  "estado": "aprobada"
+ },
+ {
+  "id": "2026-11-28-buen-mes-ultimo-fin",
+  "fecha": "2026-11-28",
+  "hora": "10:00",
+  "red": "Facebook / Instagram",
+  "formato": "Post",
+  "titulo": "El Buen Mes: último fin de semana (28, 29 y 30)",
+  "copy": "A El Buen Mes le quedan: sábado 28, domingo 29 y lunes 30 ⏳🗓️\n\n🎮 Paquete Increíble: +1 hora de videojuegos extra y +2 atracciones adicionales.\n♾️ Paquete Plus: videojuegos y atracciones ilimitadas.\n\nAquí no te preocupes por nada: llegas, comes y juegas 🍕 Sábado y domingo de 12:00 a 8:00 pm.\n\n*Aplican restricciones. Beneficios exclusivos para entrada general. No válidos con otras promociones ni acumulables. Válidos solo en Incredible Pizza Chihuahua. Vigencia: hasta el 30 de noviembre de 2026. Válidos al presentar esta promoción en caja.\n\n📍 Periférico de la Juventud 6506, Chihuahua, Chih.\n📲 WhatsApp (614) 221-8487\n\n#IncrediblePizzaChihuahua #ElBuenMes #PaqueteIncreíble #PaquetePlus #Chihuahua #PlanesEnChihuahua",
+  "imagen": "piezas/2026-11-28-buen-mes-ultimo-fin.jpg",
+  "estado": "aprobada"
+ },
+ {
+  "id": "2026-11-30-cumpleanos-diciembre",
+  "fecha": "2026-11-30",
+  "hora": "10:00",
+  "red": "Facebook / Instagram",
+  "formato": "Post",
+  "titulo": "Fiestas: cumpleaños de diciembre (aparta la fecha)",
+  "copy": "Diciembre trae vacaciones, posadas y… ¡cumpleaños! 🎂🎄\n\nAparta ya la fecha de su fiesta en Incredible: animador incluido, buffet y juegos, opción Glow Party, desde 15 invitados 🎉\n\nAgenda tu fiesta por WhatsApp 📲\n\n📍 Periférico de la Juventud 6506, Chihuahua, Chih.\n📲 WhatsApp (614) 221-8487\n\n#IncrediblePizzaChihuahua #CumpleañosIncredible #FiestasInfantiles #Chihuahua #CumpleañosChihuahua #DiversiónEnFamilia",
+  "imagen": "piezas/2026-11-30-cumpleanos-diciembre.jpg",
+  "estado": "aprobada"
  }
 ]
